@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  tr:not(:last-child) {
+    border-bottom: #DDDDDD 1px solid;
+  }
+  td:not(:first-child) {
+    border-left: #DDDDDD 1px solid;
+  }
+  td, th {
+    vertical-align: top;
+    padding: 5px;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  
+  th {
+    background: #ebebeb;
+    &:empty {
+      display: none;
+    }
+  }
+}
+
+// Zebra-striping
+//
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+
+.table-striped {
+  tr:nth-child(odd) {
+    td {
+      background-color: #f7f7f7;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+Title: Kommentar: Eine Mahnung an die UX-Gesellschaft
+
+----
+
+Pubdate: 2014-06-09
+
+----
+
+Description: 
+
+----
+
+Tags: User Experience,Akquise
+
+----
+
+Coverimage: 
+
+----
+
+Text: 
+
+Jetzt mal ehrlich: einen Kunden etwas von *User Experience* (Nutzungs- und Nutzererlebnis, Nutzererfahrung, auch *UX* genannt) zu erzählen sollte es nicht geben, UX-Designer kann es nicht geben und *Usability* (Gebrauchstauglichkeit) ist eh nur ein Marketingwort, das in der gleichen Liga wie *innovativ* spielt. Wir - die vermeindliche UX-Gesellschaft - sind Entwickler, Konzepter und Gestalter, die unseren Kunden etwas von einfachen, nutzerorientierten Webseiten und Systemen erzählen und dabei selbst sich nicht einfach darstellen (wenn  überhaupt einfach sind). Doch was ist eigentlich die Daseinsberechtigung hinter dem Begriff User Experience? Warum überlebt *Usability* immer noch?
+
+User Experience ist kein Zweck, sondern Mittel zum Zweck. Es ist das Mittel für das, was eigentlich erreicht werden soll: Kundenzufriedenheit und Kundenbindung. Es ist das Maß, welches den guten vom schlechten Service unterscheidbar macht, aber es sollte keinesfalls als Zweck gelten.
+
+## Warum werden die Begriffe trotzdem verwendet?
+Es ist die Angst sich nicht verkaufen zu können. Es ist die Angst, dass man nicht genug Argumente geliefert hat, um letztendlich den Auftrag an Land ziehen zu können. Es ist auch die Angst davor, nicht professionell genug zu wirken.
+Aber es ist gleichzeitig der Betrug am eigenen Handwerk. Denn warum propagiert man einfachere, verständlichere Produkte und Dienstleistungen, wenn man seine eigene Dienstleistung nicht einfach und verständlich verkaufen kann?
+
+> Ich habe mich darauf spezialisiert, Produkte und Dienstleistungen verständlicher zu machen, um damit die Kundenzufriedenheit und Kundenbindung zu erhöhen.
+
+Dieser Satz ist gerade deswegen verständlich, da die gesamte Komplexität und der gesamten Themenspektrum außer Acht gelassen wird. Auch wenn man erwähnt, dass man Experte im Bereich User Experience und Usability ist, hat der Kunde keine weitere Aussage über die angebotene Dienstleistung erhalten. Und so wird die Erwähnung über die Expertise zum lästigen Füllsatz, der nur dazu da ist, um Eindruck zu schinden und eine Konfrontation durch kritische Fragen vom Kunden zu entgehen [1. vgl (link: http://de.wikipedia.org/wiki/Namedropping text: Wikipedia: Namedropping popup: yes)]. Doch die Fragen, die der Kunde sich wohl insgeheim stellt, bleiben.
+
+## Weniger, aber besser
+Designer aus sämtlichen Lagern haben ein gemeinsames Problem: sie schaffen es nicht, sich kurz zu fassen und sich auf das Wesentliche zu reduzieren. Die Gründe dafür sind zum einen die bereits genannten *vermuteten* Probleme, denen man verständlicherweise aus dem Weg gehen möchte. Es ist allerdings gleichzeitig die Zeit, die man nicht für ein richtiges Gespräch aufbringen möchte oder die man sich nicht nimmt, um sich auf ein Verkaufsgespräch vorzubereiten.
+Wer allerdings mit knappen Sätzen leicht verständlich seine Leistungen verkauft, der wirkt mitunter glaubwürdiger und gelangt deutlich effizienter zum Verkaufsabschluss.
+
+> "Wenn Sie Wert darauf legen, für glaubwürdig und intelligent gehalten zu werden, sollten Sie sich nicht kompliziert ausdrücken, wenn man das Gleiche auch in einfachen Worten sagen kann."
+> (citeauthor: Daniel Kahneman [2. Daniel Kahneman: Schnelles Denken, langsames Denken, S. 86])
+
+In erster Linie müssen die Ängste schwinden, sich einem Verkaufsgespräch zu stellen. Nur wer im Verkaufsgespräch überzeugt, wird den Auftrag erhalten. Hilfreich ist es, seine Tätigkeit Freunden oder Familienangehörigen zu erklären, die nicht in der gleichen Branche arbeiten. Im Zweifel muss man Fragen beantworten, die man sich zuvor nie gestellt hätte.
+Ebenso hilfreich ist es, wie ein Unternehmer zu denken, denn meistens spricht man nicht immer mit dem Entscheider für die Auftragsvergabe, sondern mit demjenigen, der den Entscheider unterrichten muss. Und hier ist es ratsam, genau die Argumente zu geben, die den Entscheider überzeugen können. Nicht zuletzt hat Dieter Rams in der Dokumentation Objectified die Wichtigkeit der Unternehmerseite betont:
+
+> "Wir Designer arbeiten nicht im luftleeren Raum. Wir brauchen die Unternehmerseite. Wir sind keine freien Künstler - wie das oft verwechselt wird."
+> (citeauthor: Dieter Rams [3. Dieter Rams: Objectified])
+
+Wertvoll und simpel ist auch, die Bedürfnisse des Kunden herauszufinden und im Verkaufsgespräch darauf einzugehen. Wenn man das geschafft hat, erkennt der Kunde, dass man ihm verstanden hat als auch genau das anbietet, was er benötigt.

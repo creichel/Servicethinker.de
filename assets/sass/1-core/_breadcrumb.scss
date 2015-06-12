@@ -1,0 +1,23 @@
+.breadcrumb {
+//  padding-bottom: 10px;
+//  padding-top: 10px;
+//  border-top: 1px solid $grey;
+  // @include border-radius(5px);
+  padding-top: $grid-padding/2;
+  border-top: 1px solid $grey-100;
+  font-size: 90%;
+  li {
+    display: inline-block;
+    list-style: none;
+    width: auto !important;
+    float: none !important;
+    font-weight: normal;
+    padding: 0;
+    a {
+      color: $grey-600;
+    }
+    .active {
+      font-weight: bold;
+    }
+  }
+}

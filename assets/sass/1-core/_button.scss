@@ -1,0 +1,154 @@
+// Buttons
+// ----------------------
+
+input[type=button], input[type=submit], button, .button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid $link-color $border-size;
+  *border: 0 !important;
+  *padding: 9px !important;
+  background: $link-color;
+  color: $white;
+  @include user-select();
+  text-decoration: none;
+  display: inline-block;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  line-height: 1;
+  
+  &:before {
+    @include box-sizing(border-box);
+  }
+  &:after {
+    @include box-sizing(border-box);
+  }
+  &.L {
+    min-height: 50px;
+    height: 50px;
+  }
+  
+  .XL {
+    min-height: 70px;
+    height: 70px;
+  }
+  
+  .XXL {
+    min-height: 90px;
+    height: 90px;
+  }
+  
+  &.ghost {
+    background: none;
+    color: $link-color;
+    &.hover {
+      background: $link-color-hover;
+      color: $white;
+    }
+  }
+
+  &.hover {
+    background: none;
+    cursor: pointer;
+    border-color: $link-color-hover;
+    color: $link-color-hover;
+  }
+  
+  &:before {
+    @extend .icon;
+    margin-right: 10px !important;
+  }
+  
+  &:before, &:after {
+    box-sizing: border-box;
+  }
+  
+  &.info {
+    background: $info;
+    border-color: $info;
+    &.hover {
+      border-color: $info;
+      color: $info;
+      background: none;
+    }
+    &.ghost {
+      background: none;
+      color: $info;
+      &.hover {
+        background: $info;
+        color: $white;
+      }
+    }
+  }
+  &.warning {
+    background: $warning;
+    border-color: $warning;
+    &.hover {
+      border-color: $warning;
+      color: $warning;
+      background: none;
+    }
+    &.ghost {
+      background: none;
+      color: $warning;
+      &.hover {
+        background: $warning;
+        color: $white;
+      }
+    }
+  }
+  &.success {
+    background: $success;
+    border-color: $success;
+    &.hover {
+      border-color: $success;
+      color: $success;
+      background: none;
+    }
+    &.ghost {
+      background: none;
+      color: $success;
+      &.hover {
+        background: $success;
+        color: $white;
+      }
+    }
+  }
+  &.error {
+    background: $error;
+    border-color: $error;
+    &.hover {
+      border-color: $error;
+      color: $error;
+      background: none;
+    }
+    &.ghost {
+      background: none;
+      color: $error;
+      &.hover {
+        background: $error;
+        color: $white;
+      }
+    }
+  }
+  &.disabled {
+    background: $disabled;
+    border-color: $disabled;
+    cursor: default;
+    &.hover {
+      border-color: $disabled;
+      color: $disabled;
+      background: none;
+    }
+    &.ghost {
+      background: none;
+      color: $disabled;
+      &.hover {
+        background: $disabled;
+        color: $white;
+      }
+    }
+  }
+}

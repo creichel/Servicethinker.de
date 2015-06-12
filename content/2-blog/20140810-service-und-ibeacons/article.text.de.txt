@@ -1,0 +1,41 @@
+Title: Service und iBeacons
+
+----
+
+Pubdate: 2014-08-10
+
+----
+
+Description: 
+
+----
+
+Tags: Service Design,Service Gedanke
+
+----
+
+Coverimage: 
+
+----
+
+Text: 
+
+## Worum geht es?
+
+iBeacons ermöglicht es Ladenbesitzern und Museumsbetreibern, automatisch Smartphone-Besitzern in einem Umkreis von 50cm über 2m bis hin zu 30m eine Kurznachricht zukommen zu lassen. Dass nun viele Agenturen diese Technologie als eine Goldgrube ansehen, kann man sich vermutlich denken. Aber was bringt iBeacons wirklich? Kann man damit die freundlich-begrüßende Person am Eingang eines Ladens tatsächlich ersetzen? Und wie weit kann man mit der Technologie gehen?
+
+## Das Thema näher erklärt:
+Um die iBeacon-Technologie zu nutzen, ist ein Sender in Form eines kleinen Gerätes notwendig, welcher via stromsparenden Bluetooth 4.0 die einprogrammierte Information an den Empfänger versendet. Damit ist es möglich, dass Sonderangebote vor der Ladentür bereits den potentiellen Kunden erreicht, dieser am Eingang direkt begrüßt wird oder dass ein Museums- oder Galerie-Besucher nähere Informationen zum Ausstellungsobjekt erhält. Auch die Laufwege der einzelnen Kunden kann durch iBeacons analysiert und ausgewertet werden.
+
+## Was sollte man beachten?
+Mit jeder neuen Technik, mit der man versucht seinen eigenen Shop aufzuwerten, sollte man sich in jedem Falle fragen, welchen Mehrwert die Technik bietet - und zwar nicht unbedingt für den Shop, sondern für den Kunden. Denn im Endeffekt sendet man dem (potentiellen) Kunden ungefragt eine Information zu, die ihm nicht unbedingt einen Mehrwert bietet, sondern nur dazu da ist, ihm etwas "anzudrehen" - und so etwas merken Kunden ziemlich schnell.
+
+> Es ist deutlich einfacher, einen Kunden zu vergraulen, als ihn zu gewinnen.
+
+Die Information, die vom iBeacons-Sender stammt, gilt als Stellvertreter für den Shop oder die Marke und kann sehr leicht einen bleibenden negativen Eindruck schaffen. Das führt auch dazu, dass Kunden letztendlich die Funktion auf ihrem Smartphone ausschalten.
+
+## Was kann man besser machen?
+Auch wenn die Sender einen Bruchteil eines Angestellten kosten, sollte man sich gut überlegen, ob man diesen durch so ein kleines Gerät ersetzen sollte. Denn ohne Zweifel kann das natürliche, freundliche Lächeln und die menschliche Hingabe eines Mitarbeiters nicht durch automatisch-versendete Informationen und Nachrichten ersetzt werden.
+In einer Galerie oder in einem Museum hingegen kann die Technologie einen echten Mehrwert bieten, wenn interessante Informationen über die Ausstellungsstücke mit der iBeacon-Technologie versendet werden.
+
+In jedem Falle sollte man sich Gedanken darüber machen, ob und wann man iBeacons einsetzt. Meine Befürchtung ist, dass die Werbeagenturen aller Art im Überfluss einsetzen und die Nutzer darauf mit der Deaktivierung des iBeacon Services reagieren. Dann wär's das mit der tollen neuen Technik gewesen...

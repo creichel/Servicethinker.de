@@ -1,0 +1,49 @@
+Title: Service Design und User Experience - geht das zusammen?
+
+----
+
+Pubdate: 2014-08-05
+
+----
+
+Description: 
+
+----
+
+Tags: User Experience,Service Design,UX-Roundtable
+
+----
+
+Coverimage: uxr1408-003.jpg
+
+----
+
+Text: 
+
+Ich arbeite in einer Branche, die neben dem Marketing, dem Visuellen Design, der Business-Ökonomie ihre Daseinsberechtigung sucht. Gerade in Deutschland wird die Suche nach einer Definition für Disziplinen wie „Service Design“ oder „User Experience Design“ (auf Deutsch: Nutzererlebnisgestaltung, kurz: UX) stark von den einzelnen (teilweise selbsternannten) UX-Designern oder Service Designern betrieben - entweder um die eigene Akquise voran zu treiben oder um sich zu profilieren. Und genau der erstere Grund ist, warum die Suche nach der Definition der Disziplinen für mich so wichtig ist und warum ich gleich einen ganzen Artikel darüber schreibe :-) .
+
+Am <a title="Link zum UX-Roundtable: Service Design meets UX Design" href="http://www.uxhh.de/roundtable/archiv/index.html#Aug14" target="_blank">04.08. war ich als Zuhörer zu Gast beim UX-Roundtable</a> in Hamburg. Dort ging es um die beiden Begriffe „Service Design“ und „User Experience Design“ und wie diese beiden letztendlich zusammen gehören können. Und doch habe ich immer noch das Gefühl, dass beide Disziplinen zwei gleiche Schuhe in unterschiedlichen Größen sind.
+
+## Service Design
+
+Bei Service Design geht es darum, eine Dienstleistung, ein Produkt oder ein Unternehmen ganzheitlich zu entwickeln und zu verbessern. Das bedeutet, dass sowohl die Akquise eines Kunden, die Marketingstrategien sowie der Nutzen einer Dienstleistung, als auch die Prozesse und Systeme im Unternehmen, bei Mitarbeitern und beim Kunden, als auch das Kundenerlebnis und -erfahrung mit dieser Dienstleistung betrachtet, entwickelt und verbessert wird. Das Ziel dabei ist es, die Kundenzufriedenheit und -bindung durch die Erfüllung von Bedürfnissen und Erwartungen zu erreichen. Interessant hierbei ist allerdings, dass auch die Mitarbeiter betrachtet und einbezogen werden, die die Dienstleistung oder das Produkt mit ihrer Arbeitskraft erfüllen und möglich machen.
+Das Prinzip, nach dem eine Dienstleistung beim Service Design entwickelt wird, ist die Ausrichtung auf den Kunden, samt seinen Bedürfnissen, Vorlieben, Motiven, Erfahrungen und Erwartungen.
+
+## User Experience
+
+Bei der User Experience beschäftigt man sich sowohl mit dem Nutzererlebnis, als auch mit der Nutzererfahrung und -erwartung und konzipiert iterativ gemeinsam mit dem Nutzer auf dieser Wissensgrundlage die Schnittstelle zwischen Mensch und Dienstleistung, Produkt und/oder Unternehmen. Ziel ist es, die Bedürfnisse und Erwartungen des Nutzers zu erfüllen und dadurch Nutzerzufriedenheit und Nutzerbindung zu erreichen.
+Interessant hierbei ist allerdings, dass der ursprüngliche Kunde als Nutzer bezeichnet und betrachtet wird, aber beide Disziplinen auf das gleiche Ziel hinarbeiten. Allerdings betrachtet die User Experience nicht diverse Prozesse, Arbeitsstrukturen und Unternehmensbereiche, sondern begrenzt sich bewusst auf die Mensch-Unternehmen/Mensch-Dienstleistung/Mensch-Produkt Schnittstelle.
+
+(image: uxr1408-025-2.jpg)
+
+## Dein Bier, mein Bier?
+
+Aber ist die Begrenzung von User Experience ebenso eine Begrenzung des Services? Nicht zwangsläufig, denn diese Begrenzung ist sinnvoll, wenn das Produkt oder die Dienstleistung vollständig digital ist, wie beispielsweise eine Online-Poker-Webseite oder ein soziales Netzwerk. In diesen Bereichen unterscheidet sich ein „User Experience Designer“ nicht von einem „Service Designer“, denn beide haben sowohl die gleiche Ausrichtung als auch den gleichen Kunden. Wenn es aber darum geht, eine Dienstleistung wie <a title="Link zu Stadtrad Hamburg" href="http://stadtrad.hamburg.de/" target="_blank">Stadtrad Hamburg</a> zu entwickeln, dann reicht nicht nur die Betrachtung der Schnittstelle zwischen Mensch und Dienstleistung aus, sondern hier müssen deutlich mehr Anforderungen, Variablen und Prozesse außerhalb des direkten Kundenkontakts einbezogen und geplant werden - sei es die Wartung der Fahrräder oder auch die Anmietung von Grundstücksflächen für die Fahrradstationen.
+
+> Service Design bezeichnet einen ganzheitlichen Blick auf das Unternehmen, die Produkte und Dienstleistungen, sowie auf Prozesse, Akteure und Systeme.
+
+> User Experience bezeichnet die iterative Konzeption sämtlicher (notwendiger) Schnittstellen zwischen Kunden und Service/Produkt/Dienstleistung.
+
+Die Prinzipien von beiden Disziplinen sind gleich und gut: man entwickelt passgenau ein Produkt oder eine Dienstleistung für denjenigen, der das erst möglich macht und am Ende seinen Nutzen daraus ziehen soll. Je komplexer allerdings das Resultat aus einem Design-Prozess sein soll, desto mehr Akteure, Umwelteinflüsse, Prozesse und Kommunikationen, desto mehr psychische Vorgänge beim Kunden muss man beachten, desto mehr Fehler können in einem eigentlich gut-durchdachten Produkt oder einer Dienstleistung stecken. Hier liegt die Aufgabe von Service Design, ein ganzheitliches Wissen über diverse Zusammenhänge zu schaffen und das (bislang unklare) Ziel immer mehr zu konkretisieren und zu definieren - und genau da liegt die Grenze zwischen den beiden Disziplinen.
+
+Um die Frage im Titel noch zu beantworten: ja, es geht. Aber auch nur so weit, solange nur Schnittstellen zum und für den Kunden betrachtet werden.

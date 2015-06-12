@@ -1,0 +1,132 @@
+input, textarea, button, .button, .textfield {
+  outline: 0;
+  position: relative;
+  &:disabled {
+    cursor: not-allowed !important;
+  }
+  
+  @include box-sizing(border-box);
+  @include border-radius($border-radius);
+  @include placeholder {
+    color: $grey
+  };
+}
+
+input, textarea, .button, .textfield {
+  padding: 10px;
+}
+
+button {
+  padding-top: 10 - $border-size;
+  padding-bottom: 10 - $border-size;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+// Fields: Text, Date, Number, eMail, etc.
+// ----------------------
+input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type='radio']), .textfield, textarea {
+  display: block;
+  width: 100%;
+  border: solid $grey $border-size;
+  &.hover {
+    border-color: $normal-hover;
+  }
+  &:focus, &:active {
+    border-color: $normal-hover;
+    @include box-shadow(0px 0px 5px $normal-hover);
+  }
+  &:disabled {
+    border-color: $grey-400;
+    background: $disabled;
+    @include box-shadow(none);
+    &:focus, &.hover, &:active {
+      border-color: $grey-400 !important;
+    }
+  }
+  &.info {
+    border-color: $info;
+    color: $info;
+    &.hover {
+      border-color: $info-hover;
+    }
+    &:focus, &:active {
+      border-color: $info-hover;
+      @include box-shadow(0px 0px 5px $info-hover);
+    }
+  }
+  &.warning {
+    border-color: $warning;
+    color: $warning;
+    &.hover {
+      border-color: $warning-hover;
+    }
+    &:focus, &:active {
+      border-color: $warning-hover;
+      @include box-shadow(0px 0px 5px $warning-hover);
+    }
+  }
+  &.success {
+    border-color: $success;
+    color: $success;
+    &.hover {
+      border-color: $success-hover;
+    }
+    &:focus, &:active {
+      border-color: $success-hover;
+      @include box-shadow(0px 0px 5px $success-hover);
+    }
+  }
+  &.error {
+    border-color: $error;
+    color: $error;
+    &.hover {
+      border-color: $error-hover;
+    }
+    &:focus, &:active {
+      border-color: $error-hover;
+      @include box-shadow(0px 0px 5px $error-hover);
+    }
+  }
+}
+
+// Checkboxes and Radio Buttons
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  label {
+    font-weight: normal !important;
+    cursor: pointer !important;
+  }
+}
+
+.help-block {
+  color: $grey-800;
+}
+
+.radio-inline, .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  vertical-align: middle;
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+.required {
+  color: $error;
+  font-weight: bold;
+}
+
+input[type=checkbox] {
+  
+}
+
+input[type=radio] {
+  
+}

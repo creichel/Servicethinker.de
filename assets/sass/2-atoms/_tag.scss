@@ -1,0 +1,13 @@
+.tag {
+  border: 1px solid $link-color;
+  @include border-radius(20px);
+  padding: 0 10px;
+  display: inline-block;
+  margin: 2px;
+  color: $link-color;
+  &.hover {
+    background: $link-color-hover;
+    border-color: $link-color-hover;
+    color: white;
+  }
+}

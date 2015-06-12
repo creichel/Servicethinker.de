@@ -1,0 +1,72 @@
+Title: service ‖ thinker
+
+----
+
+Lessthanienine: 
+
+----
+
+Author: Christian Reichel
+
+----
+
+Designer: Christian Reichel
+
+----
+
+Description: Christian Reichel
+
+----
+
+Keywords: Christian Reichel,Service Design,Service Thinking,Service,User Experience,Usability,Interaktionsdesigner,Interaktionsdesign,UX-Designer,User Experience Designer,eparo
+
+----
+
+Copyright: © (date: Year)
+
+----
+
+Email: me@servicethinker.com
+
+----
+
+Street: Gerichtstraße 21
+
+----
+
+Zipcode: 22765
+
+----
+
+City: Hamburg
+
+----
+
+State: Hamburg
+
+----
+
+Land: Germany
+
+----
+
+Accounts: 
+
+- 
+  name: github
+  url: https://github.com/servicethinker
+- 
+  name: linkedin
+  url: >
+    https://www.linkedin.com/profile/view?id=294044976
+- 
+  name: slideshare
+  url: >
+    https://de.slideshare.net/christianreichel
+- 
+  name: twitter
+  url: https://twitter.com/_Mr_Spike_
+- 
+  name: xing
+  url: >
+    https://www.xing.com/profile/Christian_Reichel18

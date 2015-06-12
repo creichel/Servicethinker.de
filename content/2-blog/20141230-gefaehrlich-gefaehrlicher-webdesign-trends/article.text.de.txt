@@ -1,0 +1,52 @@
+Title: Gefährlich, gefährlicher, Webdesign-Trends.
+
+----
+
+Pubdate: 2014-12-30
+
+----
+
+Description: 
+
+----
+
+Tags: Design,Prinzipien,UX Design
+
+----
+
+Coverimage: uxr1408-025-2.jpg
+
+----
+
+Text: 
+
+Kennst du das, wenn du einen Artikel über Webdesign-Trends liest und eine kleine Stimme im Hinterkopf hörst, die ständig „Oh weh, oh weh, oh weh“ vor sich hersagt? <a href="http://t3n.de/news/webdesign-trends-2015-586316/" title="Link zum Artikel auf t3n" target="_blank">t3n hat einen Artikel über die Webdesign-Trends 2015 veröffentlicht</a> und die kleine Stimme in meinem Hinterkopf wurde mit jedem Absatz immer lauter…
+
+Eines, was ich aus (link: blog/buchempfehlung-don-t-make-me-think-revisited text: Steve Krug’s Buch gelernt habe): erfinde nicht das Rad neu, wenn es nicht sein muss. Laut Steve Krug sind Designer stets dabei, sich selbst oder ihrem Unternehmen durch Neuerfindungen einen Namen zu machen. Aber alles, was neu ist, ist nicht sofort gut.
+
+Das große Problem von Mode und Trends ist ihre kurze Lebenszeit.  Sie sind vielleicht nur ein Quartal oder eine Saison lang gut, bis dann jemand anderes eine Variation oder einfach etwas anderes macht. Anders als Trends bestehen Webseiten hingegen über mehrere Jahre. Webseiten kann man nicht einfach „umkleiden“ - schon alleine, weil kleine und mittelständische Unternehmen nicht unbedingt das Geld für einen jährlichen Redesign haben. Aber nicht nur das Budget ist in dem Falle eine Eingrenzung: 
+> “Die gängige Meinung über Web-Entwicklung ist, dass Änderungen sehr leicht [im laufenden Betrieb] gemacht werden können. Die Wahrheit ist, dass es oft nicht einfach ist, Änderungen an einer Webseite zu machen, die einmal in Benutzung ist - vor allen keine wesentlichen Änderungen. Ein Prozentanteil an Nutzern wird jegliche Änderungen ablehnen und  auch offenbar kleine Änderungen haben oft weitreichende Auswirkungen. Jeden Fehler, den du [in der Konzeption] frühzeitig beheben kannst, wird dir [daher] auf langer Sicht Ärger einsparen.“
+> (citeauthor: Steve Krug [1. Steve Krug: *Don’t make me Think*], frei übersetzt
+
+Redesigns *sind* weitreichende Eingriffe in eine Webseite - und diese werden sehr skeptisch betrachtet, beurteilt und oft nicht akzeptiert. Außer sie bringen einen offensichtlichen Mehrwert für den Nutzer.
+
+Wer Facebook seit einiger Zeit nutzt, der kennt ebenso die Klagewelle, wenn eine neue, größere Änderung eingeführt wird. Ein Anteil der Nutzer sträubt und beschwert sich vehement und regelmäßig über Social Media Kanäle über die Änderungen bei Facebook. Das gleiche kann man auch beobachten, wenn man bei den Facebook-Seiten großer Firmen während einer Änderung vorbei schaut: es wirkt schon fast so, als sei der gesamte Kundenstamm komplett unzufrieden mit den Änderungen.
+
+Dieter Rams, ehemaliger Produktdesigner bei Braun und Vitsœ schreibt in <a href="https://www.vitsoe.com/de/ueber-vitsoe/gutes-design" title="Link zu den Zehn Thesen für gutes Design von Dieter Rams" target="_blank">seinen Zehn Thesen für gutes Design</a> auch etwas über Mode und Trends:
+> “Gutes Design ist langlebig. Es vermeidet, modisch zu sein, und wirkt deshalb nie antiquiert. Im deutlichen Gegensatz zu kurzlebigem Mode-Design überdauert es auch in der heutigen Wegwerfgesellschaft lange Jahre.“
+> (citeauthor: Dieter Rams)
+
+Und nicht nur wegen der Langlebigkeit einer Webseite ist es wichtig, nicht auf jeden Trend einzugehen, sondern sorgfältig die Webseiten zu gestalten. Trends lösen selten Interaktionsprobleme, sondern produzieren meist neue. Und selbst wenn der Nutzer jedes Jahr etwas über die Bedienung einer Webseite, einer App oder eines Systems dazu lernt, sei jedem Designer folgendes Zitat ans Herz gelegt:
+> “Die Kapazität eines menschlichen Gehirns ändert sich nicht von Jahr zu Jahr, weswegen die Erkenntnisse aus der Verhaltensforschung sehr lange gültig sind. Was für den Nutzer vor 20 Jahren schwierig war, ist heute ebenfalls schwierig.“
+> (citeauthor: Jakob Nielsen [1. Steve Krug: *Don’t make me Think*], frei übersetzt.)
+
+Kurzum: auch wenn sich die Designtrends ändern, die Grundsätze menschlichen Verhaltens ändern sich nicht. Der Zwang etwas neues zu schaffen, statt etwas zu optimieren, ist also unbegründet. Zumindest solange das Bestehende optimiert werden kann.
+
+> “Das kommende Jahr scheint sich als Jahr der Optimierung herauszukristallisieren.“
+> (citeauthor: Ilja Zaglov [3. t3n: <a href="http://t3n.de/news/webdesign-trends-2015-586316/" title="Link zum Artikel bei t3n" target="_blank">*Webdesign 2015: Diese Trends erwarten dich*</a>])
+
+Wie wäre es denn damit:
+> “Jeder [Designer] sollte mit seinem Leben die Welt ein kleines bisschen besser machen.“
+> (citeauthor: Frances Hodgson Burnett [3. Frances Hodgson Burnett: *Der kleine Lord*,1980], leicht abgeändert.)
+
+Auf ein neues Jahr! ;-)

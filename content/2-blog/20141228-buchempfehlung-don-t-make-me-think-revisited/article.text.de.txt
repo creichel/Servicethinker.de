@@ -1,0 +1,39 @@
+Title: Buchempfehlung: Don't Make Me Think, Revisited
+
+----
+
+Pubdate: 2014-12-28
+
+----
+
+Description: 
+
+----
+
+Tags: Buchempfehlung,Usability,UX Testing
+
+----
+
+Coverimage: 
+
+----
+
+Text: 
+
+Ich habe nie verstanden, warum in so vielen Vorträgen, Diplom- und Bachelorarbeiten, Webinaren und Blogbeiträgen der Autor Steve Krug so hoch gelobt wird - bis ich sein Buch „Don’t make me think - Revisited“ gelesen habe. Nach knapp 1/3 der Seiten habe ich dieses Buch einem guten Freund und Kollegen als vorgezogenes Weihnachtsgeschenk geschenkt. Und wenn ich könnte, würde ich es so einigen anderen Freunden, Bekannten und Kollegen schenken.
+
+Das Buch "Don't Make Me Think, Revisited: A Common Sense Approach to Web and Mobile Usability" ist die dritte Auflage seines gleichnamigen Bestsellers. Mit vielen Anekdoten und Beispielen schafft es Steve Krug typische Denk- und Verhaltensweisen von Menschen zu skizzieren, um dann logisch zu begründen, wie man was und warum auf einer Webseite konzipieren sollte. Meine persönlicher Lieblingssatz ist dieser hier:
+
+> *"Wenn du nicht eine existierende Web Konvention nutzen wirst, musst du dir sicher sein, dass das, was du dadurch ersetzt (a) ist so einsichtig und selbsterklärend ist, dass keine Lernkurve existiert - also so gut ist, wie die Konvention selbst, oder (b) einen solch größeren Nutzen bringt, dass dieser eine kleine Lernkurve wert ist."*
+> (citeauthor: Steve Krug [1. Steve Krug: *Don't Make Me Think, Revisited: A Common Sense Approach to Web and Mobile Usability*], frei übersetzt)
+
+Das Ziel ist es, eine Webseite so zu gestalten, sodass der Nutzer ohne bewusster Überlegung des nächsten Bedienungsschritt mit dieser interagieren kann (viele bezeichnen das als "intuitive Nutzung"). Neuerfindungen von Elementen, die bereits bekannt sind und sich etabliert haben, sollte man daher mit Vorsicht und mit bestem Gewissen einführen.
+
+In seinem Buch beschreibt Steve Krug ebenfalls den Unterschied zwischen quantitativen Analysen (beispielsweise durch Google Analytics, A/B-Tests oder Conversion Rates) und den qualitativen Analysen durch Usability Tests:
+
+> *“Das Ziel ist nicht, etwas zu beweisen. Um etwas zu beweisen, sind quantitative Methoden mit einer großen Anzahl an Stichproben, ein klar-definiertes und streng-befolgtes Testprotokoll und eine große Menge an Datenerhebungen und Analysen notwendig.“*
+> (citeauthor: Steve Krug [1. Steve Krug: *Don't Make Me Think, Revisited: A Common Sense Approach to Web and Mobile Usability*], frei übersetzt)
+
+Usability Tests sind qualitative Methoden und nicht dazu da, etwas zu beweisen, sondern um Probleme aufzuzeigen. Anders als bei quantitativen Methoden geht es bei Usability Tests auch darum, vom Nutzer zu lernen, weswegen leichte Abweichungen vom Testleitfaden erlaubt und bei neuen Kenntnissen während des Tests auch erwünscht sind.
+
+Steve Krug bringt genau das mit einfachen Worten auf den Punkt und gibt weitere nützliche und wichtige Tipps und Prinzipien mit auf dem Weg. Das Buch ist wunderbar für Gelegenheitsgestalter, Webdesigner, App-Entwickler und sogar für User Experience Experten oder Interaktionsdesigner geeignet und daher meine absolute Empfehlung!

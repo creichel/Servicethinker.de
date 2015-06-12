@@ -1,0 +1,9 @@
+.divider {
+  &:after {
+    content:'·'
+  }
+  padding-right: .45em;
+  padding-left: .45em;
+
+  color: $grey-600;
+}

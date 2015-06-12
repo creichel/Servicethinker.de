@@ -1,0 +1,42 @@
+.subnav {
+  margin-bottom: $grid-padding;
+
+  ul {
+    text-align: center;
+  }
+  li {
+    float: none;
+    border-bottom: 1px $grey-300 solid;
+    a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      text-transform: uppercase;
+      color: $black;
+    }
+
+    &.active {
+      border-left: 0.4em $normal solid;
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (min-width: $responsive-small) {
+    ul {
+      display: table;
+      width: 100%;
+      border-bottom: 1px $grey-300 solid;
+
+      li {
+        display: table-cell;
+        border-bottom: none;
+        &.active {
+          border-bottom: 0.4em $normal solid;
+          border-left: none;
+        }
+      }
+    }
+  }
+}

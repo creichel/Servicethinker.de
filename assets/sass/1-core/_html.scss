@@ -1,0 +1,5 @@
+html {
+  @media screen and (max-width: $responsive-small) {
+    font-size: 50%!important;
+  }
+}

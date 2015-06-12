@@ -1,0 +1,61 @@
+.input-group {
+  display: inline-table;
+  vertical-align: middle;
+  input, button, .button, .textfield {
+    display :table-cell;
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+  }
+  .input-group-addon {
+    display: table-cell;
+    padding: 8px 14px;
+    line-height: 1;
+    color: $grey-1000;
+    height: 100%;
+    text-align: center;
+    background-color: $grey-400;
+    border-radius: 4px;
+    white-space: nowrap;
+    vertical-align: middle;
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+  }
+  .input-group-button {
+    display: table-cell;
+    &:first-child {
+      button, .button, input {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+    }
+    &:last-child {
+      button, .button, input {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+    }
+    &:not(:first-child):not(:last-child) {
+      button, .button, input {
+        border-radius: 0;
+      }
+    }
+  }
+}

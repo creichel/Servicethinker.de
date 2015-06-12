@@ -1,0 +1,84 @@
+.content-wrap {
+  max-width: $max-width;
+  min-width: $min-width;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $wrap-padding;
+  padding-right: $wrap-padding;
+  @include clearfix;
+}
+
+
+// Column classes mixin
+@mixin column-classes($media-size, $grid-system) {
+  $grid-column-classes-list: ();
+  &.#{nth($media-size, 1)}-0 {
+    display: none;
+  }
+  @for $i from 1 through $grid-system {
+    &.#{nth($media-size, 1)}-#{$i} {
+      width: percentage($i / $grid-system);
+      float: left;
+      display: block;
+    }
+  }
+  @for $i from 1 through $grid-system {
+    &.#{nth($media-size, 1)}-offset-#{$i} {
+      margin-left: percentage($i / $grid-system);
+    }
+  }
+  @for $i from 1 through $grid-system {
+    &.#{nth($media-size, 1)}-push-#{$i} {
+      left: percentage($i / $grid-system);
+    }
+  }
+  @for $i from 1 through $grid-system {
+    &.#{nth($media-size, 1)}-pull-#{$i} {
+      right: percentage($i / $grid-system);
+    }
+  }
+}
+
+
+// Building row class
+.row {
+  margin-left: -($grid-padding / 2);
+  margin-right: -($grid-padding / 2);
+  @include clearfix;
+}
+
+
+// Building column class
+.column {
+  position: relative;
+  min-height: 1px;
+  padding-left: ($grid-padding / 2);
+  padding-right: ($grid-padding / 2);
+  box-sizing: border-box;
+  // For each media size in Responsive Widths list
+  @each $media-size in $responsive-widths {
+    // And: for each size in sizes for Grid
+    $grid-num: 0;
+    $media-size-width: nth($media-size, 2);
+    @if ($media-size-width == 0) {
+      @include column-classes($media-size, $grid-system);
+    }
+    @else {
+      @media (min-width:$media-size-width) {
+        @include column-classes($media-size, $grid-system);
+      }
+    }
+  }
+}
+
+$responsive-max: $max-width;
+$responsive-large: 760px;
+$responsive-medium: 700px;
+$responsive-small: 500px;
+$responsive-x-small: 0;
+
+@each $media-size in $responsive-widths {
+  $variable-name: #{"$responsive-"}#{nth($media-size, 1)};
+  $variable-name: #{nth($media-size, 2)};
+}

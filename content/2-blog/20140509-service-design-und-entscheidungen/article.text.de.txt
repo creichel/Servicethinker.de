@@ -1,0 +1,82 @@
+Title: Service Design und Entscheidungen
+
+----
+
+Pubdate: 2014-05-09
+
+----
+
+Description: 
+
+----
+
+Tags: 
+
+----
+
+Coverimage: 
+
+----
+
+Text: 
+
+Ein tägliches Bild in Supermärkten: rätselnd stehen die Endverbraucher vor einem großen Regal, welches vollgestellt ist mit gefühlt 100 Brotsorten und Herstellern. Welches der vielen unterschiedlichen, bunten Verpackungen soll man denn nehmen? Verzweifelt schaut man manchmal minutenlang auf die Listen mit den Inhaltsstoffen, greift nach dem am schönsten aussehenden oder nimmt sich das, was man bereits kennt. Manchmal folgt dann der prüfende Blick aus mindestens drei Schritten Entfernung - hat man denn wirklich auch das Beste, das Richtige ausgesucht? Oder gibt es noch etwas anderes? Ein letzter prüfender Blick auf das Brot, welches man in der Hand hält und langsam begibt man sich zum nächsten Regal, zur nächsten Auswahl, zur nächsten Entscheidung.
+
+Entscheidungen zu treffen zählt zu einer der größten Freiheiten des Menschen. Und auch wenn diese Freiheit in den Grundrechten vieler Staaten fest verankert ist, bringt sie psychologisch sowohl positive als auch negative Effekte mit sich. Beispielsweise ist die Situation, in der wir eine Entscheidung treffen können oder müssen, ebenso belastend, denn es existiert ein kurzer Moment des Kontrollverlustes. Aber auch nachdem die Entscheidung getroffen worden ist, haben wir ein mulmiges Gefühl, sofern die Entscheidung nicht das erwartete Ergebnis bringt. Sofern es uns "zu viel" wird, entscheiden wir uns um. Allerdings ist eine Umentscheidung selbst wieder mit positiven und negativen Effekten verbunden. Wir neigen dazu, früheren Entscheidungen nachzutrauern und uns komplexe Realitätskonstruktionen mit "was wäre, wenn"-Fragen zu bilden. Die eigentliche Entscheidung allerdings hat bis dato schon längst an Qualität verloren. Durch die Implementation geeigneter Services können diese negativen Effekte vermindert oder ganz vermieden werden.
+
+## Grundlage Mensch: Was macht uns aus?
+Der Mensch gilt als ökonomisch-denkendes Wesen. Das bedeutet nicht unbedingt, dass er stets versucht, möglichst wenig Geld auszugeben. Vielmehr sind wir darauf aus, ein Gleichgewicht zwischen erbrachten Anstrengungen und Nutzen aus sämtlichen Ereignissen, Situationen und Entscheidungen zu ziehen. Dazu gehört auch, dass die Sache, in der wir Aufwand (sei es kognitiv, psychisch, physisch oder stellvertretend mit Geld) investieren, einen bestimmten Wert für uns besitzt. Nicht selten ist dabei der Wert oder Nutzen für uns nur schätzbar, weswegen es auch zu Fehlentscheidungen kommen kann.
+
+## Wie entscheiden wir uns?
+Wenn Produkte jeglicher Art uns einen Nutzen geben (sei es ein positives emotionales Gefühl oder einen materiellen Gewinn), dann haben diese einen subjektiven Wert. Bei einer Auswahl an Optionen stellen wir uns den Nutzen des jeweiligen Produktes vor. Bereits hier investieren wir einen minimalen Aufwand in die jeweilige Option, damit wir potentiell-höhere Investitionen wie eine spätere Ablehnung der Entscheidung im Vorfeld vermeiden können. Und bereits hier kann ein gutes Konzept überzeugen, indem es uns bereits für unsere minimale Investition einen Nutzen bringt: indem es den Nutzen der Option vermittelt.
+
+> Stelle den Nutzen des Produktes in den Vordergrund. Nicht die Features.
+
+Je besser der Nutzen eines Produktes kommuniziert wird, desto länger bleibt es bei der Abwägung im Rennen. Das heißt aber auch, dass das Produkt verständlich kommuniziert werden muss. Fachwörter oder ganze akademische Essays sollten auf der Webseite des Produktes - analog wie bei einem Verkaufsgespräch - vermieden werden. Ein Weg den Nutzen zu kommunizieren, ist einen Testzugang oder sogar eine kurze, unkomplizierte und kostenlose Registrierung anzubieten.
+
+> Lass' den Kunden mit wenig Aufwand dein Angebot ausprobieren.
+
+Der Newsletter-Dienst <a title="Link zum Dienst Mailchimp.com" href="http://mailchimp.com" target="_blank">Mailchimp.com</a> macht es vor: die Registrierung soll nur 30 Sekunden dauern und es werden keine Kreditkarten-Daten benötigt. Nach der Registrierung wird eine Übersicht über die nächsten Schritte angezeigt und der Nutzer so langsam an den Dienst heran geführt. Er investiert in dem Falle bereits viel Aufwand und je mehr er investiert, desto wertiger wird das Produkt für ihn.
+
+Erfüllt ein Produkt unsere Erwartungen und ist der Nutzen klar erkennbar, entscheiden wir uns meist für dieses Produkt. Wenn allerdings andere Produkte in dieser Kategorie ebenfalls unsere Erwartungen erfüllen und den Nutzen kommunizieren, dann fällt uns die Entscheidung deutlich schwerer. Je ähnlicher sich die Produkte sind, desto mehr Investitionen müssen wir betreiben, sie zu unterscheiden. Wer hier klar bei den Vorteilen seines Produktes ist, der ist klar im Vorteil.
+
+## Die Nebeneffekte einer Entscheidung
+Die Freiheit sich für eine Option entscheiden zu können, geht immer mit der Pflicht einher, sich ebenfalls gegen andere Optionen entscheiden zu müssen. Dabei sorgt die Ähnlichkeit der verschiedenen Optionen dafür, dass wir gelähmt sind, Entscheidungen zu treffen. Oft werden diese Entscheidungen sogar vertagt oder man schläft eine Nacht drüber. Wenn dann die getroffene Entscheidung nicht den Erwartungen entspricht, können wir uns leichter vorstellen, was gewesen wäre, wenn wir die andere Option genommen hätten. Die ursprüngliche Entscheidung wird abgewertet, auch wenn sie gut und richtig ist. Und je mehr Optionen wir haben, desto weniger ist die Entscheidung für eine davon wert.
+
+Auch hier kann mit einem guten Konzept das schlechte Gefühl nach einer Entscheidung aufgefangen werden.
+
+> Bekräftige die Entscheidung deines Kunden für das Angebot. Lass' ihn in das gemachte Nest kommen.
+
+Ein Beispiel aus der analogen Welt: Wenn ich wie im Zitat des ersten Artikels die Wahl zwischen zwei benachbarten Café's habe und ich beide nicht unterscheiden kann, dann wähle ich ein Café auf Grundlage banaler Tatsachen aus: ich bin Linkshänder, also gehe ich in das linke Café. Wenn das linke Café mich allerdings nicht überzeugt - sei es aufgrund der Atmosphäre oder wegen einem schmutzigen Tisch, so fällt es mir leicht, mich doch noch für das rechte Café zu entscheiden.
+Wenn man das zerlegt, dann wird einem klar, warum das so ist: ich habe bei meiner Entscheidung wenig in das Abwägen investiert und sie auf banalen Begründungen gestützt. Die Entscheidung selbst ist nicht viel wert, da ich mir leicht vorstellen kann, dass es im rechten Café besser sein könnte. Meine Entscheidung selbst ist also nicht viel wert und steht bereits beim Zeitpunkt der Entscheidung auf den Prüfstand. Eine Umentscheidung ist in diesem Zeitpunkt für mich sehr einfach.
+
+Wenn eine Entscheidung also einen subjektiv-geringen Wert besitzt, so kann sie schneller revidiert werden. Wir sind bereit, eine Entscheidung aufzugeben, wenn wir wenig Investitionen in sie getätigt haben und sie unsere Erwartungen nicht erfüllt. Es gibt aber noch ein Kriterium, wann wir uns für eine Alternative entscheiden.
+
+## Warum entscheiden wir uns um?
+Nachdem eine Entscheidung getroffen wurde, wird diese ständig evaluiert und überwacht. Wir sind immer dabei, folgende Faktoren gegenüber zu stellen:
+
+- die bisherigen und zukünftigen Investitionen samt Nutzen der Entscheidung und
+- die Investitionskosten und Nutzen der Alternative(n).
+
+Eine Investition in eine Alternative würde die Aufgabe sämtlicher bisheriger Investitionen bedeuten - ganz zu schweigen vom eingestehen einer falschen Entscheidung. Je mehr wir für einen Coffee-To-Go investiert haben (Geld ausgegeben, angestanden, weit gelaufen, emotionale Bindung, etc.), desto schwieriger ist es für uns, den Kaffee einfach wegzuschmeißen. Außer wir erzielen damit einen deutlich-höheren Nutzen.
+Erwartungskonforme Entscheidungen werden ebenfalls evaluiert, allerdings mit einer deutlich-größeren Unachtsamkeit. Wir analysieren ungenau das, was den erwarteten Nutzen gibt. Sobald aber unsere Erwartungen nicht erfüllt werden, steht die Entscheidung auf dem kritischen Prüfstand.
+
+Im Falle einer Umentscheidung entscheidet der Kunde sich gegen das angebotene Produkt. Die Ursache ist dem Anbieter in den meisten Fällen allerdings unbekannt und kann vortrefflich spekuliert werden. Allerdings könnte sie dabei helfen, das eigene Produkt attraktiv für Neukunden und verbessernd für bestehende Kunden zu schaffen, weswegen ebenfalls viel in die Ursachenforschung seitens des Anbieters investiert wird. Eine naheliegende Ursache ist eine fehlerhafte Evaluation des Kunden. Der Kunde könnte den Nutzen eines Produktes vergessen oder nicht verstanden haben oder die bisherigen Investitionen in das Produkt in seine Evaluation vernachlässigt haben. Ein gutes Service Design könnte hier ansetzen und vor der Umentscheidung den Nutzen des Produktes nochmals kommunizieren und die bisherigen Investitionen (wie bspw. im Social Media Bereich: Anzahl der Beiträge, Fotos, Freunde oder Follower) aufzählen, die verloren gehen würden. In jedem Falle gilt aber, dass die Entscheidung des Kunden respektiert werden sollte.
+
+> Verkaufe dein Produkt vor der Umentscheidung eines Kunden. Mache ihm deutlich, was er verliert.
+ 
+> Biete ihm an, bei Problemen oder Kritikpunkten den Support zu kontaktieren.
+
+## Nach der Umentscheidung ist vor der Umentscheidung
+Auf eine Umentscheidung kann eine weitere Umentscheidung folgen. Ein ehemaliger Kunde kann wieder Kunde werden, nachdem er den Nutzen des Dienstes erkannt oder keine geeignete Alternative gefunden hat. In dem Falle muss der Kunde sämtliche in der Vergangenheit getätigte Investitionen erneut aufwenden. Service Design kann diese Investitionen abnehmen, indem der alte Stand wieder hergestellt oder das Kundenkonto beim Dienst deaktiviert statt vollständig gelöscht wird.
+> Ermögliche eine Deaktivierung des Kontos und stelle sie als Option heraus, wenn der Kunde sein Konto löschen möchte.
+> Biete ein Backup-Archiv an, das einfach wieder hochgeladen werden kann.
+
+## Die Rolle der Services
+In jedem einzelnen Schritt kann der Service die Entscheidung des Kunden positiv beeinflussen. Ziel von Services bei den Entscheidungen ist es, zuvorkommend zu sein, statt dem Kunden die undurchdachten Nieschen des Angebotes zu zeigen. Im Buch This is Service Design Thinking gibt es (S. 152 - 213) eine gute Übersicht an zahlreichen Methoden, die man für das Durchplanen und Durchspielen verschiedener Situationen benutzen kann. Allerdings sollte man nicht vergessen, dass ein guter Service nicht über ein schlechtes Angebot hinweg täuschen kann, denn nach wie vor schätzen und bewerten wir stets den Nutzen eines Angebotes. Der Service kann den Nutzen nur verstärken, nicht aber verbessern. Wenn der Kaffee schlecht schmeckt, dann kann die Verkäuferin noch so freundlich sein - ich werde diesen Kaffee in Zukunft nicht mehr kaufen.
+
+> Benutze Services um den Nutzen deines Angebotes zu verstärken.
+
+>  Versuche Argumente für und gegen dein Angebot aus der Nutzersicht zu finden. Kannst du die Contra-Argumente verringern?
+
+Services sind also dazu da, den Kunden bei seiner Entscheidung zu bekräftigen und zu bestätigen. Um langfristig Kunden zu binden, ist ein guter Service unabdingbar.

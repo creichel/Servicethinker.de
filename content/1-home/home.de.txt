@@ -1,0 +1,29 @@
+Title: Hi!
+
+----
+
+Coverimage: 2015-06-02 09.50.13.jpg
+
+----
+
+Seositemap: true
+
+----
+
+Seopriority: 
+
+----
+
+Seotags: 
+
+----
+
+Seodescription: 
+
+----
+
+Alttitle: Ich bin Chris.
+
+----
+
+Accounts: Im Web

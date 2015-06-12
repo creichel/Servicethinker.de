@@ -1,0 +1,13 @@
+article {
+  p, li, td, blockquote {
+    font-family: $text-font-family;
+  }
+  p {
+    margin: 0 0 1.75em 0;
+  }
+  .footnotedivider {
+    border-top: 1px $grey-100 solid;
+    padding-top: $grid-padding/2;
+    max-width: 300px;
+  }
+}

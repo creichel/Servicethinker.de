@@ -1,0 +1,42 @@
+blockquote, .Blockquote {
+  // Standard definition
+  margin: 1.75em 0 1.75em (-$grid-padding/2 - 6);
+  padding: 0 0 0 $grid-padding/2;
+  display: block;
+
+  border-left: 6px $black solid;
+  color: $black;
+  
+  p:first-child, p:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0.8em 0;
+  }
+  
+  p, q {
+    font-style: italic;
+  }
+  
+  footer {
+    color: $grey-600;
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+    p {
+      margin-left: 18px;
+      margin-bottom: 0;
+      &:before {
+        content: "— ";
+        position: absolute;
+        margin-left: -18px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $max-width + $grid-padding*2) {
+    margin-left: 0;
+  }
+}

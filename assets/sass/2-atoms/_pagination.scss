@@ -1,0 +1,45 @@
+.pagination {
+  padding-bottom: $grid-padding/2;
+  padding-left: 10;
+  @include clearfix;
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  li {
+    *zoom: 1;         // IE 8 fix
+    *display: inline; // IE 8 fix
+    display: inline-block;
+    float: none;
+  }
+
+  .previous {
+
+    &:before {
+      content: "\f104";
+      text-decoration: none !important;
+      @extend .icon;
+    }
+  }
+  .next {
+
+    &:after {
+      content: "\f105";
+      text-decoration: none !important;
+      @extend .icon;
+      margin-left: 10px !important;
+    }
+  }
+  
+  li:first-child:not(:last-child) a, li:first-child:not(:last-child) span {
+    @include border-right-radius(0 !important);
+  }
+  
+  li:last-child:not(:first-child) a, li:last-child:not(:first-child) span {
+    @include border-left-radius(0 !important);
+  }
+
+  li:not(:last-child):not(:first-child) a, li:not(:last-child):not(:first-child) span {
+    @include border-radius(0 !important);
+  }
+}

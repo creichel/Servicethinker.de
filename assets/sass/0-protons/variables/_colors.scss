@@ -1,0 +1,64 @@
+// Site Colors
+// -----------------------
+
+// Main
+$primary: #000;
+$secondary: #7b7b7b;
+
+// Shades
+$black: #3A4145;
+$white: white;
+$grey-1000: lighten($black, 10%);
+$grey-800: lighten($black, 20%);
+$grey-600: lighten($black, 30%);
+$grey-400: lighten($black, 50%);
+$grey-300: lighten($black, 60%);
+$grey-100: lighten($black, 70%);
+
+$grey: $grey-600;
+
+
+// Organisms Backgrounds
+// -----------------------
+$site-bg: $white; // Site background
+$header-bg: transparent; // Header background
+$post-bg: transparent; // Post Background
+$footer-bg: $white; // Footer background
+
+
+// Text colors
+// -----------------------
+
+$h-color: $black; // H1, H2,... Text
+$text-color: $black; // Normal Text
+$hr-color: $grey-400; // hr color
+
+// Interaction Elements
+// -----------------------
+
+// Special colors
+$normal: #A0BB61;
+$required: #e9573f;
+$info: #37bc9b;
+$success: #8cc152;
+$warning: #f6bb42;
+$error: #da4453;
+$disabled: $grey-300;
+$highlighted: #ffe7aa;
+
+$normal-hover: #849F4A;
+$required-hover: #fc6e51;
+$info-hover: #48cfad;
+$success-hover: #a0d468;
+$warning-hover: #ffce54;
+$error-hover: #ed5565;
+$disabled-hover: $grey-100;
+
+// Social Media colors
+$xing: #0b6463;
+$skype: #1db0ed;
+$linkedin: #2487ba;
+
+// Link colors
+$link-color: $normal;
+$link-color-hover: $normal-hover;

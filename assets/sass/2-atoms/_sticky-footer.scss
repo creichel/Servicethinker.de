@@ -1,0 +1,21 @@
+// Note: In 2020 kann die Umsetzung über das Flexbox-Verfahren gelöst werden
+// Mehr Infos: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: table;
+  margin: 0;
+  padding: 0;
+}
+
+#page-wrap, footer {
+  display: table-row;
+}
+
+#page-wrap {
+  height: 100%;
+}

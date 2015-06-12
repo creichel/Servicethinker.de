@@ -1,0 +1,42 @@
+Title: Impressum
+
+----
+
+Text: 
+
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+
+Christian Reichel 
+Gerichtstraße 21 
+22765 Hamburg
+
+E-Mail: mail@servicethinker.de
+
+## Ein ♥︎ an:
+- (link: https://twitter.com/rolfsterHH text: Rolf Schulte Strathaus popup: yes) für das tolle Foto auf der Startseite
+- (link: http://lukasbestle.com text: Lukas Bestle popup: yes) und (link: http://bastianallgeier.com text: Bastian Allgeier popup: yes) für den Support
+- (link: http://distantnative.com text: Nico Hoffmann popup: yes) für Inspiration, Plugins und ganz viel Swag
+
+----
+
+Alttitle: 
+
+----
+
+Coverimage: 
+
+----
+
+Seositemap: true
+
+----
+
+Seopriority: 
+
+----
+
+Seotags: 
+
+----
+
+Seodescription: 

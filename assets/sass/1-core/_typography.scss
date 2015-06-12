@@ -1,0 +1,109 @@
+@each $typo-setting in $typo-settings {
+  #{nth($typo-setting, 1)} {
+    font-size: #{nth($typo-setting, 2)};
+    font-family: #{nth($typo-setting, 3)};
+    line-height: #{nth($typo-setting, 4)};
+  }
+}
+
+body {
+  letter-spacing: 0.01rem;
+  //text-rendering: geometricPrecision;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //text-rendering: geometricPrecision;
+}
+
+p, ul, ol, dl {
+  margin: 0 0 1.75em 0;
+  //text-rendering: geometricPrecision;
+}
+
+// Heading settings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  margin: 1em 0 0.4em 0;
+
+  &:first-child{
+    margin-top: 0;
+  }
+}
+
+h1 {
+  //letter-spacing: -2px;
+text-indent: -3px;
+}
+
+h2 {
+  //letter-spacing: -1px;
+}
+
+hr {
+  background-color: $hr-color;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+/* Text elements */
+p, ul, ol, dl {
+  margin: 0 0 1.75em 0;
+}
+b, strong {
+  font-weight: bold;
+}
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+mark {
+  background-color: $highlighted;
+}
+
+abbr, acronym {
+  cursor: help;
+}
+
+/* Links */
+a {
+  color: $link-color;
+  text-decoration: none;
+  &[target=_blank]:before {
+    @extend %fontawesomeIcon;
+    content: "\f08e";
+    margin-right: 3px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  &[class^="icon-"]:before {
+    display: inline-block;
+    text-decoration: none !important;
+  }
+  
+  &.hover,
+  &:focus,
+  &:active {
+    //color: lighten($link-color, 10%);
+    color: $link-color-hover;
+  }
+
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li, dt, dd {
+  line-height: $line-height;
+}

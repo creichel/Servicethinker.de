@@ -1,0 +1,51 @@
+.mainnav {
+
+  ul {
+    text-align: right;
+    float: right;
+  }
+  li {
+    *zoom: 1;         // IE 8 fix
+    *display: inline; // IE 8 fix
+    display: inline-block;
+    float: none;
+    a {
+      display: block;
+      text-transform: uppercase;
+      padding: 0 $grid-padding/2;
+      font-weight: lighter;
+      //text-shadow: 0 0 2px #000;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    &.active {
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (max-width: $responsive-small) {
+    ul {
+      text-align: center;
+      float: none;
+      display: none;
+    }
+    li {
+      display: block !important;
+      float: none;
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &:last-child {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+.no-cover .mainnav a {
+  text-shadow: none;
+}
