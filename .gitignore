@@ -5,6 +5,7 @@ site/accounts/*
 service-thinker.sublime-project
 service-thinker.sublime-workspace
 .DS_Store
+**/.DS_Store
+*.DS_Store
 config.codekit
-*/.DS_Store
 assets/sass/.sass-cache
