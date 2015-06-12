@@ -1,0 +1,7 @@
+site/config/*
+thumbs/*
+site/cache/*
+site/accounts/*
+service-thinker.sublime-project
+service-thinker.sublime-workspace
+.DS_Store
