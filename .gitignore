@@ -7,3 +7,4 @@ service-thinker.sublime-workspace
 .DS_Store
 config.codekit
 */.DS_Store
+assets/sass/.sass-cache
