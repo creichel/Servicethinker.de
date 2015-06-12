@@ -1,0 +1,18 @@
+[submodule "kirby"]
+	path = kirby
+	url = https://github.com/getkirby/kirby
+[submodule "panel"]
+	path = panel
+	url = https://github.com/getkirby/panel
+[submodule "site/plugins/relative-date"]
+	path = site/plugins/relative-date
+	url = https://github.com/distantnative/relative-date
+[submodule "site/plugins/footenotes"]
+	path = site/plugins/footenotes
+	url = https://github.com/distantnative/footnotes
+[submodule "site/fields/markdown"]
+	path = site/fields/markdown
+	url = https://github.com/JonasDoebertin/kirby-visual-markdown
+[submodule "site/fields/selector"]
+	path = site/fields/selector
+	url = https://github.com/storypioneers/kirby-selector
