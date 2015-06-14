@@ -2,7 +2,7 @@ Title: Holacracy
 
 ----
 
-Pubdate: 
+Pubdate: 2015-06-20
 
 ----
 
@@ -18,7 +18,7 @@ Tags:
 
 ----
 
-Coverimage: 
+Coverimage: img_3730_edit.jpg
 
 ----
 
