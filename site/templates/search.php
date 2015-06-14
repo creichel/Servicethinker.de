@@ -8,7 +8,7 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
-  <main role="main" id="main">
+  <div class="content-wrap">
 
     <?php $countItems = $results->pagination()->countItems();
 
@@ -61,6 +61,6 @@
     </nav>
     <?php endif ?>
 
-  </main>
+  </div>
 
 <?php snippet('footer') ?>

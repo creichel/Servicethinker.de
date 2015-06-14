@@ -17,7 +17,7 @@ if ($cover = $page->cover()){
 ?>
 
 
-<main role="main" id="main">
+<div class="content-wrap">
   <article>
     <main>
       <?php echo kirbytext($page->text()) ?>
@@ -37,6 +37,6 @@ if ($cover = $page->cover()){
       <a class="button icon-angle-left" href="<?php echo $page->parent()->url() ?>">Zurück zum Blog</a>
     </footer>
 
-</main>
+</div>
 
 <?php snippet('footer') ?>
