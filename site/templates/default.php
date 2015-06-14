@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('cover') ?>
 <?php snippet('subnav') ?>
-<main role="main">
+<main role="main" id="main">
   <article>
     <?php echo $page->text()->kirbytext(); ?>
   </article>

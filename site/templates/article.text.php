@@ -16,9 +16,11 @@ if ($cover = $page->cover()){
 
 ?>
 
-<main role="main">
+<main role="main" id="main">
   <article>
-    <?php echo kirbytext($coversource.' '.$page->text()) ?>
+    <main>
+      <?php echo kirbytext($coversource.' '.$page->text()) ?>
+    </main>
     <hr>
     <footer class="post-meta">
       Am <time datetime="<?php echo $page->date('c','pubdate') ?>"><?php echo $page->date('d.m.Y','pubdate'); ?></time>

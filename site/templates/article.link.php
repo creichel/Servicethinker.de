@@ -1,9 +1,11 @@
 <?php snippet('header') ?>
 <?php snippet('cover') ?>
 
-<main role="main">
+<main role="main" id="main">
   <article>
-    <?php echo kirbytext($page->text()) ?>
+    <main>
+      <?php echo kirbytext($page->text()) ?>
+    </main>
     <hr>
     <footer class="post-meta">
       Am <time datetime="<?php echo $page->date('c','pubdate') ?>"><?php echo $page->date('d.m.Y','pubdate'); ?></time>

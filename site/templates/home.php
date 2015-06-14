@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('cover', array('height' => '1')) ?>
-<main role="main">
+<main role="main" id="main">
   <article id="accounts">
     <h2><?php echo $page->accounts()->html() ?></h2>
     <ul>

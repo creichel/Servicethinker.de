@@ -1,9 +1,27 @@
 <?php snippet('header') ?>
-<?php snippet('cover') ?><
+<?php snippet('cover') ?>
 
-<main role="main">
+<?php 
+
+$coversource = "";
+
+if ($cover = $page->cover()){
+  if ($cover->sourcename()->isNotEmpty() || $cover->sourceurl()->isNotEmpty()) {
+    $coversource .= '[999. <no> Titelbild: ';
+    if ($cover->sourcename()->isNotEmpty()) $coversource .= $cover->sourcename();
+    if ($cover->sourceurl()->isNotEmpty()) $coversource .= ' (link: '.$cover->sourceurl().' text: Zur Quelle popup: yes)';
+    $coversource .= ']';
+  }
+}
+
+?>
+
+
+<main role="main" id="main">
   <article>
-    <?php echo kirbytext($page->text()) ?>
+    <main>
+      <?php echo kirbytext($page->text()) ?>
+    </main>
     <hr>
     <footer class="post-meta">
       Am <time datetime="<?php echo $page->date('c','pubdate') ?>"><?php echo $page->date('d.m.Y','pubdate'); ?></time>

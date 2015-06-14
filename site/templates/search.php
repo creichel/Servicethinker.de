@@ -8,7 +8,7 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
-  <main role="main">
+  <main role="main" id="main">
 
     <?php $countItems = $results->pagination()->countItems();
 
