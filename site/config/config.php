@@ -84,6 +84,7 @@ Plugins
 c::set('footnotes.global', true);
 c::set('footnotes.smoothscroll', true);
 c::set('footnotes.offset', 300);
+c::set('footnotes.merge', true);
 c::set('footnotes.ignore', array(
   'feed'
 ));
