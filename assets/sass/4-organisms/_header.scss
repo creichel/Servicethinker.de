@@ -35,13 +35,6 @@
   }
 
   &.on-top {
-    @media screen and (min-width: $responsive-small) {
-      padding-top: 20px;
-        #mainnav-toggle {
-        top: 20px;
-      }
-    }
-    padding-bottom: 20px;
     background: rgba(0,0,0,0.1);
     border-bottom: none;
 
@@ -163,7 +156,16 @@
 }
 
 .no-cover #header {
-  background-image: none;
+  @media screen and (min-width: $responsive-max + 500) {
+    background: none !important;
+    a {
+      color: $black;
+    }
+    .banner svg path {
+      fill: $black;
+      stroke: $black;
+    }
+  }
   &.on-top {
     background: none;
     a {
