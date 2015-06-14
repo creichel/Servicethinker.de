@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('cover') ?>
-<main role="main">
+<div class="content-wrap">
 
   <?php
 
@@ -163,5 +163,5 @@
   </nav>
   <?php endif ?>
 
-</main>
+</div>
 <?php snippet('footer') ?>

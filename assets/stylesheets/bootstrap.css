@@ -3481,7 +3481,9 @@ body {
         font-size: 4rem; } }
   .cover .subline {
     font-size: 3rem;
-    font-weight: lighter; }
+    font-weight: lighter;
+    color: white;
+    text-shadow: 0 0 20px #000; }
 
 body:not(.with-children) .cover {
   margin-bottom: 40px; }
@@ -3507,6 +3509,9 @@ body:not(.with-children) .cover {
       position: relative;
       padding: 5px;
       z-index: 2; }
+  .no-cover .cover .subline {
+    color: #3A4145;
+    text-shadow: none; }
   @media screen and (max-width: 500px) {
     .no-cover .cover h1 span {
       padding: 5px; } }
@@ -3769,11 +3774,17 @@ body:not(.with-children) .cover {
     width: 100%;
     left: 0;
     top: 50%;
-    margin-top: -40px; } }
-#article:not(.no-cover) main {
+    margin-top: -40px; }
+  #article:not(.no-cover) .cover .subline {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: 20px; } }
+#article:not(.no-cover) > #page-wrap > .content-wrap, #article:not(.no-cover) > #page-wrap > #main, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
   padding-top: 20px; }
   @media screen and (min-width: 760px) {
-    #article:not(.no-cover) main {
+    #article:not(.no-cover) > #page-wrap > .content-wrap, #article:not(.no-cover) > #page-wrap > #main, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
       margin-top: -100px;
       background: white;
       position: relative; } }

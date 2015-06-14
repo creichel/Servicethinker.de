@@ -50,9 +50,16 @@
         top: 50%;
         margin-top: -40px;
       }
+      .subline {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        margin-top: 20px;
+      }
     }
   }
-  main {
+  > #page-wrap > .content-wrap {
     padding-top: $grid-padding/2;
     @media screen and (min-width: $responsive-max) {
       margin-top: -100px;

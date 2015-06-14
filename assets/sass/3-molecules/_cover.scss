@@ -29,6 +29,8 @@
   .subline {
     font-size: 3rem;
     font-weight: lighter;
+    color: white;
+    text-shadow: 0 0 20px #000;
   }
 }
 
@@ -60,6 +62,10 @@ body:not(.with-children) .cover {
       padding: 5px;
       z-index: 2;
     }
+  }
+  .subline {
+    color: $black;
+    text-shadow: none;
   }
   @media screen and (max-width: $responsive-small) {
 
