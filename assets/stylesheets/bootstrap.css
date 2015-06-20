@@ -2039,40 +2039,22 @@ th {
   font-family: Fira Sans;
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
-  src: url("../fonts/Fira_Sans/semibold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/semibold/font.woff2") format("woff2"), url("../fonts/Fira_Sans/semibold/font.woff") format("woff"), url("../fonts/Fira_Sans/semibold/font.ttf") format("truetype"), url("../fonts/Fira_Sans/semibold/font.svg#Fira Sans") format("svg"); }
-=======
   src: url("../fonts/Fira_Sans/medium/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/medium/font.woff2") format("woff2"), url("../fonts/Fira_Sans/medium/font.woff") format("woff"), url("../fonts/Fira_Sans/medium/font.ttf") format("truetype"), url("../fonts/Fira_Sans/medium/font.svg#Fira Sans") format("svg"); }
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
 @font-face {
   font-family: Fira Sans;
   font-style: italic;
   font-weight: bold;
-<<<<<<< HEAD
-  src: url("../fonts/Fira_Sans/semibold/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/semibold/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/semibold/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/semibold/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/semibold/italic/font.svg#Fira Sans") format("svg"); }
-=======
   src: url("../fonts/Fira_Sans/medium/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/medium/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/medium/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/medium/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/medium/italic/font.svg#Fira Sans") format("svg"); }
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
 @font-face {
   font-family: Fira Sans;
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Fira_Sans/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/regular/font.woff2") format("woff2"), url("../fonts/Fira_Sans/regular/font.woff") format("woff"), url("../fonts/Fira_Sans/regular/font.ttf") format("truetype"), url("../fonts/Fira_Sans/regular/font.svg#Fira Sans") format("svg"); }
+  src: url("../fonts/Fira_Sans/book/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/book/font.woff2") format("woff2"), url("../fonts/Fira_Sans/book/font.woff") format("woff"), url("../fonts/Fira_Sans/book/font.ttf") format("truetype"), url("../fonts/Fira_Sans/book/font.svg#Fira Sans") format("svg"); }
 @font-face {
   font-family: Fira Sans;
   font-style: italic;
   font-weight: normal;
-  src: url("../fonts/Fira_Sans/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/regular/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/regular/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/regular/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/regular/italic/font.svg#Fira Sans") format("svg"); }
-@font-face {
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: lighter;
-  src: url("../fonts/Fira_Sans/light/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/light/font.woff2") format("woff2"), url("../fonts/Fira_Sans/light/font.woff") format("woff"), url("../fonts/Fira_Sans/light/font.ttf") format("truetype"), url("../fonts/Fira_Sans/light/font.svg#Fira Sans") format("svg"); }
-@font-face {
-  font-family: Fira Sans;
-  font-style: italic;
-  font-weight: lighter;
-  src: url("../fonts/Fira_Sans/light/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/light/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/light/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/light/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/light/italic/font.svg#Fira Sans") format("svg"); }
+  src: url("../fonts/Fira_Sans/book/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/book/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/book/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/book/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/book/italic/font.svg#Fira Sans") format("svg"); }
 @font-face {
   font-family: Merriweather;
   font-style: normal;
@@ -2379,11 +2361,7 @@ input[type=button], input[type=submit], button, .button {
     margin-bottom: 0;
     text-align: right; }
 
-<<<<<<< HEAD
-.content-wrap, main, .oldbrowser div {
-=======
-.content-wrap, #main, .oldbrowser div {
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
+.content-wrap, .oldbrowser div {
   max-width: 760px;
   min-width: 0px;
   width: auto;
@@ -2391,11 +2369,7 @@ input[type=button], input[type=submit], button, .button {
   margin-left: auto;
   padding-left: 20px;
   padding-right: 20px; }
-<<<<<<< HEAD
-  .content-wrap:after, main:after, .oldbrowser div:after {
-=======
-  .content-wrap:after, #main:after, .oldbrowser div:after {
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
+  .content-wrap:after, .oldbrowser div:after {
     clear: both;
     content: ".";
     display: block;
@@ -3481,11 +3455,7 @@ body {
   @media screen and (max-width: 1260px) {
     .cover {
       padding-top: 40px; } }
-<<<<<<< HEAD
-  .cover .content-wrap, .cover main, .cover .oldbrowser div, .oldbrowser .cover div {
-=======
-  .cover .content-wrap, .cover #main, .cover .oldbrowser div, .oldbrowser .cover div {
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
+  .cover .content-wrap, .cover .oldbrowser div, .oldbrowser .cover div {
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 40px; }
@@ -3501,13 +3471,9 @@ body {
         font-size: 4rem; } }
   .cover .subline {
     font-size: 3rem;
-<<<<<<< HEAD
-    font-weight: lighter; }
-=======
     font-weight: lighter;
     color: white;
     text-shadow: 0 0 20px #000; }
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
 
 body:not(.with-children) .cover {
   margin-bottom: 40px; }
@@ -3533,12 +3499,9 @@ body:not(.with-children) .cover {
       position: relative;
       padding: 5px;
       z-index: 2; }
-<<<<<<< HEAD
-=======
   .no-cover .cover .subline {
     color: #3A4145;
     text-shadow: none; }
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
   @media screen and (max-width: 500px) {
     .no-cover .cover h1 span {
       padding: 5px; } }
@@ -3554,8 +3517,7 @@ body:not(.with-children) .cover {
   .mainnav li a {
     display: block;
     text-transform: uppercase;
-    padding: 0 20px;
-    font-weight: lighter; }
+    padding: 0 20px; }
     .mainnav li a:last-child {
       padding-right: 0; }
   .mainnav li.active a {
@@ -3609,11 +3571,7 @@ body:not(.with-children) .cover {
 #footer {
   color: #d5d9dc;
   font-size: 90% !important; }
-<<<<<<< HEAD
-  #footer .content-wrap, #footer main, #footer .oldbrowser div, .oldbrowser #footer div {
-=======
-  #footer .content-wrap, #footer #main, #footer .oldbrowser div, .oldbrowser #footer div {
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
+  #footer .content-wrap, #footer .oldbrowser div, .oldbrowser #footer div {
     padding-top: 20px;
     padding-bottom: 20px; }
   #footer p {
@@ -3770,10 +3728,6 @@ body:not(.with-children) .cover {
   .no-cover #header.on-top #mainnav-toggle span, .no-cover #header.on-top #mainnav-toggle span:before, .no-cover #header.on-top #mainnav-toggle span:after {
     background: #000; }
 
-<<<<<<< HEAD
-/* No files to import found in * */
-=======
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
 #article .cover {
   position: relative; }
 #article article {
@@ -3809,13 +3763,6 @@ body:not(.with-children) .cover {
     width: 100%;
     left: 0;
     top: 50%;
-<<<<<<< HEAD
-    margin-top: -40px; } }
-#article:not(.no-cover) main {
-  padding-top: 20px; }
-  @media screen and (min-width: 760px) {
-    #article:not(.no-cover) main {
-=======
     margin-top: -40px; }
   #article:not(.no-cover) .cover .subline {
     position: absolute;
@@ -3823,11 +3770,10 @@ body:not(.with-children) .cover {
     left: 0;
     top: 50%;
     margin-top: 20px; } }
-#article:not(.no-cover) > #page-wrap > .content-wrap, #article:not(.no-cover) > #page-wrap > #main, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
+#article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
   padding-top: 20px; }
   @media screen and (min-width: 760px) {
-    #article:not(.no-cover) > #page-wrap > .content-wrap, #article:not(.no-cover) > #page-wrap > #main, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
->>>>>>> 5221bb19132dbef2ac043de67e19123d0489e0aa
+    #article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
       margin-top: -100px;
       background: white;
       position: relative; } }
