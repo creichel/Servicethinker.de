@@ -1,5 +1,21 @@
 <?php snippet('header') ?>
-<?php snippet('cover') ?><
+<?php snippet('cover') ?>
+
+<?php 
+
+$coversource = "";
+
+if ($cover = $page->cover()){
+  if ($cover->sourcename()->isNotEmpty() || $cover->sourceurl()->isNotEmpty()) {
+    $coversource .= '[999. <no> Titelbild: ';
+    if ($cover->sourcename()->isNotEmpty()) $coversource .= $cover->sourcename();
+    if ($cover->sourceurl()->isNotEmpty()) $coversource .= ' (link: '.$cover->sourceurl().' text: Zur Quelle popup: yes)';
+    $coversource .= ']';
+  }
+}
+
+?>
+
 
 <main role="main">
   <article>
