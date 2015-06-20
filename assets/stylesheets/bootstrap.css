@@ -2133,7 +2133,7 @@ blockquote, .Blockquote {
         content: "— ";
         position: absolute;
         margin-left: -18px; }
-  @media only screen and (max-width: 840px) {
+  @media only screen and (max-width: 760px) {
     blockquote, .Blockquote {
       margin-left: 0; } }
 
@@ -2362,7 +2362,7 @@ input[type=button], input[type=submit], button, .button {
     text-align: right; }
 
 .content-wrap, .oldbrowser div {
-  max-width: 760px;
+  max-width: 680px;
   min-width: 0px;
   width: auto;
   margin-right: auto;
@@ -2637,7 +2637,7 @@ input[type=button], input[type=submit], button, .button {
       right: 91.6666666667%; }
     .column.small-pull-12 {
       right: 100%; } }
-  @media (min-width: 700px) {
+  @media (min-width: 680px) {
     .column.medium-0 {
       display: none; }
     .column.medium-1 {
@@ -2760,7 +2760,7 @@ input[type=button], input[type=submit], button, .button {
       right: 91.6666666667%; }
     .column.medium-pull-12 {
       right: 100%; } }
-  @media (min-width: 760px) {
+  @media (min-width: 680px) {
     .column.large-0 {
       display: none; }
     .column.large-1 {
@@ -2883,7 +2883,7 @@ input[type=button], input[type=submit], button, .button {
       right: 91.6666666667%; }
     .column.large-pull-12 {
       right: 100%; } }
-  @media (min-width: 760px) {
+  @media (min-width: 680px) {
     .column.max-0 {
       display: none; }
     .column.max-1 {
@@ -3187,7 +3187,7 @@ table {
   background-color: #f7f7f7; }
 
 html {
-  font-size: 52%;
+  font-size: 51%;
   font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 2em; }
 
@@ -3319,7 +3319,7 @@ figure {
   figure img {
     max-width: 100%;
     height: auto; }
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1020px) {
     figure figcaption {
       position: absolute;
       top: 0;
@@ -3452,7 +3452,7 @@ body {
   background-repeat: no-repeat;
   background-position: center 30%;
   text-align: center; }
-  @media screen and (max-width: 1260px) {
+  @media screen and (max-width: 1180px) {
     .cover {
       padding-top: 40px; } }
   .cover .content-wrap, .cover .oldbrowser div, .oldbrowser .cover div {
@@ -3710,7 +3710,7 @@ body:not(.with-children) .cover {
     #header ul {
       display: block !important; } }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1180px) {
   .no-cover #header {
     background: none !important; }
     .no-cover #header a {
@@ -3772,7 +3772,7 @@ body:not(.with-children) .cover {
     margin-top: 20px; } }
 #article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
   padding-top: 20px; }
-  @media screen and (min-width: 760px) {
+  @media screen and (min-width: 680px) {
     #article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
       margin-top: -100px;
       background: white;

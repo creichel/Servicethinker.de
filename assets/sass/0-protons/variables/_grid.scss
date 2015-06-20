@@ -1,5 +1,5 @@
 // Width of the site
-$max-width: 760px;
+$max-width: 680px;
 $min-width: 0px;
 
 // Grid settings
@@ -13,7 +13,7 @@ $wrap-padding: $grid-padding/2;
 $responsive-widths: (
   "x-small"  0,
   "small"    500px,
-  "medium"   700px,
-  "large"    760px,
+  "medium"   680px,
+  "large"    680px,
   "max"      $max-width
 );

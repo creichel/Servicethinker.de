@@ -1,3 +1,14 @@
+$responsive-max: $max-width;
+$responsive-large: 690px;
+$responsive-medium: 690px;
+$responsive-small: 500px;
+$responsive-x-small: 0;
+
+@each $media-size in $responsive-widths {
+  $variable-name: #{"$responsive-"}#{nth($media-size, 1)};
+  $variable-name: #{nth($media-size, 2)};
+}
+
 .content-wrap {
   max-width: $max-width;
   min-width: $min-width;
@@ -70,15 +81,4 @@
       }
     }
   }
-}
-
-$responsive-max: $max-width;
-$responsive-large: 760px;
-$responsive-medium: 700px;
-$responsive-small: 500px;
-$responsive-x-small: 0;
-
-@each $media-size in $responsive-widths {
-  $variable-name: #{"$responsive-"}#{nth($media-size, 1)};
-  $variable-name: #{nth($media-size, 2)};
 }
