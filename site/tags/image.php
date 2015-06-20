@@ -8,7 +8,7 @@ kirbytext::$tags['image'] = array(
 
     $file     = $tag->file($tag->attr('image'));
     $caption  = ($file->caption()->isNotEmpty() ? $file->caption() : $tag->attr('caption'));
-    $thumb    = thumb($file, array('width' => 1700), false);
+    $thumb    = thumb($file, array('width' => 1000), false);
 
     $html  = '<figure>';
     $html .= '<img src="'.$thumb.'" alt="'.$file->name().'">';

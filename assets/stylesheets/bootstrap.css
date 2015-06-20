@@ -2198,7 +2198,7 @@ html, body {
     width: 100%;
     table-layout: fixed;
     border-collapse: separate;
-    border-spacing: 2px; }
+    border-spacing: 1px; }
     .button-group.justified > button, .button-group.justified > .button, .button-group.justified > div {
       display: table-cell;
       margin: 0;
@@ -2217,7 +2217,7 @@ html, body {
 input[type=button], input[type=submit], button, .button {
   padding-top: 5px;
   padding-bottom: 5px;
-  border: solid #A0BB61 2px;
+  border: solid #A0BB61 1px;
   *border: 0 !important;
   *padding: 9px !important;
   background: #A0BB61;
@@ -3063,8 +3063,8 @@ input, textarea, button, .button, .textfield {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   behavior: url(../javascript/PIE.htc); }
@@ -3083,15 +3083,15 @@ input, textarea, .button, .textfield {
   padding: 10px; }
 
 button {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   padding-left: 12px;
   padding-right: 12px; }
 
 input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type='radio']), .textfield, textarea {
   display: block;
   width: 100%;
-  border: solid #828f96 2px; }
+  border: solid #828f96 1px; }
   input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type='radio']).hover, .textfield.hover, textarea.hover {
     border-color: #849F4A; }
   input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type='radio']):focus, input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type='radio']):active, .textfield:focus, .textfield:active, textarea:focus, textarea:active {
@@ -3431,14 +3431,17 @@ body {
 
 .tag {
   border: 1px solid #A0BB61;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   behavior: url(../javascript/PIE.htc);
-  padding: 0 10px;
+  padding: 5px 5px 4px 5px;
+  line-height: 1;
   display: inline-block;
+  text-transform: uppercase;
   margin: 2px;
+  font-size: 90%;
   color: #A0BB61; }
   .tag.hover {
     background: #849F4A;

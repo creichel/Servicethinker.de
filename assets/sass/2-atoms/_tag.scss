@@ -1,9 +1,12 @@
 .tag {
   border: 1px solid $link-color;
-  @include border-radius(20px);
-  padding: 0 10px;
+  @include border-radius(4px);
+  padding: 5px 5px 4px 5px;
+  line-height: 1;
   display: inline-block;
+  text-transform: uppercase;
   margin: 2px;
+  font-size: 90%;
   color: $link-color;
   &.hover {
     background: $link-color-hover;
