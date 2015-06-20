@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('cover', array('height' => '1')) ?>
-<main role="main">
+<div class="content-wrap">
   <article id="accounts">
     <h2><?php echo $page->accounts()->html() ?></h2>
     <ul>
@@ -12,7 +12,7 @@
       <?php endforeach ?>
     </ul>
   </article>
-</main>
+</div>
   <script type="text/javascript">
 
   if(("standalone" in window.navigator) && window.navigator.standalone){

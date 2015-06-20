@@ -17,9 +17,11 @@ if ($cover = $page->cover()){
 ?>
 
 
-<main role="main">
+<div class="content-wrap">
   <article>
-    <?php echo kirbytext($page->text()) ?>
+    <main>
+      <?php echo kirbytext($page->text()) ?>
+    </main>
     <hr>
     <footer class="post-meta">
       Am <time datetime="<?php echo $page->date('c','pubdate') ?>"><?php echo $page->date('d.m.Y','pubdate'); ?></time>
@@ -35,6 +37,6 @@ if ($cover = $page->cover()){
       <a class="button icon-angle-left" href="<?php echo $page->parent()->url() ?>">Zurück zum Blog</a>
     </footer>
 
-</main>
+</div>
 
 <?php snippet('footer') ?>

@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 <?php snippet('cover') ?>
 <?php snippet('subnav') ?>
-<main role="main">
+<div class="content-wrap">
   <article>
     <?php echo $page->text()->kirbytext(); ?>
   </article>
-</main>
+</div>
 <?php snippet('footer') ?>
