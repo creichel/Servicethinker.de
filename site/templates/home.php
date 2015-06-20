@@ -1,6 +1,11 @@
 <?php snippet('header') ?>
 <?php snippet('cover', array('height' => '1')) ?>
 <div class="content-wrap">
+  <article>
+    <main>
+      <?php echo $page->text()->kirbytext() ?>
+    </main>
+  </article>
   <article id="accounts">
     <h2><?php echo $page->accounts()->html() ?></h2>
     <ul>
