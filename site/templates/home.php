@@ -1,11 +1,14 @@
 <?php snippet('header') ?>
 <?php snippet('cover', array('height' => '1')) ?>
 <div class="content-wrap">
+  <?php if($page->text()->isNotEmpty()): ?>
   <article>
     <main>
       <?php echo $page->text()->kirbytext() ?>
     </main>
   </article>
+  <hr>
+  <?php endif ?>
   <article id="accounts">
     <h2><?php echo $page->accounts()->html() ?></h2>
     <ul>
