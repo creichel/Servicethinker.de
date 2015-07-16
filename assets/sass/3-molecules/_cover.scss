@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: center 30%;
   text-align: center;
+  background-attachment: fixed;
 
   .content-wrap {
     padding-top: 80px;
@@ -28,7 +29,7 @@
   }
   .subline {
     font-size: 3rem;
-    font-weight: lighter;
+    font-weight: normal;
     color: white;
     text-shadow: 0 0 20px #000;
   }
