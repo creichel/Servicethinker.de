@@ -13,6 +13,7 @@
       display: block;
       text-transform: uppercase;
       padding: 0 $grid-padding/2;
+      font-weight: normal;
       &:last-child {
         padding-right: 0;
       }
@@ -20,7 +21,12 @@
     &.active {
       a {
         font-weight: bold;
+        color: $link-color-hover;
+
       }
+    }
+    a.hover {
+      color: $link-color-hover;
     }
   }
 

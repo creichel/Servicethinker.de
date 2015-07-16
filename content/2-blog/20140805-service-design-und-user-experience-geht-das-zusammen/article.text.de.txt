@@ -47,3 +47,7 @@ Aber ist die Begrenzung von User Experience ebenso eine Begrenzung des Services?
 Die Prinzipien von beiden Disziplinen sind gleich und gut: man entwickelt passgenau ein Produkt oder eine Dienstleistung für denjenigen, der das erst möglich macht und am Ende seinen Nutzen daraus ziehen soll. Je komplexer allerdings das Resultat aus einem Design-Prozess sein soll, desto mehr Akteure, Umwelteinflüsse, Prozesse und Kommunikationen, desto mehr psychische Vorgänge beim Kunden muss man beachten, desto mehr Fehler können in einem eigentlich gut-durchdachten Produkt oder einer Dienstleistung stecken. Hier liegt die Aufgabe von Service Design, ein ganzheitliches Wissen über diverse Zusammenhänge zu schaffen und das (bislang unklare) Ziel immer mehr zu konkretisieren und zu definieren - und genau da liegt die Grenze zwischen den beiden Disziplinen.
 
 Um die Frage im Titel noch zu beantworten: ja, es geht. Aber auch nur so weit, solange nur Schnittstellen zum und für den Kunden betrachtet werden.
+
+----
+
+Subline: 

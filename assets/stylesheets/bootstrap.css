@@ -2056,6 +2056,16 @@ th {
   font-weight: normal;
   src: url("../fonts/Fira_Sans/book/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/book/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/book/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/book/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/book/italic/font.svg#Fira Sans") format("svg"); }
 @font-face {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../fonts/Fira_Sans/light/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/light/font.woff2") format("woff2"), url("../fonts/Fira_Sans/light/font.woff") format("woff"), url("../fonts/Fira_Sans/light/font.ttf") format("truetype"), url("../fonts/Fira_Sans/light/font.svg#Fira Sans") format("svg"); }
+@font-face {
+  font-family: Fira Sans;
+  font-style: italic;
+  font-weight: lighter;
+  src: url("../fonts/Fira_Sans/light/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Fira_Sans/light/italic/font.woff2") format("woff2"), url("../fonts/Fira_Sans/light/italic/font.woff") format("woff"), url("../fonts/Fira_Sans/light/italic/font.ttf") format("truetype"), url("../fonts/Fira_Sans/light/italic/font.svg#Fira Sans") format("svg"); }
+@font-face {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
@@ -2133,7 +2143,7 @@ blockquote, .Blockquote {
         content: "— ";
         position: absolute;
         margin-left: -18px; }
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 780px) {
     blockquote, .Blockquote {
       margin-left: 0; } }
 
@@ -2362,7 +2372,7 @@ input[type=button], input[type=submit], button, .button {
     text-align: right; }
 
 .content-wrap, .oldbrowser div {
-  max-width: 680px;
+  max-width: 700px;
   min-width: 0px;
   width: auto;
   margin-right: auto;
@@ -2883,7 +2893,7 @@ input[type=button], input[type=submit], button, .button {
       right: 91.6666666667%; }
     .column.large-pull-12 {
       right: 100%; } }
-  @media (min-width: 680px) {
+  @media (min-width: 700px) {
     .column.max-0 {
       display: none; }
     .column.max-1 {
@@ -3306,6 +3316,10 @@ article .footnotedivider {
   padding-top: 20px;
   max-width: 300px; }
 
+code {
+  border-radius: 4px;
+  background: #f1f2f3; }
+
 .divider {
   padding-right: .45em;
   padding-left: .45em;
@@ -3319,7 +3333,7 @@ figure {
   figure img {
     max-width: 100%;
     height: auto; }
-  @media screen and (min-width: 1020px) {
+  @media screen and (min-width: 1040px) {
     figure figcaption {
       position: absolute;
       top: 0;
@@ -3454,8 +3468,9 @@ body {
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center 30%;
-  text-align: center; }
-  @media screen and (max-width: 1180px) {
+  text-align: center;
+  background-attachment: fixed; }
+  @media screen and (max-width: 1200px) {
     .cover {
       padding-top: 40px; } }
   .cover .content-wrap, .cover .oldbrowser div, .oldbrowser .cover div {
@@ -3474,7 +3489,7 @@ body {
         font-size: 4rem; } }
   .cover .subline {
     font-size: 3rem;
-    font-weight: lighter;
+    font-weight: normal;
     color: white;
     text-shadow: 0 0 20px #000; }
 
@@ -3520,11 +3535,15 @@ body:not(.with-children) .cover {
   .mainnav li a {
     display: block;
     text-transform: uppercase;
-    padding: 0 20px; }
+    padding: 0 20px;
+    font-weight: normal; }
     .mainnav li a:last-child {
       padding-right: 0; }
   .mainnav li.active a {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #849F4A; }
+  .mainnav li a.hover {
+    color: #849F4A; }
 @media screen and (max-width: 500px) {
   .mainnav ul {
     text-align: center;
@@ -3713,7 +3732,7 @@ body:not(.with-children) .cover {
     #header ul {
       display: block !important; } }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1200px) {
   .no-cover #header {
     background: none !important; }
     .no-cover #header a {
@@ -3775,7 +3794,7 @@ body:not(.with-children) .cover {
     margin-top: 20px; } }
 #article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
   padding-top: 20px; }
-  @media screen and (min-width: 680px) {
+  @media screen and (min-width: 700px) {
     #article:not(.no-cover) > #page-wrap > .content-wrap, .oldbrowser #article:not(.no-cover) > #page-wrap > div {
       margin-top: -100px;
       background: white;
@@ -3790,7 +3809,7 @@ body:not(.with-children) .cover {
     height: auto; }
   #blog article .subline {
     font-size: 2.5rem;
-    font-weight: lighter;
+    font-weight: normal;
     margin-bottom: 0.4em;
     display: block; }
   #blog article .post-meta {

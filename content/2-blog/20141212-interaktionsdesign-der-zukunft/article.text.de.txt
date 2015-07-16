@@ -10,7 +10,7 @@ Description:
 
 ----
 
-Tags: Interaktionsdesign,Service Design,Ubiquitous Computing,Kontextadaption
+Tags: Interaktionsdesign,Ubiquitous Computing,Kontextadaption
 
 ----
 
@@ -139,3 +139,7 @@ Wichtig ist, dass frühzeitig mögliche Probleme der Benutzbarkeit verhindert we
 ****
 **Bearbeitungshinweis:**
 - Am 30. Mai 2015 wurden einige Quellenverweise korrigiert und im Text direkt verlinkt.
+
+----
+
+Subline: 

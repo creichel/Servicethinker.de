@@ -3,7 +3,7 @@
 $coversrc = false;
 $hasCover = false;
 
-$coverHeight = (isset($height) ? $height : '0.95');
+$coverHeight = (isset($height) ? $height : '1');
 
 if ($coverImage = $page->cover()) {
   $coversrc = thumb($coverImage, array('width' => 1700, 'upscale' => true, 'crop' => true), false);

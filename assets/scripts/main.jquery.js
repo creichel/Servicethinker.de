@@ -73,13 +73,61 @@ $(function(){
   /**
    * Hover fix for touch devices
    */
-  $('a, button').bind ("touchstart mouseover", function(){
-    $(this).addClass("hover");
-  });
-  
-  $('a, button').bind ("touchend mouseout", function(){
-    $(this).removeClass("hover");
-  });
+  /* 
+ * jQuery-ähnliche Funktionen
+ */
+
+// Klassenfunktionen
+// Quelle: http://toddmotto.com/creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass/
+
+function hasClass(elem, className) {
+  if(elem === null) {return;}
+  return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+
+function addClass(elem, className) {
+  if(elem === null) {return;}
+  if (!hasClass(elem, className)) {
+    elem.className += ' ' + className;
+  }
+}
+
+function removeClass(elem, className) {
+  if(elem === null) {return;}
+  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+  if (hasClass(elem, className)) {
+    while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+      newClass = newClass.replace(' ' + className + ' ', ' ');
+    }
+    elem.className = newClass.replace(/^\s+|\s+$/g, '');
+  }
+}
+
+
+// Event-Handler Fuktion
+
+
+/*
+ * JavaScript für den Mouseover-Effekt
+ */
+
+function onHoverStart(ev) {
+  addClass(ev.target, 'hover');
+}
+
+function onHoverEnd(ev) {
+  removeClass(ev.target, 'hover');
+}
+
+var elements = document.querySelectorAll("a, button");
+for (var i = 0, ii = elements.length; i < ii; ++i) {
+  var element = elements[i];
+  element.ontouchstart = onHoverStart;
+  element.onmouseover = onHoverStart;
+
+  element.ontouchend = onHoverEnd;
+  element.onmouseout = onHoverEnd;
+}
 
   
 });
