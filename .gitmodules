@@ -19,3 +19,9 @@
 [submodule "vendors/pace"]
 	path = vendors/pace
 	url = https://github.com/HubSpot/pace
+[submodule "site/plugins/kirbycms-extension-code"]
+	path = site/plugins/kirbycms-extension-code
+	url = https://github.com/fanningert/kirbycms-extension-code
+[submodule "site/plugins/kirbycms-extension-webhelper"]
+	path = site/plugins/kirbycms-extension-webhelper
+	url = https://github.com/fanningert/kirbycms-extension-webhelper
