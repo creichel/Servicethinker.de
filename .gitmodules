@@ -16,9 +16,6 @@
 [submodule "site/plugins/footnotes"]
 	path = site/plugins/footnotes
 	url = https://github.com/distantnative/footnotes
-[submodule "vendors/pace"]
-	path = vendors/pace
-	url = https://github.com/HubSpot/pace
 [submodule "site/plugins/kirbycms-extension-code"]
 	path = site/plugins/kirbycms-extension-code
 	url = https://github.com/fanningert/kirbycms-extension-code
