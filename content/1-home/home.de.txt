@@ -27,3 +27,21 @@ Alttitle: Ich bin Chris.
 ----
 
 Accounts: Im Web
+
+----
+
+Text: 
+
+(columns...)
+
+#### Mensch und Computer
+Ich studiere (link: https://www.inf.uni-hamburg.de/studies/bachelor/mci/what-is-mci.html text: Mensch-Computer-Interaktion an der Universität Hamburg popup: yes). Aktuell baue ich auch Interaktionen und Prototypen bei (link: https://eparo.de text: eparo popup: yes). Nebenbei engagiere ich mich ehrenamtlich beim (link: http://www.kellertheater.de/ text: Kellertheater Hamburg popup: yes) und mache dort das Web- und Printdesign, sowie die Veranstaltungstechnik.
+
+++++
+
+#### Idea Angel
+Mir macht es viel Spaß, Ideen zu durchdenken und von Iteration zu Iteration zu verfeinern. 
+
+Du hast eine Idee? (email: ich-habe-eine-idee@servicethinker.de text: Lass uns gern' darüber reden!)
+
+(...columns)

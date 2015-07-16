@@ -2,11 +2,7 @@ Title: Hi!
 
 ----
 
-Text: You can find me on (link: https://twitter.com/_Mr_Spike_ text: Twitter popup: yes), (link: https://www.xing.com/profile/Christian_Reichel18 text: Xing popup: yes), (link: https://www.linkedin.com/profile/view?id=294044976 text: LinkedIn popup: yes), (link: http://de.slideshare.net/christianreichel text: slideshare popup: yes) and (link: https://github.com/servicethinker text: GitHub popup: yes).
-
-----
-
-Coverimage: dsc_8241.jpg
+Coverimage: 2015-06-02 09.50.13.jpg
 
 ----
 
@@ -27,3 +23,7 @@ Seodescription:
 ----
 
 Alttitle: I'm Chris.
+
+----
+
+Accounts: You can find me here
