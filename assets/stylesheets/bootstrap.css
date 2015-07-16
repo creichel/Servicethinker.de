@@ -3468,8 +3468,7 @@ body {
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center 30%;
-  text-align: center;
-  background-attachment: fixed; }
+  text-align: center; }
   @media screen and (max-width: 1200px) {
     .cover {
       padding-top: 40px; } }
