@@ -17,5 +17,3 @@ class DefaultPage extends Page {
   }
 
 }
-
-?>
