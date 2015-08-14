@@ -38,6 +38,7 @@ fields:
   tags:
     label: Tags
     type:  tags
+
   coverimage:
     label: Coverbild-Auswahl
     type: selector
@@ -46,6 +47,26 @@ fields:
     types:
       - image
     help: Dieses Coverbild wird beim Teilen der Seite auf Facebook angezeigt.
+  titlefont:
+    label: Titel Font
+    type: select
+    options:
+      beon: Beon
+      dancing-script: Dancing Script
+      fira-sans: Fira Sans
+      helvetia-verbundene: Helvetia Verbundene
+      kaushan-script: Kaushan Script
+      medio: Medio
+      ocra: OCRA
+      osifont: osifont
+      pressuru: Pressuru
+      raleway: Raleway
+      simple-print: Simple Print
+      tgl: TGL
+      unna: Unna
+      victors: Victor's Pixel Font
+    default: fira-sans
+    required: true
 
   articleContent:
     label: Article Content

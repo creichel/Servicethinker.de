@@ -5,8 +5,8 @@ $hasCover = false;
 
 $coverHeight = (isset($height) ? $height : '1');
 
-if ($coverImage = $page->cover()) {
-  $coversrc = thumb($coverImage, array('width' => 1700, 'upscale' => true, 'crop' => true), false);
+if ($cover = $page->cover()) {
+  $coversrc = thumb($cover, array('width' => 1700, 'upscale' => true, 'crop' => true), false);
   $hasCover = true;
 }
 
@@ -15,7 +15,7 @@ if ($coverImage = $page->cover()) {
 <div class="cover" <?php e($coversrc, 'style="background-image: url('.$coversrc.')"') ?>>
   <div class="content-wrap">
     <hr>
-    <h1><span><?php echo $page->longtitle()->html(); ?></span></h1>
+    <h1 <?php e($page->titlefont()->isNotEmpty(), 'class="'.$page->titlefont().'"'); ?>><span><?php echo $page->longtitle()->html(); ?></span></h1>
     <?php e($page->subline()->isNotEmpty(), '<span class="subline">'.$page->subline()->html().'</span>') ?>
   </div>
 </div>
