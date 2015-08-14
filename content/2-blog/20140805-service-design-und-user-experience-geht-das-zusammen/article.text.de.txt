@@ -51,3 +51,7 @@ Um die Frage im Titel noch zu beantworten: ja, es geht. Aber auch nur so weit, s
 ----
 
 Subline: 
+
+----
+
+Titlefont: kaushan-script
