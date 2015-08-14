@@ -20,11 +20,60 @@
 
   h1 {
     color: white;
-    text-shadow: 0 0 20px #000;
     font-size: 4.5rem;
     line-height: 1.4;
+    &.beon span{
+      font-family: "Beon";
+    }
+    &.dancing-script span{
+      font-family: "Dancing Script";
+    }
+    &.fira-sans span{
+      font-family: "Fira Sans";
+    }
+    &.helvetia-verbundene span{
+      font-family: "Helvetia Verbundene";
+    }
+    &.kaushan-script  span{
+      font-family: "Kaushan Script";
+    }
+    &.medio  span{
+      font-family: "Medio";
+    }
+    &.ocra  span{
+      font-family: "OCRA";
+    }
+    &.osifont  span{
+      font-family: "Osifont";
+    }
+    &.pressuru  span{
+      font-family: "Pressuru";
+    }
+    &.raleway  span{
+      font-family: "Raleway";
+    }
+    &.roboto-mono  span{
+      font-family: "Roboto Mono";
+    }
+    &.simple-print span{
+      font-family: "Simple Print";
+    }
+    &.tgl  span{
+      font-family: "TGL";
+    }
+    &.unna  span{
+      font-family: "Unna";
+    }
+    &.victors  span{
+      font-family: "Victors";
+    }
+
     @media screen and (max-width: $responsive-small) {
       font-size: 4rem;
+    }
+    span {
+      background: rgba(0,0,0,0.6);
+      padding: 3px 10px 3px 10px;
     }
   }
   .subline {
@@ -54,7 +103,6 @@ body:not(.with-children) .cover {
 
   h1 {
     color: $black;
-    text-shadow: none;
     margin: 0;
     padding: 0;
     span {
