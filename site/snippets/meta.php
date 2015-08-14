@@ -19,12 +19,8 @@ $additionalKeywords = "";
 if (!$page->seotags()->isEmpty()) $additionalKeywords = ",".$page->seotags();
 
 str_replace("\"", "\"", $description);
-
 if ($cover = $page->cover()) $pageImage = thumb($cover, array('width' => 1435, 'height' => 750 , 'upscale' => true, 'crop' => true), false);
 else $pageImage = site()->images()->find('logo.png')->url();
-
-$facebook = ($isStueckbeschreibung && !$page->facebook()->empty() ? $page->facebook() : $site->facebook());
-$video = ($isStueckbeschreibung && !$page->youtube()->empty() ? '<meta property="og:video" content="'.$page->youtube().'"/>' : "");
 
 ?>
 
@@ -58,7 +54,6 @@ $video = ($isStueckbeschreibung && !$page->youtube()->empty() ? '<meta property=
 <meta property="og:url" content="<?php echo $page->url() ?>"/>
 <meta property="og:description" content="<?php echo $description ?>"/>
 <meta property="og:image" content="<?php echo $pageImage ?>"/>
-<?php echo $video ?>
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="de_DE" />
 <meta property="og:email" content="<?php echo $site->email() ?>"/>
@@ -73,12 +68,10 @@ $video = ($isStueckbeschreibung && !$page->youtube()->empty() ? '<meta property=
 <meta property="og:country-name" content="<?php echo $site->land() ?>"/>
 
 <!-- Validation codes -->
-<meta property="fb:page_id" content="<?php echo $facebook ?>" />
-<link href="<?php echo $site->googleplus() ?>" rel="publisher" />
-<meta name="msvalidate.01" content="E3B4F98C5FE53C4F0A4D390A6982FF40" />
+
 
 <!-- Webapp capability -->
-<meta name="apple-mobile-web-app-title" content="Kellertheater">
+<meta name="apple-mobile-web-app-title" content="<?php echo $site->title() ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -113,3 +106,4 @@ $video = ($isStueckbeschreibung && !$page->youtube()->empty() ? '<meta property=
 <meta name="msapplication-TileColor" content="#fff">
 
 <!-- webmention plugin -->
+<link rel="webmention" href="<?php echo url('webmention') ?>">

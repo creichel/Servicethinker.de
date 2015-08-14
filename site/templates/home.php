@@ -14,7 +14,7 @@
     <ul>
       <?php foreach($site->accounts()->toStructure() as $account): ?>
       <li>
-        <a href="<?php echo $account->url() ?>" target="_blank" class="icon-<?php echo $account->name() ?>" title="<?php echo $account->name() ?>">
+        <a href="<?php echo $account->url() ?>" rel="me" target="_blank" class="icon-<?php echo $account->name() ?>" title="<?php echo $account->name() ?>">
         </a>
       </li>
       <?php endforeach ?>
