@@ -2085,6 +2085,91 @@ th {
   font-style: italic;
   font-weight: normal;
   src: url("../fonts/Merriweather/light/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather/light/italic/font.woff2") format("woff2"), url("../fonts/Merriweather/light/italic/font.woff") format("woff"), url("../fonts/Merriweather/light/italic/font.ttf") format("truetype"), url("../fonts/Merriweather/light/italic/font.svg#Merriweather") format("svg"); }
+@font-face {
+  font-family: Beon;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Beon/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Beon/regular/font.woff2") format("woff2"), url("../fonts/Beon/regular/font.woff") format("woff"), url("../fonts/Beon/regular/font.ttf") format("truetype"), url("../fonts/Beon/regular/font.svg#Beon") format("svg"); }
+@font-face {
+  font-family: Dancing Script;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Dancing_Script/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Dancing_Script/regular/font.woff2") format("woff2"), url("../fonts/Dancing_Script/regular/font.woff") format("woff"), url("../fonts/Dancing_Script/regular/font.ttf") format("truetype"), url("../fonts/Dancing_Script/regular/font.svg#Dancing Script") format("svg"); }
+@font-face {
+  font-family: Dancing Script;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Dancing_Script/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Dancing_Script/bold/font.woff2") format("woff2"), url("../fonts/Dancing_Script/bold/font.woff") format("woff"), url("../fonts/Dancing_Script/bold/font.ttf") format("truetype"), url("../fonts/Dancing_Script/bold/font.svg#Dancing Script") format("svg"); }
+@font-face {
+  font-family: Helvetia Verbundene;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Helvetia_Verbundene/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Helvetia_Verbundene/regular/font.woff2") format("woff2"), url("../fonts/Helvetia_Verbundene/regular/font.woff") format("woff"), url("../fonts/Helvetia_Verbundene/regular/font.ttf") format("truetype"), url("../fonts/Helvetia_Verbundene/regular/font.svg#Helvetia Verbundene") format("svg"); }
+@font-face {
+  font-family: Kaushan Script;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Kaushan_Script/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Kaushan_Script/regular/font.woff2") format("woff2"), url("../fonts/Kaushan_Script/regular/font.woff") format("woff"), url("../fonts/Kaushan_Script/regular/font.ttf") format("truetype"), url("../fonts/Kaushan_Script/regular/font.svg#Kaushan Script") format("svg"); }
+@font-face {
+  font-family: Medio;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Medio/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Medio/regular/font.woff2") format("woff2"), url("../fonts/Medio/regular/font.woff") format("woff"), url("../fonts/Medio/regular/font.ttf") format("truetype"), url("../fonts/Medio/regular/font.svg#Medio") format("svg"); }
+@font-face {
+  font-family: OCRA;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OCRA/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/OCRA/regular/font.woff2") format("woff2"), url("../fonts/OCRA/regular/font.woff") format("woff"), url("../fonts/OCRA/regular/font.ttf") format("truetype"), url("../fonts/OCRA/regular/font.svg#OCRA") format("svg"); }
+@font-face {
+  font-family: osifont;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Osifont/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Osifont/regular/font.woff2") format("woff2"), url("../fonts/Osifont/regular/font.woff") format("woff"), url("../fonts/Osifont/regular/font.ttf") format("truetype"), url("../fonts/Osifont/regular/font.svg#osifont") format("svg"); }
+@font-face {
+  font-family: Pressuru;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Pressuru/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Pressuru/regular/font.woff2") format("woff2"), url("../fonts/Pressuru/regular/font.woff") format("woff"), url("../fonts/Pressuru/regular/font.ttf") format("truetype"), url("../fonts/Pressuru/regular/font.svg#Pressuru") format("svg"); }
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/regular/font.woff2") format("woff2"), url("../fonts/Raleway/regular/font.woff") format("woff"), url("../fonts/Raleway/regular/font.ttf") format("truetype"), url("../fonts/Raleway/regular/font.svg#Raleway") format("svg"); }
+@font-face {
+  font-family: TGL;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/TGL/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/TGL/regular/font.woff2") format("woff2"), url("../fonts/TGL/regular/font.woff") format("woff"), url("../fonts/TGL/regular/font.ttf") format("truetype"), url("../fonts/TGL/regular/font.svg#TGL") format("svg"); }
+@font-face {
+  font-family: TGL;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/TGL/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/TGL/regular/italic/font.woff2") format("woff2"), url("../fonts/TGL/regular/italic/font.woff") format("woff"), url("../fonts/TGL/regular/italic/font.ttf") format("truetype"), url("../fonts/TGL/regular/italic/font.svg#TGL") format("svg"); }
+@font-face {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Unna/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Unna/regular/font.woff2") format("woff2"), url("../fonts/Unna/regular/font.woff") format("woff"), url("../fonts/Unna/regular/font.ttf") format("truetype"), url("../fonts/Unna/regular/font.svg#Unna") format("svg"); }
+@font-face {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Unna/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Unna/bold/font.woff2") format("woff2"), url("../fonts/Unna/bold/font.woff") format("woff"), url("../fonts/Unna/bold/font.ttf") format("truetype"), url("../fonts/Unna/bold/font.svg#Unna") format("svg"); }
+@font-face {
+  font-family: "Simple Print";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Simple_Print/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Simple_Print/regular/font.woff2") format("woff2"), url("../fonts/Simple_Print/regular/font.woff") format("woff"), url("../fonts/Simple_Print/regular/font.ttf") format("truetype"), url("../fonts/Simple_Print/regular/font.svg#Simple Print") format("svg"); }
+@font-face {
+  font-family: "Simple Print";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Simple_Print/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Simple_Print/bold/font.woff2") format("woff2"), url("../fonts/Simple_Print/bold/font.woff") format("woff"), url("../fonts/Simple_Print/bold/font.ttf") format("truetype"), url("../fonts/Simple_Print/bold/font.svg#Simple Print") format("svg"); }
+@font-face {
+  font-family: Victors;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Victors_Pixel_Font/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Victors_Pixel_Font/regular/font.woff2") format("woff2"), url("../fonts/Victors_Pixel_Font/regular/font.woff") format("woff"), url("../fonts/Victors_Pixel_Font/regular/font.ttf") format("truetype"), url("../fonts/Victors_Pixel_Font/regular/font.svg#Victors") format("svg"); }
 .clearfix:after {
   clear: both;
   content: ".";
@@ -3480,12 +3565,44 @@ body {
     display: none; }
   .cover h1 {
     color: white;
-    text-shadow: 0 0 20px #000;
     font-size: 4.5rem;
     line-height: 1.4; }
+    .cover h1.beon span {
+      font-family: "Beon"; }
+    .cover h1.dancing-script span {
+      font-family: "Dancing Script"; }
+    .cover h1.fira-sans span {
+      font-family: "Fira Sans"; }
+    .cover h1.helvetia-verbundene span {
+      font-family: "Helvetia Verbundene"; }
+    .cover h1.kaushan-script span {
+      font-family: "Kaushan Script"; }
+    .cover h1.medio span {
+      font-family: "Medio"; }
+    .cover h1.ocra span {
+      font-family: "OCRA"; }
+    .cover h1.osifont span {
+      font-family: "Osifont"; }
+    .cover h1.pressuru span {
+      font-family: "Pressuru"; }
+    .cover h1.raleway span {
+      font-family: "Raleway"; }
+    .cover h1.roboto-mono span {
+      font-family: "Roboto Mono"; }
+    .cover h1.simple-print span {
+      font-family: "Simple Print"; }
+    .cover h1.tgl span {
+      font-family: "TGL"; }
+    .cover h1.unna span {
+      font-family: "Unna"; }
+    .cover h1.victors span {
+      font-family: "Victors"; }
     @media screen and (max-width: 500px) {
       .cover h1 {
         font-size: 4rem; } }
+    .cover h1 span {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 3px 10px 3px 10px; }
   .cover .subline {
     font-size: 3rem;
     font-weight: normal;
@@ -3508,7 +3625,6 @@ body:not(.with-children) .cover {
         top: 50px; } }
   .no-cover .cover h1 {
     color: #3A4145;
-    text-shadow: none;
     margin: 0;
     padding: 0; }
     .no-cover .cover h1 span {
@@ -3626,9 +3742,9 @@ body:not(.with-children) .cover {
   padding-right: 20px;
   min-height: 45px;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
   #header a {
     text-decoration: none;
     line-height: 1;
@@ -3650,6 +3766,12 @@ body:not(.with-children) .cover {
     #header.on-top .banner svg path {
       fill: white;
       stroke: white; }
+  #header.hide-header {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%); }
   #header #mainnav-toggle {
     display: block;
     position: absolute;
