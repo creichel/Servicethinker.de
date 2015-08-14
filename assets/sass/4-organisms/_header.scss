@@ -12,7 +12,8 @@
   min-height: 45px;
   background: rgba(0,0,0,0.8);
 
-  @include transition(all 0.4s ease-in-out);
+  @include transition(all 0.3s ease-out);
+
   a {
     text-decoration: none;
     line-height: 1;
@@ -44,6 +45,10 @@
         stroke: white;
       }
     }
+  }
+
+  &.hide-header {
+    @include transform(translateY(-100%));
   }
 
   #mainnav-toggle {
