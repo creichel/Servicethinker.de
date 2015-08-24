@@ -12,6 +12,6 @@
 
 <?php snippet('analytics') ?>
 
-<?php echo css('vendors/highlight/styles/monokai_sublime.css'); ?>
 <?php echo js('vendors/highlight/highlight.pack.js'); ?>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>hljs.initHighlightingOnLoad();
+</script>

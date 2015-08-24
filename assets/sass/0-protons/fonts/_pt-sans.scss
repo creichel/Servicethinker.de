@@ -1,0 +1,4 @@
+@include font-face(PT Sans, '#{$font-path}/PT_Sans/regular/font', normal);
+@include font-face(PT Sans, '#{$font-path}/PT_Sans/regular/italic/font', normal,italic);
+@include font-face(PT Sans, '#{$font-path}/PT_Sans/bold/font', bold);
+@include font-face(PT Sans, '#{$font-path}/PT_Sans/bold/italic/font', bold,italic);

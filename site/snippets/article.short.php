@@ -3,8 +3,8 @@
     <?php
     if ($coverImage = $article->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 300, 'upscale' => true, 'crop' => true));
     ?>
-    <h3><?php echo html($article->title()) ?></h3>
-    <?php e($article->subline()->isNotEmpty(), '<span class="subline">'.$article->subline()->html().'</span>') ?>
+    <h2><?php echo html($article->title()) ?></h2>
+    <?php e($article->subline()->isNotEmpty(), $article->subline()->html()) ?>
   </header>
   <section>
     <?php echo $article->text()->kirbytext() ?>

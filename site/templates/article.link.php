@@ -14,7 +14,6 @@
         <a href="<?php echo $page->parent()->url().'/tag:' . urlencode($tag) ?>" class="tag"><?php echo $tag; ?></a>
       <?php endforeach ?>
       <?php endif ?>
-      <?php echo webmentions() ?>
     </footer>
     <?php snippet('disqus', array('disqus_shortname' => 'servicethinking')) ?>
   </article>

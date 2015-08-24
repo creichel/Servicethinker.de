@@ -2086,6 +2086,46 @@ th {
   font-weight: normal;
   src: url("../fonts/Merriweather/light/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather/light/italic/font.woff2") format("woff2"), url("../fonts/Merriweather/light/italic/font.woff") format("woff"), url("../fonts/Merriweather/light/italic/font.ttf") format("truetype"), url("../fonts/Merriweather/light/italic/font.svg#Merriweather") format("svg"); }
 @font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../fonts/Open_Sans/light/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/light/font.woff2") format("woff2"), url("../fonts/Open_Sans/light/font.woff") format("woff"), url("../fonts/Open_Sans/light/font.ttf") format("truetype"), url("../fonts/Open_Sans/light/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: lighter;
+  src: url("../fonts/Open_Sans/light/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/light/italic/font.woff2") format("woff2"), url("../fonts/Open_Sans/light/italic/font.woff") format("woff"), url("../fonts/Open_Sans/light/italic/font.ttf") format("truetype"), url("../fonts/Open_Sans/light/italic/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Open_Sans/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/bold/font.woff2") format("woff2"), url("../fonts/Open_Sans/bold/font.woff") format("woff"), url("../fonts/Open_Sans/bold/font.ttf") format("truetype"), url("../fonts/Open_Sans/bold/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Open_Sans/bold/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/bold/italic/font.woff2") format("woff2"), url("../fonts/Open_Sans/bold/italic/font.woff") format("woff"), url("../fonts/Open_Sans/bold/italic/font.ttf") format("truetype"), url("../fonts/Open_Sans/bold/italic/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Open_Sans/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/regular/font.woff2") format("woff2"), url("../fonts/Open_Sans/regular/font.woff") format("woff"), url("../fonts/Open_Sans/regular/font.ttf") format("truetype"), url("../fonts/Open_Sans/regular/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Open_Sans/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/regular/italic/font.woff2") format("woff2"), url("../fonts/Open_Sans/regular/italic/font.woff") format("woff"), url("../fonts/Open_Sans/regular/italic/font.ttf") format("truetype"), url("../fonts/Open_Sans/regular/italic/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Open_Sans/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/regular/font.woff2") format("woff2"), url("../fonts/Open_Sans/regular/font.woff") format("woff"), url("../fonts/Open_Sans/regular/font.ttf") format("truetype"), url("../fonts/Open_Sans/regular/font.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Open_Sans/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/regular/italic/font.woff2") format("woff2"), url("../fonts/Open_Sans/regular/italic/font.woff") format("woff"), url("../fonts/Open_Sans/regular/italic/font.ttf") format("truetype"), url("../fonts/Open_Sans/regular/italic/font.svg#Open Sans") format("svg"); }
+@font-face {
   font-family: Beon;
   font-style: normal;
   font-weight: normal;
@@ -2170,6 +2210,46 @@ th {
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/Victors_Pixel_Font/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Victors_Pixel_Font/regular/font.woff2") format("woff2"), url("../fonts/Victors_Pixel_Font/regular/font.woff") format("woff"), url("../fonts/Victors_Pixel_Font/regular/font.ttf") format("truetype"), url("../fonts/Victors_Pixel_Font/regular/font.svg#Victors") format("svg"); }
+@font-face {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PT_Sans_Caption/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans_Caption/regular/font.woff2") format("woff2"), url("../fonts/PT_Sans_Caption/regular/font.woff") format("woff"), url("../fonts/PT_Sans_Caption/regular/font.ttf") format("truetype"), url("../fonts/PT_Sans_Caption/regular/font.svg#PT Sans Caption") format("svg"); }
+@font-face {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/PT_Sans_Caption/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans_Caption/bold/font.woff2") format("woff2"), url("../fonts/PT_Sans_Caption/bold/font.woff") format("woff"), url("../fonts/PT_Sans_Caption/bold/font.ttf") format("truetype"), url("../fonts/PT_Sans_Caption/bold/font.svg#PT Sans Caption") format("svg"); }
+@font-face {
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PT_Sans_Narrow/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans_Narrow/regular/font.woff2") format("woff2"), url("../fonts/PT_Sans_Narrow/regular/font.woff") format("woff"), url("../fonts/PT_Sans_Narrow/regular/font.ttf") format("truetype"), url("../fonts/PT_Sans_Narrow/regular/font.svg#PT Sans Narrow") format("svg"); }
+@font-face {
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/PT_Sans_Narrow/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans_Narrow/bold/font.woff2") format("woff2"), url("../fonts/PT_Sans_Narrow/bold/font.woff") format("woff"), url("../fonts/PT_Sans_Narrow/bold/font.ttf") format("truetype"), url("../fonts/PT_Sans_Narrow/bold/font.svg#PT Sans Narrow") format("svg"); }
+@font-face {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PT_Sans/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/regular/font.woff2") format("woff2"), url("../fonts/PT_Sans/regular/font.woff") format("woff"), url("../fonts/PT_Sans/regular/font.ttf") format("truetype"), url("../fonts/PT_Sans/regular/font.svg#PT Sans") format("svg"); }
+@font-face {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/PT_Sans/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/regular/italic/font.woff2") format("woff2"), url("../fonts/PT_Sans/regular/italic/font.woff") format("woff"), url("../fonts/PT_Sans/regular/italic/font.ttf") format("truetype"), url("../fonts/PT_Sans/regular/italic/font.svg#PT Sans") format("svg"); }
+@font-face {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/PT_Sans/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/bold/font.woff2") format("woff2"), url("../fonts/PT_Sans/bold/font.woff") format("woff"), url("../fonts/PT_Sans/bold/font.ttf") format("truetype"), url("../fonts/PT_Sans/bold/font.svg#PT Sans") format("svg"); }
+@font-face {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/PT_Sans/bold/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/bold/italic/font.woff2") format("woff2"), url("../fonts/PT_Sans/bold/italic/font.woff") format("woff"), url("../fonts/PT_Sans/bold/italic/font.ttf") format("truetype"), url("../fonts/PT_Sans/bold/italic/font.svg#PT Sans") format("svg"); }
 .clearfix:after {
   clear: both;
   content: ".";
@@ -2203,33 +2283,33 @@ th {
 aside img {
   width: 100%; }
 
-blockquote, .Blockquote {
-  margin: 1.75em 0 1.75em -26px;
-  padding: 0 0 0 20px;
+blockquote, .blockquote, pre {
+  margin: 1.75em 0 1.75em -16px;
+  padding: 0 0 0 16px;
   display: block;
-  border-left: 6px #3A4145 solid;
+  border-left: 3px #3A4145 solid;
   color: #3A4145; }
-  blockquote p:first-child, blockquote p:last-child, .Blockquote p:first-child, .Blockquote p:last-child {
+  blockquote p:first-child, blockquote p:last-child, .blockquote p:first-child, pre p:first-child, .blockquote p:last-child, pre p:last-child {
     margin-top: 0;
     margin-bottom: 0; }
-  blockquote p, .Blockquote p {
+  blockquote p, .blockquote p, pre p {
     margin: 0.8em 0; }
-  blockquote p, blockquote q, .Blockquote p, .Blockquote q {
+  blockquote p, blockquote q, .blockquote p, pre p, .blockquote q, pre q {
     font-style: italic; }
-  blockquote footer, .Blockquote footer {
+  blockquote footer, .blockquote footer, pre footer {
     color: #828f96;
     display: block;
     position: relative;
     margin-top: 1rem; }
-    blockquote footer p, .Blockquote footer p {
+    blockquote footer p, .blockquote footer p, pre footer p {
       margin-left: 18px;
       margin-bottom: 0; }
-      blockquote footer p:before, .Blockquote footer p:before {
+      blockquote footer p:before, .blockquote footer p:before, pre footer p:before {
         content: "— ";
         position: absolute;
         margin-left: -18px; }
   @media only screen and (max-width: 780px) {
-    blockquote, .Blockquote {
+    blockquote, .blockquote, pre {
       margin-left: 0; } }
 
 body {
@@ -3263,6 +3343,9 @@ input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type
   color: #da4453;
   font-weight: bold; }
 
+main {
+  position: relative; }
+
 table {
   width: 100%; }
   table tr:not(:last-child) {
@@ -3282,43 +3365,43 @@ table {
   background-color: #f7f7f7; }
 
 html {
-  font-size: 51%;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-size: 45%;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 2em; }
 
 body {
   font-size: 1.9rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 2em; }
 
 h1 {
   font-size: 4rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 h2 {
-  font-size: 3.5rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-size: 3rem;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 h3 {
-  font-size: 3.1rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-size: 2.6rem;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 h4 {
-  font-size: 2.5rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-size: 2.2rem;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 h5 {
-  font-size: 2.2rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-size: 2rem;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 h6 {
   font-size: 1.8rem;
-  font-family: Fira Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
+  font-family: Open Sans, Helvetica, Trebuchet-MS, Arial, sans-serif;
   line-height: 1.15em; }
 
 body {
@@ -3334,7 +3417,8 @@ h4,
 h5,
 h6 {
   clear: both;
-  margin: 1em 0 0.4em 0; }
+  margin: 1em 0 0.4em 0;
+  position: relative; }
   h1:first-child,
   h2:first-child,
   h3:first-child,
@@ -3342,6 +3426,21 @@ h6 {
   h5:first-child,
   h6:first-child {
     margin-top: 0; }
+  h1 a[name], h1 a[id],
+  h2 a[name],
+  h2 a[id],
+  h3 a[name],
+  h3 a[id],
+  h4 a[name],
+  h4 a[id],
+  h5 a[name],
+  h5 a[id],
+  h6 a[name],
+  h6 a[id] {
+    color: #d5d9dc;
+    padding: 0 .3em;
+    position: absolute;
+    right: 100%; }
 
 h1 {
   text-indent: -3px; }
@@ -3381,7 +3480,8 @@ a {
     display: inline-block;
     text-decoration: none !important; }
   a.hover, a:focus, a:active {
-    color: #849F4A; }
+    color: #849F4A;
+    text-decoration: underline; }
 
 ul {
   padding-left: 15px; }
@@ -3396,14 +3496,83 @@ article p, article li, article td, article blockquote {
   font-family: "Merriweather", serif; }
 article p {
   margin: 0 0 1.75em 0; }
-article .footnotedivider {
-  border-top: 1px #f1f2f3 solid;
-  padding-top: 20px;
-  max-width: 300px; }
 
-code {
-  border-radius: 4px;
-  background: #f1f2f3; }
+code:not(.hljs) {
+  background: #f1f2f3;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  behavior: url(../javascript/PIE.htc);
+  padding: 3px 5px; }
+
+pre {
+  border-color: #d5d9dc; }
+
+/* Tomorrow Comment */
+.hljs-comment {
+  color: #8e908c; }
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #c82829; }
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #f5871f; }
+
+/* Tomorrow Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #eab700; }
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.hljs-name,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #718c00; }
+
+/* Tomorrow Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #3e999f; }
+
+/* Tomorrow Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #4271ae; }
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #8959a8; }
 
 .divider {
   padding-right: .45em;
@@ -3423,11 +3592,12 @@ figure {
       position: absolute;
       top: 0;
       width: 150px;
-      left: -170px;
+      left: 100%;
+      margin-left: 20px;
       border-top: 1px solid #d5d9dc;
       padding-top: 15px;
       border-bottom: none;
-      text-align: right; } }
+      text-align: left; } }
   figure.video {
     height: 0;
     padding-bottom: 40px;
@@ -3452,6 +3622,25 @@ figcaption {
   margin-bottom: 1.75em;
   padding-bottom: 1.75em;
   border-bottom: 1px solid #d5d9dc; }
+
+.footnote a {
+  background: #f1f2f3;
+  padding: 0 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  behavior: url(../javascript/PIE.htc); }
+  .footnote a:hover {
+    background: #849F4A;
+    border-color: #849F4A;
+    color: white !important;
+    text-decoration: none; }
+
+.footnotedivider {
+  border-top: 1px #d5d9dc solid;
+  padding-top: 20px;
+  max-width: 150px; }
 
 nav ul {
   list-style: none;
@@ -3528,7 +3717,7 @@ body {
 #page-wrap {
   height: 100%; }
 
-.tag {
+.tag, .footnotereverse a {
   border: 1px solid #A0BB61;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -3542,10 +3731,11 @@ body {
   margin: 2px;
   font-size: 90%;
   color: #A0BB61; }
-  .tag.hover {
+  .tag.hover, .footnotereverse a.hover {
     background: #849F4A;
     border-color: #849F4A;
-    color: white; }
+    color: white;
+    text-decoration: none !important; }
 
 .cover {
   -webkit-background-size: cover !important;
@@ -3566,7 +3756,7 @@ body {
   .cover h1 {
     color: white;
     font-size: 4.5rem;
-    line-height: 1.4; }
+    line-height: 1.6; }
     .cover h1.beon span {
       font-family: "Beon"; }
     .cover h1.dancing-script span {
@@ -3583,6 +3773,8 @@ body {
       font-family: "OCRA"; }
     .cover h1.osifont span {
       font-family: "Osifont"; }
+    .cover h1.pt-sans-caption span {
+      font-family: "PT Sans Caption"; }
     .cover h1.pressuru span {
       font-family: "Pressuru"; }
     .cover h1.raleway span {
@@ -3601,13 +3793,15 @@ body {
       .cover h1 {
         font-size: 4rem; } }
     .cover h1 span {
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.4);
       padding: 3px 10px 3px 10px; }
-  .cover .subline {
+  .cover .subline span {
     font-size: 3rem;
     font-weight: normal;
     color: white;
-    text-shadow: 0 0 20px #000; }
+    background: rgba(0, 0, 0, 0.4);
+    padding: 3px 10px 3px 10px;
+    line-height: 1.6; }
 
 body:not(.with-children) .cover {
   margin-bottom: 40px; }
@@ -3615,7 +3809,7 @@ body:not(.with-children) .cover {
 .no-cover .cover {
   margin-bottom: 0; }
   .no-cover .cover hr {
-    top: 50px;
+    top: 45px;
     position: relative;
     display: block;
     z-index: 1;
@@ -3632,9 +3826,9 @@ body:not(.with-children) .cover {
       position: relative;
       padding: 5px;
       z-index: 2; }
-  .no-cover .cover .subline {
+  .no-cover .cover .subline span {
     color: #3A4145;
-    text-shadow: none; }
+    background: none; }
   @media screen and (max-width: 500px) {
     .no-cover .cover h1 span {
       padding: 5px; } }
@@ -3892,9 +4086,11 @@ body:not(.with-children) .cover {
       left: 0;
       width: 100%;
       height: 100%; }
+  #article article h1, #article article h2, #article article h3, #article article h4, #article article h5, #article article h6 {
+    margin: 2em 0 1em 0; }
 #article .post-meta {
   color: #828f96;
-  font-family: "Fira Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
   font-size: 90%; }
 #article #disqus_thread {
   margin-bottom: 40px;
@@ -3935,7 +4131,7 @@ body:not(.with-children) .cover {
     display: block; }
   #blog article .post-meta {
     color: #828f96;
-    font-family: "Fira Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
     font-size: 90%; }
 
 #home .cover {
@@ -3944,8 +4140,6 @@ body:not(.with-children) .cover {
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center 30%; }
-  #home .cover h1 {
-    text-shadow: 0 0 20px #000; }
 #home #accounts {
   text-align: center;
   -webkit-border-radius: 5px;

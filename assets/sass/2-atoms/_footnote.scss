@@ -1,0 +1,25 @@
+.footnote a {
+	background: $grey-100;
+	//border: 1px solid $grey-300;
+	padding: 0 4px;
+	//display: inline-block;
+	@include border-radius(10px);
+	&:hover {
+    
+    background: $link-color-hover;
+    border-color: $link-color-hover;
+    color: white !important;
+    text-decoration: none;
+
+  }
+}
+
+.footnotedivider {
+  border-top: 1px $grey-300 solid;
+  padding-top: $grid-padding/2;
+  max-width: 150px;
+}
+
+.footnotereverse a {
+	@extend .tag;
+}

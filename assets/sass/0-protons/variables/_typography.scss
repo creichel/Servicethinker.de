@@ -1,5 +1,5 @@
 // The different font families
-$body-font-family:    "Fira Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
+$body-font-family:    "Open Sans", "Helvetica", "Trebuchet-MS", "Arial", sans-serif;
 $text-font-family:   "Merriweather", serif;
 
 // Standard line height
@@ -9,12 +9,12 @@ $headline-height: 1.15em;
 // Class-names, sizes and font family variables
 $typo-settings: (
 //Name              Size        Font-family            line-height
-  html              51%       $body-font-family      $line-height,
+  html              45%       $body-font-family      $line-height,
   body              1.9rem      $body-font-family      $line-height,
   h1                4rem        $body-font-family   $headline-height,
-  h2                3.5rem      $body-font-family   $headline-height,
-  h3                3.1rem      $body-font-family   $headline-height,
-  h4                2.5rem      $body-font-family   $headline-height,
-  h5                2.2rem      $body-font-family   $headline-height,
+  h2                3rem      $body-font-family   $headline-height,
+  h3                2.6rem      $body-font-family   $headline-height,
+  h4                2.2rem      $body-font-family   $headline-height,
+  h5                2rem      $body-font-family   $headline-height,
   h6                1.8rem      $body-font-family   $headline-height,
 );

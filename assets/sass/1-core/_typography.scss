@@ -29,17 +29,25 @@ h5,
 h6 {
   clear: both;
   margin: 1em 0 0.4em 0;
+  position: relative;
   // font-weight: lighter;
   // text-transform: uppercase;
 
   &:first-child{
     margin-top: 0;
   }
+
+  a[name], a[id] {
+    color: $grey-300;
+    padding: 0 .3em;
+    position: absolute;
+    right: 100%;
+  }
 }
 
 h1 {
   //letter-spacing: -2px;
-text-indent: -3px;
+  text-indent: -3px;
 }
 
 h2 {
@@ -94,6 +102,7 @@ a {
   &:active {
     //color: lighten($link-color, 10%);
     color: $link-color-hover;
+    text-decoration: underline;
   }
 
 }

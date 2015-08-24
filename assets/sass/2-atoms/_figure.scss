@@ -12,13 +12,14 @@ figure {
       position: absolute;
       top: 0;
       width: 150px;
-      left: -150 - $grid-padding/2;
+      left: 100%;
+      margin-left: $grid-padding/2;
       border-top: 1px solid $grey-300;
       padding-top: 15px;
 
       border-bottom: none;
 
-      text-align: right;
+      text-align: left;
     }
   }
 

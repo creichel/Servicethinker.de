@@ -21,7 +21,7 @@
   h1 {
     color: white;
     font-size: 4.5rem;
-    line-height: 1.4;
+    line-height: 1.6;
     &.beon span{
       font-family: "Beon";
     }
@@ -45,6 +45,9 @@
     }
     &.osifont  span{
       font-family: "Osifont";
+    }
+    &.pt-sans-caption  span{
+      font-family: "PT Sans Caption";
     }
     &.pressuru  span{
       font-family: "Pressuru";
@@ -72,15 +75,17 @@
       font-size: 4rem;
     }
     span {
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.4);
       padding: 3px 10px 3px 10px;
     }
   }
-  .subline {
+  .subline span {
     font-size: 3rem;
     font-weight: normal;
     color: white;
-    text-shadow: 0 0 20px #000;
+    background: rgba(0,0,0,0.4);
+    padding: 3px 10px 3px 10px;
+    line-height: 1.6;
   }
 }
 
@@ -91,7 +96,7 @@ body:not(.with-children) .cover {
 .no-cover .cover {
   margin-bottom: 0;
   hr {
-    top: 50px;
+    top: 45px;
     position: relative;
     display: block;
     z-index: 1;
@@ -112,9 +117,9 @@ body:not(.with-children) .cover {
       z-index: 2;
     }
   }
-  .subline {
+  .subline span {
     color: $black;
-    text-shadow: none;
+    background: none;
   }
   @media screen and (max-width: $responsive-small) {
 

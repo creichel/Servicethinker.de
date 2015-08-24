@@ -58,6 +58,7 @@ fields:
       kaushan-script: Kaushan Script
       medio: Medio
       ocra: OCRA
+      open-sans: Open Sans
       osifont: osifont
       pressuru: Pressuru
       raleway: Raleway

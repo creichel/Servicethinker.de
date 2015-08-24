@@ -16,7 +16,7 @@ if ($cover = $page->cover()) {
   <div class="content-wrap">
     <hr>
     <h1 <?php e($page->titlefont()->isNotEmpty(), 'class="'.$page->titlefont().'"'); ?>><span><?php echo $page->longtitle()->html(); ?></span></h1>
-    <?php e($page->subline()->isNotEmpty(), '<span class="subline">'.$page->subline()->html().'</span>') ?>
+    <?php e($page->subline()->isNotEmpty(), '<div class="subline"><span>'.$page->subline()->html().'</span></div>') ?>
   </div>
 </div>
 <?php e($coversrc, '
