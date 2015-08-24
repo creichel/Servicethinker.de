@@ -28,6 +28,3 @@
 [submodule "panel"]
 	path = panel
 	url = https://github.com/getkirby/panel.git
-[submodule "site/plugins/webmentions"]
-	path = site/plugins/webmentions
-	url = https://github.com/bastianallgeier/kirby-webmentions
