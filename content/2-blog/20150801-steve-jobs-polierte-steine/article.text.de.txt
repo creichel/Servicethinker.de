@@ -1,0 +1,51 @@
+Title: Steve Jobs: Polierte Steine
+
+----
+
+Pubdate: 2015-08-01
+
+----
+
+Subline: Wenn unbequemes auf den Tisch muss
+
+----
+
+Description: 
+
+----
+
+Tags: Teamwork,Prinzipien
+
+----
+
+Coverimage: jobs.jpg
+
+----
+
+Text: 
+
+Neue gute Produkte und Services entstehen aus guten Ideen. Sie gedeihen durch eine gute Zusammenarbeit auf Augenhöhe. Das heißt aber auch, dass man unschöne oder unbequeme Meinungen und Wahrheiten aussprechen muss. Doch bringt es etwas, unbequemes auszusprechen und damit die potentiell motivierte Arbeit im Team zu gefährden?
+
+Im Interview *The Lost Interview*[1. Paul Sen: *Steve Jobs: The Lost Interview*, 2012, Minute 32:23. (link: http://www.imdb.com/title/tt2104994/ text: zum Eintrag auf IMDB. popup: yes)]  fragte Robert X. Cringely Steve Jobs, was seiner Meinung nach wichtig bei der Entwicklung eines Produktes ist. Nach einer langen Überlegung erzählte Steve ihm seine Metapher über polierte Steine:
+
+# Die Metapher über polierte Steine
+> Eines hat Apple sehr geschadet. Nach meinem Wegkam bekam John Sculley eine schwere Krankheit - die habe ich auch schon bei anderen gesehen. Es ist die Krankheit, eine richtig gute Idee sei schon 90% der Arbeit. Und wenn man allen anderen sagt: "hier ist eine tolle Idee", dann werden sie sie schon umsetzen.
+>
+>Das Problem dabei ist, es erfordert unglaubliches Geschick eine große Idee in ein großes Produkt zu verwandeln. Entwickelt man diese große Idee weiter, verändert sie sich und wächst. Sie bleibt nie so wie sie war, weil man dazu lernt, wenn man ins Detail geht. Man muss riesige Kompromisse eingehen. Manche Dinge kann man nicht mit Elektronen machen, nicht mit Plastik oder Glas, nicht mit Fabriken oder Robotern. 
+>
+>Ein Produkt zu entwickeln, heißt, 5000 Dinge im Kopf zu behalten - oder: Konzepte - und sie zusammen zu fügen. Immer wieder neu zusammen zu fügen, um das zu bekommen, was man will. Und jeden Tag entdeckt man etwas neues: ein Problem oder eine Chance, die Dinge etwas anders zusammen zu fügen. 
+>
+>Und dieser Prozess ist das Magische.
+>
+>Als wir anfingen [mit dem Mac], hatten wir viele tolle Ideen. Aber für mich ist eine Gruppe die, die an das glaubt, was sie tut. Als ich klein war, lebte ein Witwer am Ende der Straße. Er war über 80; sah ein wenig furchterregend aus. Ich lernte ihn kennen, habe - glaube ich - bei ihm den Rasen gemäht oder so. 
+>
+>Eines Tages sagte er: "komm' in meine Garage; ich zeig' dir was". Er holte eine rostige, alte Schleiftrommel heraus. Sie bestand aus einem Motor, einer Kaffeebüchse und einem Riehmen. Dann holten wir Steine hinter dem Haus - hässliche Steine. Wir steckten sie in die Büchse mit ein wenig Flüssigkeit und Schleifpulver und machten die Büchse zu. Er warf den Motor an und sagte: "komm' morgen wieder".
+>
+>Die Büchse, in der sich die Steine drehten, machte einen irren Krach. 
+>
+>Am nächsten Tag war ich wieder da. Wir machten die Büchse auf und heraus fielen wunderschöne, polierte Steine. Aus den gewöhnlichen Steinen waren durch das aneinanderreiben mit ein bisschen Kraft schöne polierte Steine geworden. 
+>
+>Und das ist mir im Kopf geblieben als Metapher für ein Team, das hart an etwas arbeitet, wofür es brennt. Eine Gruppe von talentierten Leuten,  die sich aneinanderreiben, sich manchmal streiten, Krach machen und sich und ihre Ideen gegenseitig abschleifen. Und heraus kommen diese wunderschönen polierten Steine.
+> (citeauthor: Steve Jobs: "The Lost interview", 1995)
+
+Jeder bringt seine Profession, seine Erfahrung und sein Herzblut mit in das Projekt ein. Und jeder ergänzt den sichtbaren Horizont des Teams mit seiner eigenen Blickrichtung. Aber Außeinandersetzungen sollten konstruktiv mit Argumenten und Belegen geführt werden – auf Augenhöhe. Es bringt nichts, Angst davor zu haben, mit seinem eigenen Beitrag die Stimmung im Team zu vermiesen oder sich vielleicht bloßzustellen. Im Gegenteil: die eigenen, vielleicht entscheidenden Fragen bleiben unbeantwortet und führen am Ende zum Phänomen *Groupthink*[2. Jay Shafritz, J. Ott, Yong Jang: *Classics of Organization Theory*, 2015, S. 161. (link: http://bit.ly/1M3erNv text: Link zu Google Books popup: yes)]. Und damit alles andere als zum Erfolg.

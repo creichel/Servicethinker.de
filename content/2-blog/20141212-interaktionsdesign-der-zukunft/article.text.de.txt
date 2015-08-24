@@ -10,7 +10,7 @@ Description:
 
 ----
 
-Tags: Interaktionsdesign,Ubiquitous Computing,Kontextadaption
+Tags: Interaktionsdesign,Service Design,Ubiquitous Computing,Kontextadaption
 
 ----
 
@@ -58,7 +58,7 @@ Google Now ist für diese Kategorie das wohl beste Beispiel: Basierend auf diver
 
 Ein ähnliches Beispiel - ebenfalls mit der Zusammenarbeit mit Google - ist das <a href="http://youtu.be/yqADdvYbhL0" title="The Future of Travel - Tourism Radio and Google Glass - auf Youtube" target="_blank">Tourism Radio in Verbindung mit Google Glass</a>. Die Vision zeigt, wie man basierend auf den Standort des Nutzers passende Touristeninformationen ausgeben lassen kann. 
 
-<a href="http://www.servicethinking.de/101/" title="Service und iBeacons" target="_blank">iBeacon</a> und NFC sorgen für das nächste Beispiel: nicht nur Indoor-Navigation lässt sich mit den beiden Technologien umsetzen, sondern auch eine Steuerung der Informationsanzeige in einer App. Sobald ein Nutzer beispielsweise vor einem Ausstellungsstück in einem Museum steht und er die App des Museums benutzt, kann er so direkt Informationen zum Ausstellungsstück erhalten. Wer einen Gamification-Ansatz verfolgt, kann so auch eine Schnipseljagd via iBeacons umsetzen [4. <a href="http://devstreaming.apple.com/videos/wwdc/2014/708xxvfd08bdof2/708/708_taking_core_location_indoors.pdf" title="Apple - WWDC - Taking Core Location Indoors" target="_blank">Apple Inc.: *Taking Core Location Indoors*</a>, WWDC (2014)].
+<a href="http://www.servicethinking.de/101/" title="Service und iBeacons" target="_blank">iBeacon</a> und NFC sorgen für das nächste Beispiel: nicht nur Indoor-Navigation lässt sich mit den beiden Technologien umsetzen, sondern auch eine Steuerung der Informationsanzeige in einer App. Sobald ein Nutzer beispielsweise vor einem Ausstellungsstück in einem Museum steht und er die App des Museums benutzt, kann er so direkt Informationen zum Ausstellungsstück erhalten. Wer einen Gamification-Ansatz verfolgt, kann so auch eine Schnipseljagd via iBeacons umsetzen [4. Apple, Inc.: <a href="http://devstreaming.apple.com/videos/wwdc/2014/708xxvfd08bdof2/708/708_taking_core_location_indoors.pdf" title="Apple - WWDC - Taking Core Location Indoors" target="_blank">*Taking Core Location Indoors*</a>, WWDC (2014)].
 
 ## Zusammenfassung
 Die Anpassung des Inhaltes kann man in zwei Bereiche unterteilen:

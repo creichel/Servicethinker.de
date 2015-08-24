@@ -1,0 +1,29 @@
+Title: Webmentions
+
+----
+
+Pubdate: 2015-08-14
+
+----
+
+Subline: 
+
+----
+
+Description: 
+
+----
+
+Tags: Test
+
+----
+
+Coverimage: 
+
+----
+
+Titlefont: helvetia-verbundene
+
+----
+
+Text: Das ist ein kleiner Test, um zu sehen, ob die Webmentions funktionieren. Die Idee habe ich von (link: http://bastianallgeier.com/notes/webmentions text: hier popup: yes) geklaut :-)

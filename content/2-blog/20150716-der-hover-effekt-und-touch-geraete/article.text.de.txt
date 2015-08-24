@@ -134,7 +134,3 @@ In JavaScript müssen die Events jedem einzelnen HTML-Element zugewiesen werden.
 Man sollte in jedem Falle gut abwägen, ob man jQuery oder JavaScript als Skriptsprachen für die Entwicklung nutzt. jQuery ist sicherlich einfacher zu verstehen, benötigt allerdings eine über 80kb große Code-Bibliothek, die ebenfalls von den mobilen Geräten bei jeglicher Verbindungsqualität geladen und interpretiert werden muss. 
 
 Ich nutze gerne jQuery fürs Prototyping von Interaktionsideen. So kann ich sie schnell überprüfen und bereits wichtige Parameter für die Logik überprüfen. Am Ende wird idealerweise der jQuery-Code dann in reines JavaScript[4. Entwickler bezeichnen reines JavaScript auch scherzweise als (link: http://vanilla-js.com text: VanillaJS popup: yes)] umgesetzt. Nur so kann ich eine optimale Performanz meines Codes garantieren.
-
-----
-
-Titlefont: fira-sans

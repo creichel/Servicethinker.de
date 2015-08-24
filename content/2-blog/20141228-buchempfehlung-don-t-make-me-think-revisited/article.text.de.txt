@@ -31,9 +31,13 @@ Das Ziel ist es, eine Webseite so zu gestalten, sodass der Nutzer ohne bewusster
 
 In seinem Buch beschreibt Steve Krug ebenfalls den Unterschied zwischen quantitativen Analysen (beispielsweise durch Google Analytics, A/B-Tests oder Conversion Rates) und den qualitativen Analysen durch Usability Tests:
 
-> *“Das Ziel ist nicht, etwas zu beweisen. Um etwas zu beweisen, sind quantitative Methoden mit einer großen Anzahl an Stichproben, ein klar-definiertes und streng-befolgtes Testprotokoll und eine große Menge an Datenerhebungen und Analysen notwendig.“*
+> *"Das Ziel ist nicht, etwas zu beweisen. Um etwas zu beweisen, sind quantitative Methoden mit einer großen Anzahl an Stichproben, ein klar-definiertes und streng-befolgtes Testprotokoll und eine große Menge an Datenerhebungen und Analysen notwendig."*
 > (citeauthor: Steve Krug [1. Steve Krug: *Don't Make Me Think, Revisited: A Common Sense Approach to Web and Mobile Usability*], frei übersetzt)
 
 Usability Tests sind qualitative Methoden und nicht dazu da, etwas zu beweisen, sondern um Probleme aufzuzeigen. Anders als bei quantitativen Methoden geht es bei Usability Tests auch darum, vom Nutzer zu lernen, weswegen leichte Abweichungen vom Testleitfaden erlaubt und bei neuen Kenntnissen während des Tests auch erwünscht sind.
 
 Steve Krug bringt genau das mit einfachen Worten auf den Punkt und gibt weitere nützliche und wichtige Tipps und Prinzipien mit auf dem Weg. Das Buch ist wunderbar für Gelegenheitsgestalter, Webdesigner, App-Entwickler und sogar für User Experience Experten oder Interaktionsdesigner geeignet und daher meine absolute Empfehlung!
+
+----
+
+Subline: 
