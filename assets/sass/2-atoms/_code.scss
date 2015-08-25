@@ -1,8 +1,15 @@
-code:not(.hljs) {
-	background: $grey-100;
-	@include border-radius(3px);
-	padding: 3px 5px;
+code {
+
+  font-family: "Hack", monospace;
+
+  &:not(.hljs) {
+  	background: $grey-100;
+  	@include border-radius(3px);
+  	padding: 3px 5px;
+  }
 }
+
+
 
 pre {
 

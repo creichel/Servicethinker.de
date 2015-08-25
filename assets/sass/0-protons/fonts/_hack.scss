@@ -1,0 +1,4 @@
+@include font-face(Hack, '#{$font-path}/Hack_Latin/regular/font', normal);
+@include font-face(Hack, '#{$font-path}/Hack_Latin/regular/italic/font', normal,italic);
+@include font-face(Hack, '#{$font-path}/Hack_Latin/bold/font', bold);
+@include font-face(Hack, '#{$font-path}/Hack_Latin/bold/italic/font', bold,italic);

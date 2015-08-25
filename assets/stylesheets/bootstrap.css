@@ -2156,6 +2156,26 @@ th {
   font-weight: normal;
   src: url("../fonts/Medio/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Medio/regular/font.woff2") format("woff2"), url("../fonts/Medio/regular/font.woff") format("woff"), url("../fonts/Medio/regular/font.ttf") format("truetype"), url("../fonts/Medio/regular/font.svg#Medio") format("svg"); }
 @font-face {
+  font-family: Hack;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Hack_Latin/regular/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Hack_Latin/regular/font.woff2") format("woff2"), url("../fonts/Hack_Latin/regular/font.woff") format("woff"), url("../fonts/Hack_Latin/regular/font.ttf") format("truetype"), url("../fonts/Hack_Latin/regular/font.svg#Hack") format("svg"); }
+@font-face {
+  font-family: Hack;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Hack_Latin/regular/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Hack_Latin/regular/italic/font.woff2") format("woff2"), url("../fonts/Hack_Latin/regular/italic/font.woff") format("woff"), url("../fonts/Hack_Latin/regular/italic/font.ttf") format("truetype"), url("../fonts/Hack_Latin/regular/italic/font.svg#Hack") format("svg"); }
+@font-face {
+  font-family: Hack;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Hack_Latin/bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Hack_Latin/bold/font.woff2") format("woff2"), url("../fonts/Hack_Latin/bold/font.woff") format("woff"), url("../fonts/Hack_Latin/bold/font.ttf") format("truetype"), url("../fonts/Hack_Latin/bold/font.svg#Hack") format("svg"); }
+@font-face {
+  font-family: Hack;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Hack_Latin/bold/italic/font.eot?#iefix") format("embedded-opentype"), url("../fonts/Hack_Latin/bold/italic/font.woff2") format("woff2"), url("../fonts/Hack_Latin/bold/italic/font.woff") format("woff"), url("../fonts/Hack_Latin/bold/italic/font.ttf") format("truetype"), url("../fonts/Hack_Latin/bold/italic/font.svg#Hack") format("svg"); }
+@font-face {
   font-family: OCRA;
   font-style: normal;
   font-weight: normal;
@@ -3497,14 +3517,16 @@ article p, article li, article td, article blockquote {
 article p {
   margin: 0 0 1.75em 0; }
 
-code:not(.hljs) {
-  background: #f1f2f3;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-  behavior: url(../javascript/PIE.htc);
-  padding: 3px 5px; }
+code {
+  font-family: "Hack", monospace; }
+  code:not(.hljs) {
+    background: #f1f2f3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    behavior: url(../javascript/PIE.htc);
+    padding: 3px 5px; }
 
 pre {
   border-color: #d5d9dc; }
