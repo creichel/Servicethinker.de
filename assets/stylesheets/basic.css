@@ -2534,6 +2534,85 @@ input[type=button], input[type=submit], button, .button {
         background: #d5d9dc;
         color: white; }
 
+code {
+  font-family: "Hack", monospace; }
+  code:not(.hljs) {
+    background: #f1f2f3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    behavior: url(../javascript/PIE.htc);
+    padding: 3px 5px; }
+
+pre {
+  border-color: #d5d9dc; }
+
+/* Tomorrow Comment */
+.hljs-comment {
+  color: #8e908c; }
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #c82829; }
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #f5871f; }
+
+/* Tomorrow Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #eab700; }
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.hljs-name,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #718c00; }
+
+/* Tomorrow Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #3e999f; }
+
+/* Tomorrow Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #4271ae; }
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #8959a8; }
+
 .form-group {
   margin-bottom: 15px; }
 
@@ -3366,6 +3445,51 @@ input:not([type='button']):not([type='submit']):not([type='checkbox']):not([type
 main {
   position: relative; }
 
+.pagination {
+  padding-bottom: 20px;
+  padding-left: 10; }
+  .pagination:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden; }
+  .pagination ul {
+    list-style: none;
+    text-align: center; }
+  .pagination li {
+    *zoom: 1;
+    *display: inline;
+    display: inline-block;
+    float: none; }
+  .pagination .previous:before {
+    content: "\f104";
+    text-decoration: none !important; }
+  .pagination .next:after {
+    content: "\f105";
+    text-decoration: none !important;
+    margin-left: 10px !important; }
+  .pagination li:first-child:not(:last-child) a, .pagination li:first-child:not(:last-child) span {
+    -webkit-border-bottom-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    -webkit-border-top-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-clip: padding-box;
+    behavior: url(../javascript/PIE.htc); }
+  .pagination li:last-child:not(:first-child) a, .pagination li:last-child:not(:first-child) span {
+    -webkit-border-bottom-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    -webkit-border-top-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    background-clip: padding-box;
+    behavior: url(../javascript/PIE.htc); }
+  .pagination li:not(:last-child):not(:first-child) a, .pagination li:not(:last-child):not(:first-child) span {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    behavior: url(../javascript/PIE.htc); }
+
 table {
   width: 100%; }
   table tr:not(:last-child) {
@@ -3517,85 +3641,6 @@ article p, article li, article td, article blockquote {
 article p {
   margin: 0 0 1.75em 0; }
 
-code {
-  font-family: "Hack", monospace; }
-  code:not(.hljs) {
-    background: #f1f2f3;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    background-clip: padding-box;
-    /* stops bg color from leaking outside the border: */
-    behavior: url(../javascript/PIE.htc);
-    padding: 3px 5px; }
-
-pre {
-  border-color: #d5d9dc; }
-
-/* Tomorrow Comment */
-.hljs-comment {
-  color: #8e908c; }
-
-/* Tomorrow Red */
-.hljs-variable,
-.hljs-attribute,
-.hljs-tag,
-.hljs-regexp,
-.ruby .hljs-constant,
-.xml .hljs-tag .hljs-title,
-.xml .hljs-pi,
-.xml .hljs-doctype,
-.html .hljs-doctype,
-.css .hljs-id,
-.css .hljs-class,
-.css .hljs-pseudo {
-  color: #c82829; }
-
-/* Tomorrow Orange */
-.hljs-number,
-.hljs-preprocessor,
-.hljs-pragma,
-.hljs-built_in,
-.hljs-literal,
-.hljs-params,
-.hljs-constant {
-  color: #f5871f; }
-
-/* Tomorrow Yellow */
-.ruby .hljs-class .hljs-title,
-.css .hljs-rule .hljs-attribute {
-  color: #eab700; }
-
-/* Tomorrow Green */
-.hljs-string,
-.hljs-value,
-.hljs-inheritance,
-.hljs-header,
-.hljs-name,
-.ruby .hljs-symbol,
-.xml .hljs-cdata {
-  color: #718c00; }
-
-/* Tomorrow Aqua */
-.hljs-title,
-.css .hljs-hexcolor {
-  color: #3e999f; }
-
-/* Tomorrow Blue */
-.hljs-function,
-.python .hljs-decorator,
-.python .hljs-title,
-.ruby .hljs-function .hljs-title,
-.ruby .hljs-title .hljs-keyword,
-.perl .hljs-sub,
-.javascript .hljs-title,
-.coffeescript .hljs-title {
-  color: #4271ae; }
-
-/* Tomorrow Purple */
-.hljs-keyword,
-.javascript .hljs-function {
-  color: #8959a8; }
-
 .divider {
   padding-right: .45em;
   padding-left: .45em;
@@ -3678,51 +3723,6 @@ nav ul {
     line-height: 1;
     float: left;
     margin: 0; }
-
-.pagination {
-  padding-bottom: 20px;
-  padding-left: 10; }
-  .pagination:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden; }
-  .pagination ul {
-    list-style: none;
-    text-align: center; }
-  .pagination li {
-    *zoom: 1;
-    *display: inline;
-    display: inline-block;
-    float: none; }
-  .pagination .previous:before {
-    content: "\f104";
-    text-decoration: none !important; }
-  .pagination .next:after {
-    content: "\f105";
-    text-decoration: none !important;
-    margin-left: 10px !important; }
-  .pagination li:first-child:not(:last-child) a, .pagination li:first-child:not(:last-child) span {
-    -webkit-border-bottom-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    -webkit-border-top-right-radius: 0 !important;
-    border-top-right-radius: 0 !important;
-    background-clip: padding-box;
-    behavior: url(../javascript/PIE.htc); }
-  .pagination li:last-child:not(:first-child) a, .pagination li:last-child:not(:first-child) span {
-    -webkit-border-bottom-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    -webkit-border-top-left-radius: 0 !important;
-    border-top-left-radius: 0 !important;
-    background-clip: padding-box;
-    behavior: url(../javascript/PIE.htc); }
-  .pagination li:not(:last-child):not(:first-child) a, .pagination li:not(:last-child):not(:first-child) span {
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
-    background-clip: padding-box;
-    /* stops bg color from leaking outside the border: */
-    behavior: url(../javascript/PIE.htc); }
 
 html, body {
   height: 100%;

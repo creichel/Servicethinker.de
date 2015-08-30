@@ -1,4 +1,4 @@
-<?php echo css('assets/stylesheets/bootstrap.css') ?>
+<?php echo css('assets/stylesheets/basic.css') ?>
 
 <?php echo js('vendors/jquery/jquery-1.min.js') ?>
 <?php echo js('assets/scripts/main.jquery.min.js') ?>
