@@ -1,5 +1,7 @@
 <?php
-  $page = page('articles');
+  $page = page('blog');
+
+  $heading = isset($heading) ? $heading : true;
 ?>
 <section>
 
@@ -7,7 +9,7 @@
 
     if(param('tag')) {
       $tag = urldecode(param('tag'));
-      $articles =  page('articles')->children()
+      $articles =  $page->children()
                         ->visible()
                         ->filterBy('tags', $tag, ',')
                         ->flip();
@@ -20,12 +22,12 @@
     }
 
     else {// show latest articles
-      echo '<h1>'.$page->title().'</h1>'; ?>
+      if ($heading) echo '<h1>'.$page->title().'</h1>'; ?>
       <main>
         <?php echo $page->text()->kirbytext() ?>
       </main>
       <?php
-      $articles = page('articles')->children()->visible()->flip();
+      $articles = $page->children()->visible()->flip();
 
       foreach($articles as $article) { // article overview
         if($article->template() == 'article') { // text posts

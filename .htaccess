@@ -1,29 +1,19 @@
-# Kirby .htaccess
-
 # rewrite rules
 <IfModule mod_rewrite.c>
-
-# enable awesome urls. i.e.:
-# http://yourdomain.com/about-us/team
 RewriteEngine on
 
-# make sure to set the RewriteBase correctly
-# if you are running the site in a subfolder.
-# Otherwise links or the entire site will break.
-#
-# If your homepage is http://yourdomain.com/mysite
-# Set the RewriteBase to:
-#
-# RewriteBase /mysite
+# Bad Bots
 
-# block text files in the content folder from being accessed directly
-RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (8484\ boston\ project|^fetch|^pixray|acoon-robot|addsugarspiderbot|adnormcrawler|adshadow|alligator|appengine-google|arachmo|arste\.info|askpeter\.info|asterias|atspider|autoemailspider|backdoorbot|backstreet\ browser|backweb|batchftp|bejibot|betabot|bitacle\ bot|biz360|blackspider|blackwidow|blowfish|bot\ for\ jce|bot\ search|botalot|buddy|bulk|cfg_spider_user_agent|cherrypicker|china\ local\ browse|chinaclaw|cityreview\ robot|cligoorobot|clj-httpc|contentsmartz|copyright\ sheriff|coralwebprx|corpuscrawler|covario|cr4nk\.|crawler4j|crescent|curl/|da\ 3\.|da\ 4\.|da\ 5\.|da\ 7\.|datacha0s|datafountains|dc-sakura|demo\ bot|disco\ pump|ditto|dlman|dontbuylists\.com|download\ demon|download\ druid|download\ express|download\ master|download\ ninja|download\ wonder|download\.exe|downloader|dreampassport|drip|dts\ agent|ecatch|educate\ search|efp\@gmx\.net|eirgrabber|emailcollector|emailharv|emailsearch|emailsiphon|emailwolf|extractor|extractorpro|extreme|eyenetie|fdm\ 1\.|fdm\ 2\.|fdm\ 3\.|fetch\ api\ request|filehound|findfiles\.net|flashget|franklin\ locator|freshdownload|full\ web\ bot|gaisbot/|geniebot|getbot|getright|getweb|go!zilla|go-ahead-got-it|grafula|guestbook\ auto\ submitter|guglibot|here\ will\ be\ link\ to\ crawler\ site|hidownload|html2jpg|htmlparser|^seexie|^lite|http_request|httrack|iaskspider|idealobserver\.com|ieautodiscovery|igetter|industry\ program|indy\ library|infometrics|installshield\ digitalwizard|interarchy|interget|internet\ ninja|iplexx|iptccheck\.bot\.js|irc\ search|irvine|iupui\ research|ivia|jakarta\ commons-httpclient|java/1|jbh\ agent|jetcar|jobo|joc\ web\ spider|justview|kapere|kontiki\ client|larbin|leechftp|leechget|letscrawl\.com|lftp|libcurl-agent|libwhisker|libwww-perl|lightningdownload|lincoln\ state\ web\ browser|linkdex\.com|linkwalker|lipperhey|litefinder\.net|lwp-request|lycosa\.se|mama\ casper|mama\ cyber|medusa|mfc\ foundation\ class\ library|mfhttpscan|microsoft\ url\ control|microsoft\ windows\ network\ diagnostics|midown\ tool|missauga\ locate|missigua\ locator|missouri\ college\ browse|mister\ pix|mizzu\ labs|mo\ college|morfeus\ fucking\ scanner|morfeus\ strikes\ again|mozilla\ 2\.0|mozilla/0\.91\ beta|mozilla/2\.0|mozilla/3\.0\ \(compatible\)|mozilla/4\.0\ \(compatible;\)|mozilla/4\.76\ [ru]\ \(x11;\ u;\ sunos\ 5\.7\ sun4u\)|mozilla/5\.0\ \(searchbot|mrcarlito|msie\ 7\.5|mulder|mvaclient|myob/6\.66|nasa\ search|nearsite|nerdbynature|nerdybot|netants|netbrain_crawler|netcraft\ web\ server\ survey|netcraftsurveyagent|netpumper|netspider|newt\ activex|nsauditor|nudelbot|offline\ explorer|ozelot|pagegrabber|pagenest|page_prefetcher|pagmiedownload|papa\ foto|penthesilea|peval|pf\:inet|photolizenzen|php-requests/|phpcrawl|picmole\.com|pictureripper|pingbot/|pmafind|pockey|poe-component-client-http|poirot|poodle\ predictor|port\ huron\ labs|production\ bot|psycheclone|puf/|puxarapido|pycurl|python-urllib|qaaybot|reget|retriever|revolt|ripper|rk\ q\ kangen|rss\ popper\ -\ mozilla|sbl-bot|scann|searchbot\ admin\@google\.com|seo\(http\://seox\.us/\)|seoprofiler|similarpages|sistrix|sitesnagger|sitesucker|slow\ scraper|snoopy|sogou\ spider|sogou\ web\ spider|sohu\ agent|sosospider|spacebison|spbot|speeddownload|squider/|ssm\ agent|stardownloader|suchmaschinenoptimierung|superbot|superhttp|superinfobot|t3census-crawler|takeout|teleport|teragramcrawler|toata\ dragostea|twisted\ pagegetter|unister|urlgetfile|useragent\:|utilmind\ httpget|vadixbot|vb\ wininet|vb-tec\:inet|verdacht\ vergehen|virus_detector|vsyncrawler|w3c-webcon|web\ downloader|web\ image\ collector|web\ search\ 00|webauto|webbandit|webcapture|webcopier|webdatacentrebot|webfetch|webimage|webminer|webpix|webreaper|websauger|website\ explorer|webstripper|websucker|webvulncrawl|webwhacker|webzip|wells\ search|wep\ search|west\ wind\ internet\ protocols|wget|whatweb/|wikiwix-bot|wildsoft\ surfer|willow\ internet\ crawler|winget|winhttprequest|wir\ suchen\ nur\ geklaute\ inhalte|wtabot|www-mechanize|www\.aconon\.com|www\.icjobs\.de|www\.webintegration\.at|www\.whoisde\.de|www\.xrss\.eu|wwwoffle|xaldon\ webspider|xerka\ webbot|zmeu|_spider_botname\ _spider_botinfo) [NC]
+RewriteRule ^.* - [F,L]
 
-# block all files in the site folder from being accessed directly
-RewriteRule ^site/(.*) error [R=301,L]
+RewriteBase /
 
-# block all files in the kirby folder from being accessed directly
-RewriteRule ^kirby/(.*) error [R=301,L]
+# Blocking direct access
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ /error [R=301,L]
+RewriteRule ^site/(.*) /error [R=301,L]
+RewriteRule ^kirby/(.*) /error [R=301,L]
+RewriteRule ^robots.txt robots.txt [L]
 
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -35,11 +25,63 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
+Redirect 301 http://servicethinking.de http://servicethinker.de/blog
+Redirect 301 http://servicethinker.de/blog http://ichbinchris.de
+
 </IfModule>
 
 # Additional recommended values
-# Remove comments for those you want to use.
-#
-# AddDefaultCharset UTF-8
-#
-# php_flag short_open_tag on
+
+
+AddDefaultCharset UTF-8
+<IfModule mod_php5.c>
+  php_value short_open_tag 1
+</IfModule>
+
+<IfModule mod_deflate.c>
+ AddOutputFilterByType DEFLATE text/plain
+ AddOutputFilterByType DEFLATE text/html
+ AddOutputFilterByType DEFLATE text/xml
+ AddOutputFilterByType DEFLATE text/css
+ AddOutputFilterByType DEFLATE text/javascript
+ AddOutputFilterByType DEFLATE application/xml
+ AddOutputFilterByType DEFLATE application/xhtml+xml
+ AddOutputFilterByType DEFLATE application/rss+xml
+ AddOutputFilterByType DEFLATE application/atom_xml
+ AddOutputFilterByType DEFLATE application/javascript
+ AddOutputFilterByType DEFLATE application/x-javascript
+ AddOutputFilterByType DEFLATE application/x-shockwave-flash
+</IfModule>
+
+<ifmodule mod_headers.c>
+ <filesmatch "\\.(ico|jpe?g|png|gif|swf)$">
+  Header set Cache-Control "max-age=2592000, public"
+ </filesmatch>
+ <filesmatch "\\.(css)$">
+  Header set Cache-Control "max-age=604800, public"
+ </filesmatch>
+ <filesmatch "\\.(js)$">
+  Header set Cache-Control "max-age=216000, private"
+ </filesmatch>
+</ifmodule>
+
+# Deflate Compression by MimeType
+<IfModule mod_deflate.c>
+ <FilesMatch "\.(js|jpg|jpeg|gif|png|css)$">
+  ExpiresActive on
+  ExpiresDefault "access plus 1 month"
+  SetOutputFilter DEFLATE
+ </FilesMatch>
+</IfModule>
+
+# gzip Compression if availiable
+<IfModule mod_gzip.c>
+ mod_gzip_on       Yes
+ mod_gzip_dechunk  Yes
+ mod_gzip_item_include file      \.(html?|txt|css|js|php|pl)$
+ mod_gzip_item_include handler   ^cgi-script$
+ mod_gzip_item_include mime      ^text/.*
+ mod_gzip_item_include mime      ^application/x-javascript.*
+ mod_gzip_item_exclude mime      ^image/.*
+ mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>

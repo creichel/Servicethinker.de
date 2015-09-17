@@ -6,6 +6,12 @@
     &:before {
       margin-right: 0 !important;
     }
+    @media screen and (max-width: $responsive-small) {
+      display: none;
+    }
+    @media screen and (min-width: $responsive-small) and (max-width: $responsive-medium) { 
+      margin-top: 4px;
+    }
   }
 }
 article > header h1 {

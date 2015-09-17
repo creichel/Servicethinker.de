@@ -1,7 +1,7 @@
 $responsive-max: $max-width;
 $responsive-large: 690px;
 $responsive-medium: 690px;
-$responsive-small: 500px;
+$responsive-small: 360px;
 $responsive-x-small: 0;
 
 @each $media-size in $responsive-widths {

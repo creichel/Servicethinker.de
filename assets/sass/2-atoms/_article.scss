@@ -1,7 +1,8 @@
 article {
-  p, li, td, blockquote {
+  p, li, td {
     font-family: $text-font-family;
   }
+
   p {
     margin: 0 0 1.75em 0;
   }

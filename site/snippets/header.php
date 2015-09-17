@@ -27,6 +27,6 @@
 <header class="header content-wrap" id="header">
 <?php
   if (!$page->isHomePage() ): ?>
-  <a class="button ghost icon-angle-left" href="<?php echo url() ?>"></a>
+  <a class="button ghost icon-angle-left" href="<?php echo url() ?>" alt="Go back to the start page"></a>
 <?php endif ?>
 </header>

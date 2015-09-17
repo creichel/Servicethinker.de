@@ -12,10 +12,16 @@ section {
     }
     header {
       float: left;
+      @media screen and (max-width: $responsive-medium) {
+        float: none;
+      }
     }
 
     footer {
       float: right;
+      @media screen and (max-width: $responsive-medium) {
+        float: none;
+      }
     }
 
     .post-meta {

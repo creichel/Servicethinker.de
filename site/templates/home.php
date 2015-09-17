@@ -2,6 +2,9 @@
 <article class="content-wrap">
   <header class="content-wrap page-header">
     <h1 <?php e($page->titlefont()->isNotEmpty(), 'class="'.$page->titlefont().'"'); ?>><?php echo $page->longtitle()->html(); ?><span class="blinkingcursor"></span></h1>
+    <figure class="avatar">
+      <?php if ($coverImage = $page->cover()) echo thumb($coverImage, array('width' => 200, 'height' => 200, 'upscale' => true, 'crop' => true)); ?>
+    </figure>
   </header>
   <main>
     <?php if($page->text()->isNotEmpty()): ?>

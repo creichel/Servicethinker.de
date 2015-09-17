@@ -10,7 +10,7 @@
   </div>
   <div class="cover">
     <?php
-      if ($coverImage = $article->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 150, 'upscale' => true, 'crop' => true));
+      if ($coverImage = $article->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true));
     ?>
   </div>
   <?php if($article->tags() != ''): ?>

@@ -20,7 +20,7 @@
   </div>
   <div class="cover">
     <?php
-      if ($coverImage = $talk->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 150, 'upscale' => true, 'crop' => true));
+      if ($coverImage = $talk->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true));
     ?>
   </div>
 </article>

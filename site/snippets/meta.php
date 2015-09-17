@@ -106,4 +106,3 @@ else $pageImage = site()->images()->find('logo.png')->url();
 <meta name="msapplication-TileColor" content="#fff">
 
 <!-- webmention plugin -->
-<link rel="webmention" href="<?php echo url('webmention') ?>">

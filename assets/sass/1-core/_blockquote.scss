@@ -28,6 +28,9 @@ blockquote, .blockquote {
     p {
       margin-left: 18px;
       margin-bottom: 0;
+      font-family: $body-font-family;
+      font-weight: 300;
+      font-size: 1.9rem;
       &:before {
         content: "— ";
         position: absolute;

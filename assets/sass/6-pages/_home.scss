@@ -1,4 +1,25 @@
 #home {
+  .page-header {
+    border-bottom: 1px solid $grey-300;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+    .avatar {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      margin-top: -10px;
+      left: 50%;
+      margin-left: -45px;
+      overflow: hidden;
+      @include border-radius(50%);
+      padding: 3px;
+      background: $site-bg;
+      border: 1px solid $grey-300;
+      img {
+        @include border-radius(50%);
+      }
+    }
+  }
   header {
     .blinkingcursor {
       background: $normal;
