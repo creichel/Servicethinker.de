@@ -1,10 +1,12 @@
-@import "bourbon";
+@import
+  "bourbon",
 
-@import "normalize";
+  "normalize",
 
-@import "functions/all";
-@import "mixins/all";
-@import "variables/all";
+  "functions/all",
+  "mixins/all",
+  "variables/all",
 
-@import "fonts";
-@import "utilities";
+  "fonts",
+  "utilities",
+  "animations/all"

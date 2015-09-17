@@ -16,6 +16,12 @@ $font-path: "../fonts";
   font-family: FontAwesome;
 }
 
+.no-icon {
+  &:before {
+    display: none !important;
+  }
+}
+
 @import "fonts/fontawesome";
 @import "fonts/fira_sans";
 //@import "fonts/lora";

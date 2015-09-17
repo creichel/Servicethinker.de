@@ -1,8 +1,8 @@
-Title: Hi!
+Title: Ich bin Chris.
 
 ----
 
-Coverimage: 2015-06-02 09.50.13.jpg
+Coverimage: 2015-06-02 08.45.09.jpg
 
 ----
 
@@ -22,8 +22,4 @@ Seodescription:
 
 ----
 
-Alttitle: Ich bin Chris.
-
-----
-
-Accounts: Im Web
+Text: Interaktionsgestalter zwischen Mensch und Computer bei (link: http://eparo.de text: eparo popup: yes). Ins-richtige-Licht-Rücker beim (link: http://kellertheater.de text: Kellertheater Hamburg popup: yes).  Mensch seit 1990.

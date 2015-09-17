@@ -1,27 +1,14 @@
 #home {
-
-  .cover {
-    @include background-size(cover !important);
-    background-repeat: no-repeat;
-    background-position: center 30%;
-  }
-
-  #accounts {
-    text-align: center;
-    @include border-radius(5px);
-    ul {
-      margin: 0;
-      padding: 5px 0;
-      li {
-        list-style: none;
-        display: inline;
-        text-align: center;
-        margin: 0 10px;
-        span::before, a::before {
-          margin: 0 !important;
-        }
-      }
+  header {
+    .blinkingcursor {
+      background: $normal;
+      width: 3px;
+      position: absolute;
+      height: 50px;
+      @include animation(blink .6s step-end infinite alternate);
     }
-    font-size: 2em;
+    h1 {
+      padding-left: 0;
+    }
   }
 }

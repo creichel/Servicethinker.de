@@ -1,8 +1,0 @@
-Title:
-
-service ‖ thinker
-
-----
-
-Description:
-

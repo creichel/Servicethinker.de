@@ -1,5 +1,5 @@
-Title: Feed
+Title: Chris' Feed
 
 ----
 
-Description: News von Chris.
+Description: 

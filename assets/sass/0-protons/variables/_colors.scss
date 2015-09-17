@@ -13,7 +13,7 @@ $grey-800: lighten($black, 20%);
 $grey-600: lighten($black, 30%);
 $grey-400: lighten($black, 50%);
 $grey-300: lighten($black, 60%);
-$grey-100: lighten($black, 70%);
+$grey-100: lighten($black, 68%);
 
 $grey: $grey-600;
 
@@ -37,7 +37,7 @@ $hr-color: $grey-400; // hr color
 // -----------------------
 
 // Special colors
-$normal: #A0BB61;
+$normal: #8dae28;
 $required: #e9573f;
 $info: #37bc9b;
 $success: #8cc152;
@@ -46,7 +46,7 @@ $error: #da4453;
 $disabled: $grey-300;
 $highlighted: #ffe7aa;
 
-$normal-hover: #849F4A;
+$normal-hover: #A0BB61;
 $required-hover: #fc6e51;
 $info-hover: #48cfad;
 $success-hover: #a0d468;

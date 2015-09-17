@@ -4,11 +4,11 @@ title: Seiteneigenschaften
 pages:
   template:
     - default
-    - about
-    - projects
-    - error
     - home
-    - external
+    - articles
+    - talks
+    - projects
+    - publications
 files: true
 fields:
   lessthanienine:
@@ -84,49 +84,3 @@ fields:
     placeholder: Germany
     width: 1/2
     required: true
-  info-d:
-    label: Kanäle
-    type: headline
-  accounts:
-    label: Social Media Kanäle
-    type: structure
-    entry: >
-      {{name}}: {{url}}
-    fields:
-      name:
-        label: Dienst
-        type: select
-        options:
-          adn: ADN
-          behance: Behance
-          bitbucket: Bitbucket
-          delicious: Delicious
-          deviantart: DeviantArt
-          digg: digg
-          dribbble: Dribbble
-          facebook: facebook
-          flickr: Flickr
-          foursquare: Foursquare
-          github: GitHub
-          google-plus: Google Plus
-          instagram: Instagram
-          lastfm: LastFM
-          linkedin: LinkedIn
-          medium: Medium
-          pinterest: Pinterest
-          slideshare: Slideshare
-          soundcloud: Soundcloud
-          spotify: Spotify
-          steam: Steam
-          tumblr: tumblr
-          twitch: twitch
-          twitter: Twitter
-          vine: vine
-          weibo: Weibo
-          weixin: Weixin
-          xing: Xing
-          yelp: yelp
-          youtube: YouTube
-      url:
-        label: Link zum Profil
-        type: url

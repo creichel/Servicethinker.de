@@ -28,14 +28,10 @@ h4,
 h5,
 h6 {
   clear: both;
-  margin: 1em 0 0.4em 0;
+  margin: 2em 0 1em 0;
   position: relative;
   // font-weight: lighter;
   // text-transform: uppercase;
-
-  &:first-child{
-    margin-top: 0;
-  }
 
   a[name], a[id] {
     color: $grey-300;

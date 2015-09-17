@@ -47,26 +47,3 @@ State: Hamburg
 ----
 
 Land: Germany
-
-----
-
-Accounts: 
-
-- 
-  name: github
-  url: https://github.com/servicethinker
-- 
-  name: linkedin
-  url: >
-    https://www.linkedin.com/profile/view?id=294044976
-- 
-  name: slideshare
-  url: >
-    https://de.slideshare.net/christianreichel
-- 
-  name: twitter
-  url: https://twitter.com/_Mr_Spike_
-- 
-  name: xing
-  url: >
-    https://www.xing.com/profile/Christian_Reichel18

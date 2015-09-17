@@ -18,10 +18,6 @@ fields:
   title:
     label: Titel
     type:  text
-  alttitle:
-    label: Alternativtitel
-    type: text
-    help: Dieser Titel wird nur auf der jeweiligen Seite genutzt
   coverimage:
     label: Coverbild-Auswahl
     type: selector
@@ -31,11 +27,8 @@ fields:
       - image
     help: Dieses Coverbild wird beim Teilen der Seite auf Facebook angezeigt.
   text:
-    label: Text
+    label: Little introduction to you
     type: markdown
-  accounts:
-    label: Accounts Headline
-    type: text
   headline-7:
     label: Suchmaschinenoptimierung
     type: headline

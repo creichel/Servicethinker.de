@@ -1,9 +1,0 @@
-Title:
-
-Search
-
-----
-
-Description:
-
-Search page for Baseblog.

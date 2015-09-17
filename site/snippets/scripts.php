@@ -1,17 +1,12 @@
-<?php echo css('assets/stylesheets/basic.css') ?>
+<?php
+  echo css('assets/stylesheets/basic.css');
+  echo js('assets/scripts/main.js');
 
-<?php echo js('vendors/jquery/jquery-1.min.js') ?>
-<?php echo js('assets/scripts/main.jquery.min.js') ?>
+  if (isset($d3) && $d3 == true) echo js('https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js');
 
-<!--[if lt IE 9]>
-<?php echo js('vendors/html5shiv/html5shiv.min.js') ?>
-<script src="IE8.js">IE7_PNG_SUFFIX=".png";</script>
-<?php echo js('vendors/IE9/IE9.min.js') ?>
-<?php echo js('vendors/respond.js/respond.min.js.js') ?>
-<![endif]-->
+  if (isset($hljs) && $hljs == true) {
+    echo js('vendors/highlight/highlight.pack.js');
+    echo '<script>hljs.initHighlightingOnLoad();</script>';
+  }
 
-<?php snippet('analytics') ?>
-
-<?php echo js('vendors/highlight/highlight.pack.js'); ?>
-<script>hljs.initHighlightingOnLoad();
-</script>
+?>

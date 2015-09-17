@@ -1,0 +1,31 @@
+section {
+  //border-bottom: 1px solid $grey-300;
+  margin-bottom: $grid-padding;
+  article {
+    padding-bottom: $grid-padding;
+    .info {
+      @include clearfix;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    header {
+      float: left;
+    }
+
+    footer {
+      float: right;
+    }
+
+    .post-meta {
+      color: $grey-600;
+      font-family: $body-font-family;
+      font-size: 80%;
+    }
+    .favicon {
+      margin-right: 5px;
+      height: 12px;
+    }
+  }
+}

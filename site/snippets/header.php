@@ -1,14 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="de" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
 <head>
 <title><?php echo html($page->title() . ' | ' . $site->title()) ?></title>
 
 <?php snippet('meta') ?>
-<?php snippet('scripts') ?>
+<?php
+  $d3 = isset($d3) ? $d3 : false;
+  $hljs = isset($hljs) ? $hljs : false;
+
+  snippet('scripts', array('d3' => $d3, 'hljs' => $hljs));
+?>
 
 </head>
-<body class="<?php e(!$page->hasCover(), 'no-cover'); e($pages->findOpen()->hasVisibleChildren(), ' with-children') ?>" id="<?php echo explode('.', $page->template())[0] ?>">
-
+<body class="<?php e($pages->findOpen()->hasVisibleChildren(), ' with-children') ?>" id="<?php echo explode('.', $page->template())[0] ?>">
+<!--?php echo panelbar::show(); ?-->
 <div id="page-wrap">
   <!--[if lte IE 9]>
   <div class="oldbrowser alert alert-warning content-wrap">
@@ -18,14 +24,9 @@
   </div>
   <![endif]-->
 
-  <header class="header on-top" id="header">
-    <div role="banner" class="banner">
-      <a href="<?php echo url() ?>">
-        <?php snippet('logo') ?>
-      </a>
-    </div>
-    <?php snippet('mainnav') ?>
-    <a id="mainnav-toggle">
-      <span alt="Menu">Menu</span>
-    </a>
-  </header>
+<header class="header content-wrap" id="header">
+<?php
+  if (!$page->isHomePage() ): ?>
+  <a class="button ghost icon-angle-left" href="<?php echo url() ?>"></a>
+<?php endif ?>
+</header>

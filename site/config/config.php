@@ -61,7 +61,7 @@ c::set('routes', array(
     'action'  => function($year, $month, $day, $uid) {
 
       // search for the article
-      $page = page('blog/' . $uid);
+      $page = page('articles/' . $uid);
 
       // redirect to the article or the error page
       go($page ? $page->url() : 'error');
@@ -95,3 +95,6 @@ c::set('columns.breakpoint', 'medium');
 c::set('columns.gridsize', 12);
 
 c::set('relativedate.fuzzy', true);
+
+c::set('panelbar.enhancedJS', true);
+c::set('panelbar.position', 'bottom');
