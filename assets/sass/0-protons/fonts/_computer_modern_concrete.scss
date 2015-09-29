@@ -1,0 +1,4 @@
+@include font-face("Computer Modern Concrete", '#{$font-path}/Computer_Modern_Concrete/bold/font', bold);
+@include font-face("Computer Modern Concrete", '#{$font-path}/Computer_Modern_Concrete/bold/italic/font', bold, italic);
+@include font-face("Computer Modern Concrete", '#{$font-path}/Computer_Modern_Concrete/regular/font', normal);
+@include font-face("Computer Modern Concrete", '#{$font-path}/Computer_Modern_Concrete/regular/italic/font', normal, italic);

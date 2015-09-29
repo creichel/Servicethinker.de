@@ -1,0 +1,4 @@
+@include font-face("Computer Modern Serif", '#{$font-path}/Computer_Modern_Serif/bold/font', bold);
+@include font-face("Computer Modern Serif", '#{$font-path}/Computer_Modern_Serif/bold/italic/font', bold, italic);
+@include font-face("Computer Modern Serif", '#{$font-path}/Computer_Modern_Serif/regular/font', normal);
+@include font-face("Computer Modern Serif", '#{$font-path}/Computer_Modern_Serif/regular/italic/font', normal, italic);

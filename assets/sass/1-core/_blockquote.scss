@@ -3,6 +3,7 @@ blockquote, .blockquote {
   margin: 1.75em 0 1.75em (-$grid-padding/2.5);
   padding: 0 0 0 $grid-padding/2.5;
   display: block;
+  font-weight: normal;
 
   border-left: 3px $black solid;
   color: $black;
@@ -17,7 +18,7 @@ blockquote, .blockquote {
   }
   
   p, q {
-    font-style: italic;
+    //font-style: italic;
   }
   
   footer {
@@ -30,7 +31,7 @@ blockquote, .blockquote {
       margin-bottom: 0;
       font-family: $body-font-family;
       font-weight: 300;
-      font-size: 1.9rem;
+      font-size: 1.1rem;
       &:before {
         content: "— ";
         position: absolute;

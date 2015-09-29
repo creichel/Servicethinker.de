@@ -5,5 +5,11 @@ article {
 
   p {
     margin: 0 0 1.75em 0;
+    text-align: justify;
+    @include hyphens(auto);
+
+    em, a {
+      @include hyphens(none);
+    }
   }
 }

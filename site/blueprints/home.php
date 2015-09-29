@@ -7,6 +7,10 @@ files: true
     caption:
       label: Beschreibung
       type: text
+    ishover:
+      text: Hoverbild
+      type: switch
+      default: false
     sourcename:
       label: Quellenangabe
       type: text

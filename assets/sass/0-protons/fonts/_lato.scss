@@ -1,0 +1,6 @@
+@include font-face(Lato, '#{$font-path}/Lato_latin/regular/font', normal);
+@include font-face(Lato, '#{$font-path}/Lato_latin/regular/italic/font', normal,italic);
+@include font-face(Lato, '#{$font-path}/Lato_latin/light/font', lighter);
+@include font-face(Lato, '#{$font-path}/Lato_latin/light/italic/font', lighter, italic);
+@include font-face(Lato, '#{$font-path}/Lato_latin/semibold/font', bold);
+@include font-face(Lato, '#{$font-path}/Lato_latin/semibold/italic/font', bold, italic);

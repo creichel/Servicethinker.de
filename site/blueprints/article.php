@@ -51,6 +51,7 @@ fields:
       beon: Beon
       dancing-script: Dancing Script
       fira-sans: Fira Sans
+      lato: Lato
       helvetia-verbundene: Helvetia Verbundene
       kaushan-script: Kaushan Script
       medio: Medio

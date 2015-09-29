@@ -34,3 +34,6 @@
 [submodule "site/plugins/panel-bar"]
 	path = site/plugins/panel-bar
 	url = https://github.com/distantnative/panel-bar
+[submodule "site/fields/switch"]
+	path = site/fields/switch
+	url = https://github.com/distantnative/switch

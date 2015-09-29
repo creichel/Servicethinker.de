@@ -18,14 +18,21 @@
       img {
         @include border-radius(50%);
       }
+      &:hover, &.hover {
+        .hoverimg {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
     }
   }
   header {
     .blinkingcursor {
       background: $normal;
-      width: 3px;
+      width: 2px;
       position: absolute;
-      height: 50px;
+      height: 1.1em;
       @include animation(blink .6s step-end infinite alternate);
     }
     h1 {
