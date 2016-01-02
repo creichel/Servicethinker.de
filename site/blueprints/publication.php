@@ -1,4 +1,6 @@
-<?php if(!defined('KIRBY')) exit ?>
+<?php if (!defined('KIRBY')) {
+    exit;
+} ?>
 
 title: Publication
 pages: false

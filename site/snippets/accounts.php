@@ -4,7 +4,7 @@
     <?php echo page('accounts')->text()->kirbytext() ?>
   </main>
   <ul>
-    <?php foreach(page('accounts')->accounts()->toStructure() as $account): ?>
+    <?php foreach (page('accounts')->accounts()->toStructure() as $account): ?>
     <li>
       <a href="<?php echo $account->url() ?>" rel="me" target="_blank" class="icon-<?php echo $account->name() ?>" title="<?php echo $account->name() ?>">
         <?php echo $account->name(); ?>

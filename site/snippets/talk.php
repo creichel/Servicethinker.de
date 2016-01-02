@@ -15,12 +15,14 @@
         e($talk->audio()->isNotEmpty(), ' & <a href="'.$talk->audio().'" target="_blank" class="no-icon">Audio</a>');
       ?>
       <span class="divider"></span>
-      <time datetime="<?php echo $talk->date('c','pubdate') ?>"><?php echo $talk->pubdate()->relative($site->language()); ?></time>
+      <time datetime="<?php echo $talk->date('c', 'pubdate') ?>"><?php echo $talk->pubdate()->relative($site->language()); ?></time>
     </footer>
   </div>
   <div class="cover">
     <?php
-      if ($coverImage = $talk->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true));
+      if ($coverImage = $talk->cover()) {
+          echo thumb($coverImage, ['width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true]);
+      }
     ?>
   </div>
 </article>

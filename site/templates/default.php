@@ -4,7 +4,7 @@
     <h1 <?php e($page->titlefont()->isNotEmpty(), 'class="'.$page->titlefont().'"'); ?>><?php echo $page->longtitle()->html(); ?></h1>
   </header>
   <main>
-    <?php if($page->text()->isNotEmpty()): ?>
+    <?php if ($page->text()->isNotEmpty()): ?>
     <article>
       <main>
         <?php echo $page->text()->kirbytext() ?>

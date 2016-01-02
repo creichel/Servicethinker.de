@@ -8,11 +8,11 @@
     <lastBuildDate><?php echo date('r', $items->first()->modified()) ?></lastBuildDate>
     <atom:link href="<?php echo xml($url) ?>/feed/" rel="self" type="application/rss+xml" />
 
-    <?php if(!empty($description)): ?>
+    <?php if (!empty($description)): ?>
     <description><?php echo xml($description) ?></description>
     <?php endif ?>
 
-    <?php foreach($items as $item): ?>
+    <?php foreach ($items as $item): ?>
     <item>
       <title><?php echo xml($item->title()) ?></title>
       <link><?php echo xml($item->url()) ?></link>

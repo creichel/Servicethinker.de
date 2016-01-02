@@ -1,9 +1,9 @@
 <?php
 
-kirbytext::$tags['citeauthor'] = array(
-  'html' => function($tag) {
+kirbytext::$tags['citeauthor'] = [
+  'html' => function ($tag) {
     return '<footer>
-            <cite>' . markdown($tag->attr('citeauthor')) . '</cite>
+            <cite>'.markdown($tag->attr('citeauthor')).'</cite>
             </footer>';
-  }
-);
+  },
+];
