@@ -1,9 +1,11 @@
 <?php
 
-require_once('default.php');
+require_once 'default.php';
 
-class ProjectPage extends DefaultPage {
-  public function url() {
-    return parent::urltoproject();
-  }
+class ProjectPage extends DefaultPage
+{
+    public function url()
+    {
+        return parent::urltoproject();
+    }
 }

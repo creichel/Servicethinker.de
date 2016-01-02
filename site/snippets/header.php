@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="de" prefix="og: http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
 <head>
-<title><?php echo html($page->title() . ' | ' . $site->title()) ?></title>
+<title><?php echo html($page->title().' | '.$site->title()) ?></title>
 
 <?php snippet('meta') ?>
 <?php
   $d3 = isset($d3) ? $d3 : false;
   $hljs = isset($hljs) ? $hljs : false;
 
-  snippet('scripts', array('d3' => $d3, 'hljs' => $hljs));
+  snippet('scripts', ['d3' => $d3, 'hljs' => $hljs]);
 ?>
 
 </head>
@@ -26,7 +26,7 @@
 
 <header class="header content-wrap" id="header">
 <?php
-  if (!$page->isHomePage() ): ?>
+  if (!$page->isHomePage()): ?>
   <a class="button ghost icon-angle-left" href="<?php echo url() ?>" alt="Go back to the start page"></a>
 <?php endif ?>
 </header>

@@ -1,4 +1,4 @@
-<?php snippet('header', array('d3' => true, 'hljs' => true)) ?>
+<?php snippet('header', ['d3' => true, 'hljs' => true]) ?>
 <div class="content-wrap">
   <article>
     <header class="page-header">
@@ -8,10 +8,10 @@
       <?php echo $page->text()->kirbytext(); ?>
     </main>
     <footer class="post-meta">
-      Am <time datetime="<?php echo $page->date('c','pubdate') ?>"><?php echo $page->date('d.m.Y','pubdate'); ?></time>
-      <?php if($page->tags() != ''): ?> in
-      <?php foreach(str::split($page->tags()) as $tag): ?>
-        <a href="<?php echo url().'/tag:' . urlencode($tag) ?>" class="tag"><?php echo $tag; ?></a>
+      Am <time datetime="<?php echo $page->date('c', 'pubdate') ?>"><?php echo $page->date('d.m.Y', 'pubdate'); ?></time>
+      <?php if ($page->tags() != ''): ?> in
+      <?php foreach (str::split($page->tags()) as $tag): ?>
+        <a href="<?php echo url().'/tag:'.urlencode($tag) ?>" class="tag"><?php echo $tag; ?></a>
       <?php endforeach ?>
       <?php endif ?>
     </footer>

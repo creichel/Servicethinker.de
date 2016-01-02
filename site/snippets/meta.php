@@ -6,21 +6,24 @@
 
 $isStueckbeschreibung = $page->template() == 'stueckbeschreibung';
 if ($isStueckbeschreibung && !$page->seodescription()->empty()) {
-  $description = $page->seodescription()->excerpt(800);
-}
-else if ($isStueckbeschreibung && !$page->text()->empty()) {
-  $description = $page->text()->excerpt(800);
-}
-else {
-  $description = $site->description()->excerpt(800);
+    $description = $page->seodescription()->excerpt(800);
+} elseif ($isStueckbeschreibung && !$page->text()->empty()) {
+    $description = $page->text()->excerpt(800);
+} else {
+    $description = $site->description()->excerpt(800);
 }
 
-$additionalKeywords = "";
-if (!$page->seotags()->isEmpty()) $additionalKeywords = ",".$page->seotags();
+$additionalKeywords = '';
+if (!$page->seotags()->isEmpty()) {
+    $additionalKeywords = ','.$page->seotags();
+}
 
-str_replace("\"", "\"", $description);
-if ($cover = $page->cover()) $pageImage = thumb($cover, array('width' => 1435, 'height' => 750 , 'upscale' => true, 'crop' => true), false);
-else $pageImage = site()->images()->find('logo.png')->url();
+str_replace('"', '"', $description);
+if ($cover = $page->cover()) {
+    $pageImage = thumb($cover, ['width' => 1435, 'height' => 750, 'upscale' => true, 'crop' => true], false);
+} else {
+    $pageImage = site()->images()->find('logo.png')->url();
+}
 
 ?>
 
@@ -49,7 +52,7 @@ else $pageImage = site()->images()->find('logo.png')->url();
 <link rel="shortcut icon" href="<?php echo url('assets/images/fav-icons/favicon.ico') ?>">
 
 <!-- OpenGraph meta tags -->
-<meta property="og:title" content="<?php echo $page->title() . ' | ' . $site->title() ?>"/>
+<meta property="og:title" content="<?php echo $page->title().' | '.$site->title() ?>"/>
 <meta property="og:site_name" content="<?php echo $site->title() ?>"/>
 <meta property="og:url" content="<?php echo $page->url() ?>"/>
 <meta property="og:description" content="<?php echo $description ?>"/>
@@ -87,7 +90,7 @@ else $pageImage = site()->images()->find('logo.png')->url();
 <link rel="apple-touch-icon-precomposed" sizes="80x80" href="<?php echo url('assets/images/app-icons/AppIcon40x40@2x.png') ?>">
 
 <link rel="apple-touch-icon-precomposed" sizes="50x50" href="<?php echo url('assets/images/app-icons/AppIcon50x50.png') ?>">
-<link rel="apple-touch-icon-precomposed" sizes="100x100" href="<?php echo url ('assets/images/app-icons/AppIcon50x50@2x.png') ?>">
+<link rel="apple-touch-icon-precomposed" sizes="100x100" href="<?php echo url('assets/images/app-icons/AppIcon50x50@2x.png') ?>">
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo url('assets/images/app-icons/AppIcon57x57.png') ?>">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo url('assets/images/app-icons/AppIcon57x57@2x.png') ?>">

@@ -1,8 +1,7 @@
 <?php
 
-require_once('default.php');
+require_once 'default.php';
 
-class FeedPage extends DefaultPage {
+class FeedPage extends DefaultPage
+{
 }
-
-?>

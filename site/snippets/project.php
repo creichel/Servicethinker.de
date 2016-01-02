@@ -9,12 +9,14 @@
 
     <footer class="post-meta">
       <?php e($project->urltosource()->isNotEmpty(), '<a href="'.$project->urltosource().'" target="_blank" class="icon-github">Source</a><span class="divider"></span>'); ?>
-      <time datetime="<?php echo $project->date('c','fromdate') ?>"><?php echo $project->date('m/Y','fromdate'); ?></time><?php echo ($project->todate()->isNotEmpty() ? '<time datetime="'.$project->date('c','todate').'"> – '.$project->date('m/Y','todate').'</time>' : ' – heute'); ?>
+      <time datetime="<?php echo $project->date('c', 'fromdate') ?>"><?php echo $project->date('m/Y', 'fromdate'); ?></time><?php echo $project->todate()->isNotEmpty() ? '<time datetime="'.$project->date('c', 'todate').'"> – '.$project->date('m/Y', 'todate').'</time>' : ' – heute'; ?>
     </footer>
   </div>
   <div class="cover">
     <?php
-      if ($coverImage = $project->cover()) echo thumb($coverImage, array('width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true));
+      if ($coverImage = $project->cover()) {
+          echo thumb($coverImage, ['width' => 900, 'height' => 200, 'upscale' => true, 'crop' => true]);
+      }
     ?>
   </div>
   <main>

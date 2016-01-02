@@ -13,33 +13,33 @@ Caching Setup
 ---------------------------------------
 */
 c::set('cache', false);
-c::set('cache.ignore', array(
-  'feed'
-));
+c::set('cache.ignore', [
+  'feed',
+]);
 
 /*
 ---------------------------------------
 Locale setup
 ---------------------------------------
 */
-c::set('locale','de_DE.UTF8');
-c::set('timezone','CET');
+c::set('locale', 'de_DE.UTF8');
+c::set('timezone', 'CET');
 
-c::set('languages', array(
-  array(
+c::set('languages', [
+  [
     'code'    => 'de',
     'name'    => 'Deutsch',
     'default' => true,
     'locale'  => 'de_DE',
     'url'     => '',
-  ),
-  array(
+  ],
+  [
     'code'    => 'en',
     'name'    => 'English',
     'locale'  => 'en_US',
     'url'     => '/en',
-  ),
-));
+  ],
+]);
 
 c::set('language.detect', true);
 
@@ -55,26 +55,26 @@ c::set('debug', true);
 Routes setup
 ---------------------------------------
 */
-c::set('routes', array(
-  array(
+c::set('routes', [
+  [
     'pattern' => '(:num)/(:num)/(:num)/(:any)',
-    'action'  => function($year, $month, $day, $uid) {
+    'action'  => function ($year, $month, $day, $uid) {
 
       // search for the article
-      $page = page('articles/' . $uid);
+      $page = page('articles/'.$uid);
 
       // redirect to the article or the error page
       go($page ? $page->url() : 'error');
 
-    }
-  ),
-  array(
+    },
+  ],
+  [
     'pattern' => 'de/(:all)',
-    'action'  => function($uid) {
+    'action'  => function ($uid) {
       return go($uid);
-    }
-  )
-));
+    },
+  ],
+]);
 
 /*
 ---------------------------------------
@@ -85,9 +85,9 @@ c::set('footnotes.global', true);
 c::set('footnotes.smoothscroll', true);
 c::set('footnotes.offset', 300);
 c::set('footnotes.merge', true);
-c::set('footnotes.templates.ignore', array(
-  'feed'
-));
+c::set('footnotes.templates.ignore', [
+  'feed',
+]);
 
 c::set('columns.container', 'row');
 c::set('columns.item', 'column');

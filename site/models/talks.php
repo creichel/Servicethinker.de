@@ -1,6 +1,7 @@
 <?php
 
-require_once('default.php');
+require_once 'default.php';
 
-class TalksPage extends DefaultPage {
+class TalksPage extends DefaultPage
+{
 }
