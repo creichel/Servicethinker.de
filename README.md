@@ -1,2 +1,2 @@
-# Servicethinker.de
-My own site - now Open Source :-)
+# Creichel website
+My own website
