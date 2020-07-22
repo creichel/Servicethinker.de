@@ -12,6 +12,3 @@
 [submodule "site/fields/rangeslider"]
 	path = site/fields/rangeslider
 	url = https://github.com/JonasDoebertin/kirby-range-slider
-[submodule "site/fields/switch"]
-	path = site/fields/switch
-	url = https://github.com/distantnative/switch
