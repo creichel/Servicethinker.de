@@ -1,12 +1,41 @@
-thumbs/*
-site/cache/*
-site/accounts/*
-service-thinker.sublime-project
-service-thinker.sublime-workspace
+# System files
+# ------------
+
+Icon
 .DS_Store
-**/.DS_Store
-*.DS_Store
-config.codekit
-assets/sass/.sass-cache
-site/config/config.servicethinker.de.php
-assets/sass/2-atoms/.sass-cache
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+.lock
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license

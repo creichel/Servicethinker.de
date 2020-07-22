@@ -1,0 +1,14 @@
+title: Articles
+pages:
+  sort: flip
+  template:
+    - article
+    - article.extern
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Introduction to this section
+    type: markdown

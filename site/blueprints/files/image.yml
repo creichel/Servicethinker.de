@@ -1,0 +1,17 @@
+title: Image
+accept: image/jpeg, image/png
+fields:
+  caption:
+    label: Beschreibung
+    type: text
+  ishover:
+    text: Hoverbild
+    type: switch
+    default: false
+  sourcename:
+    label: Quellenangabe
+    type: text
+    placeholder: Fotograf, Event (optional), Monat/Jahr
+  sourceurl:
+    label: Link zur Quelle
+    type: url

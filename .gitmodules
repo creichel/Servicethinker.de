@@ -25,9 +25,6 @@
 [submodule "kirby"]
 	path = kirby
 	url = https://github.com/getkirby/kirby
-[submodule "panel"]
-	path = panel
-	url = https://github.com/getkirby/panel.git
 [submodule "site/fields/rangeslider"]
 	path = site/fields/rangeslider
 	url = https://github.com/JonasDoebertin/kirby-range-slider
