@@ -1,7 +1,3 @@
-[submodule "site/plugins/relative-date"]
-	path = site/plugins/relative-date
-	url = https://github.com/distantnative/relative-date
-
 [submodule "site/fields/markdown"]
 	path = site/fields/markdown
 	url = https://github.com/JonasDoebertin/kirby-visual-markdown
@@ -10,27 +6,12 @@
 	path = site/fields/selector
 	url = https://github.com/storypioneers/kirby-selector
 
-[submodule "site/plugins/footnotes"]
-	path = site/plugins/footnotes
-	url = https://github.com/distantnative/footnotes
-
-[submodule "site/plugins/kirbycms-extension-code"]
-	path = site/plugins/kirbycms-extension-code
-	url = https://github.com/fanningert/kirbycms-extension-code
-	
-[submodule "site/plugins/kirbycms-extension-webhelper"]
-	path = site/plugins/kirbycms-extension-webhelper
-	url = https://github.com/fanningert/kirbycms-extension-webhelper
-
 [submodule "kirby"]
 	path = kirby
 	url = https://github.com/getkirby/kirby
 [submodule "site/fields/rangeslider"]
 	path = site/fields/rangeslider
 	url = https://github.com/JonasDoebertin/kirby-range-slider
-[submodule "site/plugins/panel-bar"]
-	path = site/plugins/panel-bar
-	url = https://github.com/distantnative/panel-bar
 [submodule "site/fields/switch"]
 	path = site/fields/switch
 	url = https://github.com/distantnative/switch
