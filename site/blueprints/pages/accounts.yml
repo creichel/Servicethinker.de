@@ -8,7 +8,7 @@ fields:
     type:  text
   text:
     label: Introduction to this section
-    type: markdown
+    type: editor
   accounts:
     label: Accounts
     type: structure

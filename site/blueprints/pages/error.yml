@@ -15,11 +15,8 @@ fields:
     size:  large
   coverimage:
     label: Coverbild-Auswahl
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: falses
     help: Dieses Coverbild wird beim Teilen der Seite auf Facebook angezeigt.
   headline-7:
     label: Suchmaschinenoptimierung

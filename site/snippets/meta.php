@@ -20,7 +20,7 @@ if (!$page->seotags()->isEmpty()) {
 
 str_replace('"', '"', $description);
 if ($cover = $page->cover()) {
-    $pageImage = thumb($cover, ['width' => 1435, 'height' => 750, 'upscale' => true, 'crop' => true], false);
+    $pageImage = $cover->thumb(['width' => 1435, 'height' => 750, 'crop' => true], false);
 } else {
     $pageImage = site()->images()->find('logo.png')->url();
 }

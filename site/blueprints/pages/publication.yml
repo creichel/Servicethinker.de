@@ -69,18 +69,15 @@ fields:
 
   coverimage:
     label: Cover image
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: false
 
   publicationContent:
     label: Publication Content
     type: headline
   text:
     label: Introduction to this section
-    type: markdown
+    type: editor
   urltopdf:
     label: URL to PDF
     type: url

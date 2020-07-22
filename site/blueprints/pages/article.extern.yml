@@ -38,11 +38,8 @@ fields:
 
   coverimage:
     label: Cover image
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: false
 
   articleContent:
     label: Article Content

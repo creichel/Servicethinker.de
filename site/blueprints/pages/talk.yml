@@ -39,18 +39,15 @@ fields:
 
   coverimage:
     label: Cover image
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: false
 
   talkContent:
     label: Talk Content
     type: headline
   text:
     label: Some words to your talk
-    type: markdown
+    type: editor
   slides:
     label: URL to slides
     type: url

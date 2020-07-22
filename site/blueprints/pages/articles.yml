@@ -11,4 +11,4 @@ fields:
     type:  text
   text:
     label: Introduction to this section
-    type: markdown
+    type: editor

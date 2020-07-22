@@ -4,7 +4,7 @@
     <h1 <?php e($page->titlefont()->isNotEmpty(), 'class="'.$page->titlefont().'"'); ?>><?php echo $page->longtitle()->html(); ?><span class="blinkingcursor"></span></h1>
     <figure class="avatar" style="background: url()">
       <?php if ($coverImage = $page->cover()) {
-    echo thumb($coverImage, ['width' => 200, 'height' => 200, 'upscale' => true, 'crop' => true]);
+    echo $coverImage->thumb(['width' => 200, 'height' => 200, 'crop' => true]);
 } ?>
     </figure>
   </header>

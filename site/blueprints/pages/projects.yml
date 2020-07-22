@@ -14,4 +14,4 @@ fields:
     type:  text
   text:
     label: Some words to your projects
-    type: markdown
+    type: editor

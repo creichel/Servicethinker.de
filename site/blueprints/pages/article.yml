@@ -37,11 +37,8 @@ fields:
 
   coverimage:
     label: Cover image
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: false
 
   titlefont:
     label: Title Font

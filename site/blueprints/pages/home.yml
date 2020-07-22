@@ -22,15 +22,12 @@ fields:
     type:  text
   coverimage:
     label: Coverbild-Auswahl
-    type: selector
-    mode: single
-    options: images
-    types:
-      - image
+    type: files
+    multiple: false
     help: Dieses Coverbild wird beim Teilen der Seite auf Facebook angezeigt.
   text:
     label: Little introduction to you
-    type: markdown
+    type: editor
   headline-7:
     label: Suchmaschinenoptimierung
     type: headline

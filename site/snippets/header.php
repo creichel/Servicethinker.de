@@ -13,7 +13,7 @@
 ?>
 
 </head>
-<body class="<?php e($pages->findOpen()->hasVisibleChildren(), ' with-children') ?>" id="<?php echo explode('.', $page->template())[0] ?>">
+<body class="<?php e($pages->findOpen()->hasListedChildren(), ' with-children') ?>" id="<?php echo explode('.', $page->template())[0] ?>">
 <!--?php echo panelbar::show(); ?-->
 <div id="page-wrap">
   <!--[if lte IE 9]>
